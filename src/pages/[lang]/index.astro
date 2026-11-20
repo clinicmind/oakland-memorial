@@ -29,9 +29,9 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
       <a class="nav__logo" href="#top"><span class="mark mark--initial" aria-hidden="true">O</span>{site.person.name}</a>
       <nav class="nav__links" aria-label={lang === 'en' ? 'Main' : '主要導覽'}>
         {nav.map(([id, label]) => <div class="nav__item"><a class="nav__link" href={`#${id}`}>{label}</a></div>)}
+        <div class="nav__item"><a class="nav__link" href={url(other)} lang={HTML_LANG[other]} hreflang={HTML_LANG[other]}>{c.otherLang.label}</a></div>
       </nav>
       <div class="nav__actions">
-        <a class="nav__link" href={url(other)} lang={HTML_LANG[other]} hreflang={HTML_LANG[other]}>{c.otherLang.label}</a>
         <a class="btn btn--primary" href="#contact">{c.share}</a>
       </div>
       <button class="nav__toggle" type="button" aria-expanded="false" aria-label={c.menu}>

@@ -1,1 +1,171 @@
-[]
+- id: T1939
+  year: 1939
+  month: 11
+  kind: life
+  title:
+    en: Born in Kenosha, Wisconsin
+    zh-hant: 生於 Wisconsin 州 Kenosha
+  factIds:
+  - F2
+  sourceIds:
+  - S12
+  - S1
+- id: T1965
+  year: 1965
+  kind: career
+  title:
+    en: Master's degree in educational psychology, Indiana University
+    zh-hant: 取得 Indiana University 教育心理學碩士學位
+  factIds:
+  - F5
+  sourceIds:
+  - S12
+- id: T1967a
+  year: 1967
+  kind: career
+  title:
+    en: Doctorate in educational psychology, Indiana University
+    zh-hant: 取得 Indiana University 教育心理學博士學位
+  factIds:
+  - F5
+  sourceIds:
+  - S12
+- id: T1967b
+  year: 1967
+  kind: career
+  title:
+    en: Joins the University of Texas at Austin, Department of Educational Psychology
+    zh-hant: 到 University of Texas at Austin 教育心理學系任教
+  factIds:
+  - F7
+  sourceIds:
+  - S2
+  - S12
+- id: T1990
+  year: 1990
+  kind: award
+  title:
+    en: APA Division 16 Distinguished Service Award
+    zh-hant: APA Division 16 Distinguished Service Award
+  factIds:
+  - F21
+  sourceIds:
+  - S12
+- id: T1995a
+  year: 1995
+  kind: career
+  title:
+    en: Joins the University of Florida; teaches school psychology
+    zh-hant: 轉往 University of Florida，教授學校心理學
+  factIds:
+  - F7
+  - F8
+  sourceIds:
+  - S2
+  - S3
+- id: T1995b
+  year: 1995
+  kind: service
+  title:
+    en: President of the International School Psychology Association, 1995-1997
+    zh-hant: 1995 至 1997 年擔任國際學校心理學協會會長
+  factIds:
+  - F34
+  sourceIds:
+  - S12
+- id: T2000
+  year: 2000
+  kind: award
+  title:
+    en: APA Division 16 Senior Scientist Award
+    zh-hant: APA Division 16 Senior Scientist Award
+  factIds:
+  - F22
+  sourceIds:
+  - S12
+- id: T2002
+  year: 2002
+  kind: award
+  title:
+    en: NASP Legend Award; Legends Address at the NASP convention
+    zh-hant: NASP Legend Award，並在 NASP 年會發表 Legends Address
+  factIds:
+  - F23
+  sourceIds:
+  - S8
+  - S12
+- id: T2003a
+  year: 2003
+  kind: award
+  title:
+    en: Distinguished Alumni Award, Indiana University School of Education
+    zh-hant: Indiana University 教育學院 Distinguished Alumni Award
+  factIds:
+  - F24
+  sourceIds:
+  - S8
+- id: T2003b
+  year: 2003
+  kind: award
+  title:
+    en: APA Award for Distinguished Contributions to the International Advancement of Psychology
+    zh-hant: APA 國際心理學進展傑出貢獻獎
+  factIds:
+  - F25
+  sourceIds:
+  - S1
+  - S12
+- id: T2004
+  year: 2004
+  kind: award
+  title:
+    en: University of Florida Senior Faculty Distinguished International Educator of the Year Award
+    zh-hant: University of Florida Senior Faculty Distinguished International Educator of the Year Award
+  factIds:
+  - F26
+  sourceIds:
+  - S3
+- id: T2011
+  year: 2011
+  month: 1
+  kind: career
+  title:
+    en: Visiting Professor, Department of Psychology, University of Macau (January to May)
+    zh-hant: 澳門大學心理學系訪問教授（1 月至 5 月）
+  factIds:
+  - F16
+  sourceIds:
+  - S4
+- id: T2013
+  year: 2013
+  kind: work
+  title:
+    en: Cross-national assessment of adaptive behavior in three countries (with Iliescu, Chen and Chen)
+    zh-hant: 與 Iliescu、Chen、Chen 發表三個國家適應行為的跨國評量研究
+  factIds:
+  - F28
+  sourceIds:
+  - S13
+- id: T2015a
+  year: 2015
+  kind: work
+  title:
+    en: Adaptive Behavior Assessment System, Third Edition (Harrison and Oakland)
+    zh-hant: Adaptive Behavior Assessment System 第三版（Harrison 與 Oakland）出版
+  factIds:
+  - F19
+  sourceIds:
+  - S17
+- id: T2015b
+  year: 2015
+  month: 3
+  kind: life
+  title:
+    en: Died at home in Gainesville, Florida
+    zh-hant: 在 Florida 州 Gainesville 家中離世
+  factIds:
+  - F3
+  - F29
+  sourceIds:
+  - S3
+  - S2

@@ -65,6 +65,45 @@
    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
    "page": "https://commons.wikimedia.org/wiki/File:Florida_Gymnasium.jpg",
    "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f19249058.webp",
+   "files": [
+    "photo-f19249058.webp"
+   ],
+   "id": "f19249058",
+   "alt": "Wesleyan University - Olin Library - Smith Reading Room 03A",
+   "by": "Joe Mabel",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wesleyan_University_-_Olin_Library_-_Smith_Reading_Room_03A.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f33633818.webp",
+   "files": [
+    "photo-f33633818.webp"
+   ],
+   "id": "f33633818",
+   "alt": "Gfp-lecture-hall",
+   "by": "Yinan Chen",
+   "licence": "Public Domain",
+   "licenceUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+   "page": "https://commons.wikimedia.org/wiki/File:Gfp-lecture-hall.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-f131588403.webp",
+   "files": [
+    "photo-f131588403.webp"
+   ],
+   "id": "f131588403",
+   "alt": "Trees and benches in Dendrological Park, Chisinau",
+   "by": "Iurie Nistor",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Trees_and_benches_in_Dendrological_Park,_Chisinau.jpg",
+   "source": "Wikimedia Commons"
   }
  ]
 }
