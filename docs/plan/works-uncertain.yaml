@@ -1,0 +1,29 @@
+- type: article
+  year: 1999
+  authors:
+  - Nussbaum, N.
+  - Browne, R.
+  - Black, J.L.
+  - Oakland, T.
+  - Stanford, G.
+  - Balise, R.R.
+  title: Neuropsychological characteristics of severely dyslexic children who demonstrate substantial improvement in reading
+  venue: Archives of Clinical Neuropsychology
+  doi: 10.1093/arclin/14.8.686a
+  url: https://doi.org/10.1093/arclin/14.8.686a
+  topics:
+  - other
+  sourceIds:
+  - S19
+- type: article
+  year: 2005
+  authors:
+  - Oakland, Thomas
+  title: Gifted Child Today
+  venue: gifted-child-today
+  doi: 10.4219/gct-2005-183
+  url: https://doi.org/10.4219/gct-2005-183
+  topics:
+  - other
+  sourceIds:
+  - S19

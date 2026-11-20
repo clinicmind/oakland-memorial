@@ -70,3 +70,7 @@
   title: "Wikidata: Thomas Oakland"
   url: "https://www.wikidata.org/wiki/Q58894965"
   accessedOn: "2026-11-20"
+- id: S19
+  title: "Crossref REST API (api.crossref.org), queried 2026-11-20"
+  url: "https://api.crossref.org/works"
+  accessedOn: "2026-11-20"

@@ -1,1 +1,3416 @@
-[]
+- id: W001
+  type: article
+  year: 1969
+  authors:
+  - Oakland, Thomas D.
+  title: Auditory Discrimination and Socioeconomic Status as Correlates of Reading Ability
+  venue: Journal of Learning Disabilities
+  doi: 10.1177/002221946900200605
+  url: https://doi.org/10.1177/002221946900200605
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W002
+  type: article
+  year: 1969
+  authors:
+  - Oakland, Thomas
+  title: 'Diagnostic help 5¢: Examiner is in'
+  venue: Psychology in the Schools
+  doi: 10.1002/1520-6807(196910)6:4<359::aid-pits2310060407>3.0.co;2-s
+  url: https://doi.org/10.1002/1520-6807(196910)6:4<359::aid-pits2310060407>3.0.co;2-s
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W003
+  type: article
+  year: 1970
+  authors:
+  - Oakland, Thomas
+  title: A Rationale for Compensatory Education Programs
+  venue: The Journal of Negro Education
+  doi: 10.2307/2966885
+  url: https://doi.org/10.2307/2966885
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W004
+  type: article
+  year: 1971
+  authors:
+  - Oakland, Thomas D.
+  - King, John D.
+  - White, Linda Ann
+  - Eckman, Robert
+  title: 'A comparison of performance on the WPPSI, WISC, and SB with preschool children: Companion studies'
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(71)90007-0
+  url: https://doi.org/10.1016/0022-4405(71)90007-0
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W005
+  type: article
+  year: 1971
+  authors:
+  - Emmer, Edmund T.
+  - Good, Thomas L.
+  - Oakland, Thomas D.
+  title: Effect of feedback expectancy on choice of teaching styles.
+  venue: Journal of Educational Psychology
+  doi: 10.1037/h0032038
+  url: https://doi.org/10.1037/h0032038
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W006
+  type: article
+  year: 1972
+  authors:
+  - Snapp, Matthew
+  - Oakland, Thomas
+  - Williams, Fern C.
+  title: A study of individualizing instruction by using elementary school children as tutors
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(72)90020-9
+  url: https://doi.org/10.1016/0022-4405(72)90020-9
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W007
+  type: article
+  year: 1972
+  authors:
+  - Oakland, Thomas
+  title: The effects of test-wiseness materials on standardized test performance of preschool disadvantaged children
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(72)90004-0
+  url: https://doi.org/10.1016/0022-4405(72)90004-0
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W008
+  type: article
+  year: 1973
+  authors:
+  - Oakland, Thomas D.
+  - Williams, Fern C.
+  - Harmer, William R.
+  title: A Longitudinal Study of Auditory Perception and Reading Instruction with First-Grade Negro Children
+  venue: The Journal of Special Education
+  doi: 10.1177/002246697300700205
+  url: https://doi.org/10.1177/002246697300700205
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W009
+  type: article
+  year: 1973
+  authors:
+  - Oakland, Thomas
+  title: 'Assessing minority group children: Challenges for school psychologists'
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(93)90042-h
+  url: https://doi.org/10.1016/0022-4405(93)90042-h
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W010
+  type: article
+  year: 1973
+  authors:
+  - Oakland, Thomas
+  - Emmer, Edmund
+  title: Effects of knowledge of criterion groups on actual and expected test performance of Negro and Mexican-American eighth graders.
+  venue: Journal of Consulting and Clinical Psychology
+  doi: 10.1037/h0033962
+  url: https://doi.org/10.1037/h0033962
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W011
+  type: article
+  year: 1973
+  authors:
+  - Oakland, Thomas
+  title: Will of the Wisc—or when is a change a change?
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(73)90064-2
+  url: https://doi.org/10.1016/0022-4405(73)90064-2
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W012
+  type: article
+  year: 1975
+  authors:
+  - Oakland, Thomas
+  - Williams, Fern C.
+  title: An evaluation of two methods of peer tutoring
+  venue: Psychology in the Schools
+  doi: 10.1002/1520-6807(197504)12:2<166::aid-pits2310120207>3.0.co;2-a
+  url: https://doi.org/10.1002/1520-6807(197504)12:2<166::aid-pits2310120207>3.0.co;2-a
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W013
+  type: article
+  year: 1975
+  authors:
+  - Oakland, Thomas
+  title: Assessment, Education, and Minority-Group Children
+  venue: Academic Therapy
+  doi: 10.1177/105345127401000201
+  url: https://doi.org/10.1177/105345127401000201
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W014
+  type: article
+  year: 1975
+  authors:
+  - Oakland, Thomas
+  - Lee, See Woo
+  - Axelrad, Kenneth M.
+  title: Examiner differences on actual WISC protocols
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(75)90005-9
+  url: https://doi.org/10.1016/0022-4405(75)90005-9
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W015
+  type: article
+  year: 1977
+  authors:
+  - Helton, George B.
+  - Oakland, Thomas D.
+  title: Teachers' attitudinal responses to differing characteristics of elementary school students.
+  venue: Journal of Educational Psychology
+  doi: 10.1037/0022-0663.69.3.261
+  url: https://doi.org/10.1037/0022-0663.69.3.261
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W016
+  type: article
+  year: 1977
+  authors:
+  - Oakland, Thomas
+  - Matuszek, Paula
+  title: Using Tests in Nondiscriminatory Assessment
+  venue: School Psychology Review
+  doi: 10.1080/02796015.1977.12086409
+  url: https://doi.org/10.1080/02796015.1977.12086409
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W017
+  type: article
+  year: 1978
+  authors:
+  - Williams, Fern
+  - Oakland, Thomas
+  title: A Three-Year Auditory Perception Program for Low-Ses Minority Children
+  venue: The Journal of Special Education
+  doi: 10.1177/002246697801200309
+  url: https://doi.org/10.1177/002246697801200309
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W018
+  type: article
+  year: 1978
+  authors:
+  - Oakland, Thomas
+  title: Predictive validity of readiness tests for middle and lower socioeconomic status Anglo, Black, and Mexican American children.
+  venue: Journal of Educational Psychology
+  doi: 10.1037/0022-0663.70.4.574
+  url: https://doi.org/10.1037/0022-0663.70.4.574
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W019
+  type: article
+  year: 1979
+  authors:
+  - Matuszek, Paula
+  - Oakland, Thomas
+  title: Factors influencing teachers' and psychologists' recommendations regarding special class placement
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(79)90017-7
+  url: https://doi.org/10.1016/0022-4405(79)90017-7
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W020
+  type: article
+  year: 1979
+  authors:
+  - Oakland, Thomas
+  - Feigenbaum, David
+  title: Multiple sources of test bias on the WISC-R and Bender-Gestalt Test.
+  venue: Journal of Consulting and Clinical Psychology
+  doi: 10.1037/0022-006x.47.5.968
+  url: https://doi.org/10.1037/0022-006x.47.5.968
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W021
+  type: article
+  year: 1979
+  authors:
+  - Oakland, Thomas
+  title: 'Research on the ABIC and ELP: A Revisit to an Old Topic'
+  venue: School Psychology Review
+  doi: 10.1080/02796015.1979.12086491
+  url: https://doi.org/10.1080/02796015.1979.12086491
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W022
+  type: article
+  year: 1979
+  authors:
+  - Oakland, Thomas
+  title: Research on the Adaptive Behavior Inventory for Children and the Estimated Learning Potential
+  venue: School Psychology Review
+  doi: 10.1080/02796015.1979.12086470
+  url: https://doi.org/10.1080/02796015.1979.12086470
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W023
+  type: article
+  year: 1979
+  authors:
+  - Oakland, Thomas
+  title: Spanish/English Language Performance Screening (S/ELPS)
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(79)90029-3
+  url: https://doi.org/10.1016/0022-4405(79)90029-3
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W024
+  type: article
+  year: 1980
+  authors:
+  - Oakland, Thomas
+  title: An evaluation of the ABIC, pluralistic norms, and estimated learning potential
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(80)90042-4
+  url: https://doi.org/10.1016/0022-4405(80)90042-4
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W025
+  type: article
+  year: 1980
+  authors:
+  - Oakland, Thomas
+  - Feigenbaum, David
+  title: Comparisons of the Psychometric characteristics of the adaptive behavior inventory for children for different subgroups of children
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(80)90001-1
+  url: https://doi.org/10.1016/0022-4405(80)90001-1
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W026
+  type: article
+  year: 1980
+  authors:
+  - Oakland, Thomas
+  title: Nonbiased Assessment of Minority Group Children
+  venue: Exceptional Education Quarterly
+  doi: 10.1177/074193258000100308
+  url: https://doi.org/10.1177/074193258000100308
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W027
+  type: article
+  year: 1981
+  authors:
+  - Oakland, Thomas
+  title: Editor's note
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(81)90002-9
+  url: https://doi.org/10.1016/0022-4405(81)90002-9
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W028
+  type: article
+  year: 1982
+  authors:
+  - Oakland, Thomas
+  title: 'Nonbiased Assessment in Counseling: Issues and Guidelines'
+  venue: Measurement and Evaluation in Guidance
+  doi: 10.1080/00256307.1982.12022295
+  url: https://doi.org/10.1080/00256307.1982.12022295
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W029
+  type: article
+  year: 1983
+  authors:
+  - Oakland, Thomas
+  title: Concurrent and Predictive Validity Estimates for the WISC-R IQs and ELPs by Racial-Ethnic and SES Groups
+  venue: School Psychology Review
+  doi: 10.1080/02796015.1983.12085009
+  url: https://doi.org/10.1080/02796015.1983.12085009
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W030
+  type: article
+  year: 1983
+  authors:
+  - Oakland, Thomas
+  title: Joint use of adaptive behavior and IQ to predict achievement.
+  venue: Journal of Consulting and Clinical Psychology
+  doi: 10.1037//0022-006x.51.2.298
+  url: https://doi.org/10.1037//0022-006x.51.2.298
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W031
+  type: article
+  year: 1983
+  authors:
+  - Oakland, Thomas
+  - Dowling, Lucy
+  title: 'The Draw-a-Person Test: Validity Properties for Nonbiased Assessment'
+  venue: Learning Disability Quarterly
+  doi: 10.2307/1510541
+  url: https://doi.org/10.2307/1510541
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W032
+  type: article
+  year: 1984
+  authors:
+  - Oakland, Thomas
+  title: Announcement of the new software review section
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(84)90002-5
+  url: https://doi.org/10.1016/0022-4405(84)90002-5
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W033
+  type: article
+  year: 1984
+  authors:
+  - Wilkinson, Cheryl Yelich
+  - Oakland, Thomas
+  title: Stability of the Sompa's Health History Inventory
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/073428298400200208
+  url: https://doi.org/10.1177/073428298400200208
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W034
+  type: article
+  year: 1984
+  authors:
+  - Oakland, Thomas
+  title: 'The journal of school psychology''s first twenty years: Contributions and contributors'
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(84)90005-0
+  url: https://doi.org/10.1016/0022-4405(84)90005-0
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W035
+  type: article
+  year: 1985
+  authors:
+  - OAKLAND, THOMAS
+  - HOUCHINS, SUSAN
+  title: A Review of the Vineland Adaptive Behavior Scales, Survey Form
+  venue: Journal of Counseling & Development
+  doi: 10.1002/j.1556-6676.1985.tb00689.x
+  url: https://doi.org/10.1002/j.1556-6676.1985.tb00689.x
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W036
+  type: article
+  year: 1985
+  authors:
+  - Oakland, Thomas D.
+  - Ramos‐Cancel, Maria L.
+  title: 'Educational and psychological perspectives on Hispanic children from Hispanic journals: A view from Latin America'
+  venue: Journal of Multilingual and Multicultural Development
+  doi: 10.1080/01434632.1985.9994186
+  url: https://doi.org/10.1080/01434632.1985.9994186
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W037
+  type: article
+  year: 1985
+  authors:
+  - Oakland, Thomas
+  title: Selected Current Trends in the United States,Implications for Education and Possible Futures for School Psychology
+  venue: School Psychology International
+  doi: 10.1177/0143034385061001
+  url: https://doi.org/10.1177/0143034385061001
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W038
+  type: article
+  year: 1985
+  authors:
+  - Pollard, Gerald
+  - Oakland, Thomas
+  title: Variables Associated With the Educational Development of Residential Deaf Children
+  venue: Special Services in the Schools
+  doi: 10.1300/j008v01n04_06
+  url: https://doi.org/10.1300/j008v01n04_06
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W039
+  type: article
+  year: 1986
+  authors:
+  - Oakland, Thomas
+  title: Fare well, journal of school psychology
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(86)90019-1
+  url: https://doi.org/10.1016/0022-4405(86)90019-1
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W040
+  type: article
+  year: 1986
+  authors:
+  - Oakland, Thomas D.
+  title: Further thoughts on professionalism in school psychology.
+  venue: Professional School Psychology
+  doi: 10.1037/h0090495
+  url: https://doi.org/10.1037/h0090495
+  topics:
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W041
+  type: article
+  year: 1986
+  authors:
+  - Oakland, Thomas D.
+  title: Professionalism within school psychology.
+  venue: Professional School Psychology
+  doi: 10.1037/h0090496
+  url: https://doi.org/10.1037/h0090496
+  topics:
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W042
+  type: article
+  year: 1986
+  authors:
+  - Oakland, Thomas D.
+  - Zimmerman, Stephen A.
+  title: 'The course on individual mental assessment: A national survey of course instructors.'
+  venue: Professional School Psychology
+  doi: 10.1037/h0090497
+  url: https://doi.org/10.1037/h0090497
+  topics:
+  - ethics-professional
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W043
+  type: article
+  year: 1987
+  authors:
+  - Oakland, Thomas
+  - Houchins, Susan
+  title: A Rejoinder to a Misguided Attack on the Bearer of Some Good News and Some Bad News
+  venue: Journal of Counseling & Development
+  doi: 10.1002/j.1556-6676.1987.tb00725.x
+  url: https://doi.org/10.1002/j.1556-6676.1987.tb00725.x
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W044
+  type: article
+  year: 1987
+  authors:
+  - Saigh, Philip A.
+  - Oakland, Thomas
+  title: A history of the journal of school psychology's international school psychology series and a look ahead
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(87)90072-0
+  url: https://doi.org/10.1016/0022-4405(87)90072-0
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W045
+  type: article
+  year: 1987
+  authors:
+  - Oakland, Thomas
+  - Saigh, Philip
+  title: 'Psychological services in schools: A summary of international perspectives'
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(87)90081-1
+  url: https://doi.org/10.1016/0022-4405(87)90081-1
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W046
+  type: article
+  year: 1988
+  authors:
+  - Oakland, Thomas
+  - De Mesquita, Paul
+  - Buckley, Kevin
+  title: Psychological, Linguistic and Sociocultural Correlates of Reading Among Mexican American Elementary Students
+  venue: School Psychology International
+  doi: 10.1177/0143034388093007
+  url: https://doi.org/10.1177/0143034388093007
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W047
+  type: article
+  year: 1988
+  authors:
+  - Hu, Sherman
+  - Oakland, Thomas
+  - Salili, Farideh
+  title: School Psychology in Hong Kong
+  venue: School Psychology International
+  doi: 10.1177/0143034388091003
+  url: https://doi.org/10.1177/0143034388091003
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W048
+  type: article
+  year: 1989
+  authors:
+  - Oakland, Thomas
+  title: 'Assessing children and youths: A model for textbooks and an evaluation of one'
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(89)90008-3
+  url: https://doi.org/10.1016/0022-4405(89)90008-3
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W049
+  type: article
+  year: 1989
+  authors:
+  - Oakland, Thomas
+  - Shermis, Mark D.
+  title: Factor Structure of the Sociocultural Scales
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/073428298900700406
+  url: https://doi.org/10.1177/073428298900700406
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W050
+  type: article
+  year: 1989
+  authors:
+  - Glutting, Joseph J.
+  - Oakland, Thomas
+  - McDermott, Paul A.
+  title: 'Observing child behavior during testing: Constructs, validity, and situational generality'
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(89)90003-4
+  url: https://doi.org/10.1016/0022-4405(89)90003-4
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W051
+  type: article
+  year: 1989
+  authors:
+  - Oakland, Thomas
+  - Hu, Sherman
+  title: 'PSYCHOEDUCATIONAL SERVICES FOR CHILDREN AND YOUTH IN THE ORIENT: CURRENT STATUS, PROBLEMS, AND SOME REMEDIES*'
+  venue: International Journal of Psychology
+  doi: 10.1080/00207594.1989.10600045
+  url: https://doi.org/10.1080/00207594.1989.10600045
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W052
+  type: article
+  year: 1989
+  authors:
+  - HU, Sherman
+  - OAKLAND, Thomas
+  title: PSYCHOLOGY IN THE SCHOOLS OF FOUR ASIAN COUNTRIES
+  venue: PSYCHOLOGIA
+  doi: 10.2117/psysoc.1989.71
+  url: https://doi.org/10.2117/psysoc.1989.71
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W053
+  type: article
+  year: 1989
+  authors:
+  - Oakland, Thomas
+  title: Some Insights into US Non-biased Psychoeducational Assessment
+  venue: School Psychology International
+  doi: 10.1177/0143034389104009
+  url: https://doi.org/10.1177/0143034389104009
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W054
+  type: article
+  year: 1989
+  authors:
+  - Oakland, Thomas
+  - Stern, William
+  title: Variables associated with reading and math achievement among a heterogeneous group of students
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(89)90001-0
+  url: https://doi.org/10.1016/0022-4405(89)90001-0
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W055
+  type: article
+  year: 1990
+  authors:
+  - Oakland, Thomas D.
+  - Cunningham, Jacqueline L.
+  title: Advocates for Educational Services for All Children need improved research and conceptual bases.
+  venue: School Psychology Quarterly
+  doi: 10.1037/h0090603
+  url: https://doi.org/10.1037/h0090603
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W056
+  type: article
+  year: 1990
+  authors:
+  - Oakland, Thomas
+  - Glutting, Joseph J.
+  title: 'Examiner observations of children''s WISC--R test-related behaviors: Possible socioeconomic status, race, and gender effects.'
+  venue: Psychological Assessment
+  doi: 10.1037//1040-3590.2.1.86
+  url: https://doi.org/10.1037//1040-3590.2.1.86
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W057
+  type: article
+  year: 1990
+  authors:
+  - Oakland, Thomas
+  - Glutting, Joseph J.
+  title: 'Examiner observations of children''s WISC—R test-related behaviors: Possible socioeconomic status, race, and gender effects.'
+  venue: 'Psychological Assessment: A Journal of Consulting and Clinical Psychology'
+  doi: 10.1037/1040-3590.2.1.86
+  url: https://doi.org/10.1037/1040-3590.2.1.86
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W058
+  type: article
+  year: 1990
+  authors:
+  - Wechsler, Solange
+  - Oakland, Thomas
+  title: Preventive Strategies for Promoting the Education of Low-income Brazilian Children
+  venue: School Psychology International
+  doi: 10.1177/0143034390112001
+  url: https://doi.org/10.1177/0143034390112001
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W059
+  type: article
+  year: 1990
+  authors:
+  - Oakland, Thomas
+  - Wechsler, Solange
+  title: School Psychology in Brazil
+  venue: School Psychology International
+  doi: 10.1177/0143034390114006
+  url: https://doi.org/10.1177/0143034390114006
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W060
+  type: article
+  year: 1990
+  authors:
+  - Nikolopoulou, Allina K.
+  - Oakland, Thomas
+  title: School Psychology in Greece
+  venue: School Psychology International
+  doi: 10.1177/0143034390112009
+  url: https://doi.org/10.1177/0143034390112009
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W061
+  type: article
+  year: 1990
+  authors:
+  - Oakland, Thomas
+  - Shermis, Mark D.
+  - Coleman, Maggie
+  title: Teacher Perceptions of Differences Among Elementary Students With and Without Learning Disabilities in Referred Samples
+  venue: Journal of Learning Disabilities
+  doi: 10.1177/002221949002300808
+  url: https://doi.org/10.1177/002221949002300808
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W062
+  type: article
+  year: 1991
+  authors:
+  - Oakland, Thomas
+  title: Book Reviews
+  venue: School Psychology International
+  doi: 10.1177/0143034391123014
+  url: https://doi.org/10.1177/0143034391123014
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W063
+  type: article
+  year: 1991
+  authors:
+  - Hu, Sherman
+  - Oakland, Thomas
+  title: 'Global and Regional Perspectives on Testing Children and Youth: An Empirical Study'
+  venue: International Journal of Psychology
+  doi: 10.1080/00207599108246857
+  url: https://doi.org/10.1080/00207599108246857
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W064
+  type: article
+  year: 1991
+  authors:
+  - Van Scoy, Holly
+  - Oakland, Thomas
+  title: Minority Group Literature in Psychology and Education Journals 1952-1973
+  venue: Journal of Black Studies
+  doi: 10.1177/002193479102200211
+  url: https://doi.org/10.1177/002193479102200211
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W065
+  type: article
+  year: 1991
+  authors:
+  - Oakland, Thomas
+  - Hu, Sherman
+  title: 'Professionals Who Administer Tests With Children and Youth: An International Survey'
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/073428299100900201
+  url: https://doi.org/10.1177/073428299100900201
+  topics:
+  - international
+  - ethics-professional
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W066
+  type: article
+  year: 1991
+  authors:
+  - Seo, Gyeong-Hee
+  - Oakland, Thomas
+  - Han, Hong-Seok
+  - Hu, Sherman
+  title: Special Education in South Korea
+  venue: Exceptional Children
+  doi: 10.1177/001440299105800304
+  url: https://doi.org/10.1177/001440299105800304
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W067
+  type: article
+  year: 1992
+  authors:
+  - Oakland, Thomas D.
+  - Cunningham, Jacqueline L.
+  title: A Survey of School Psychology in Developed and Developing Countries
+  venue: School Psychology International
+  doi: 10.1177/0143034392132001
+  url: https://doi.org/10.1177/0143034392132001
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W068
+  type: article
+  year: 1992
+  authors:
+  - Coleman, Maggie
+  - Pfeiffer, Steven
+  - Oakland, Thomas
+  title: Aggression Replacement Training with Behaviorally Disordered Adolescents
+  venue: Behavioral Disorders
+  doi: 10.1177/019874299201800101
+  url: https://doi.org/10.1177/019874299201800101
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W069
+  type: article
+  year: 1992
+  authors:
+  - Wang, Fang-FANG
+  - Liu, De-HUA
+  - Oakland, Thomas
+  title: Behavior Problems Exhibited by Chinese Children from Singleand Multiple-child Families
+  venue: School Psychology International
+  doi: 10.1177/0143034392134003
+  url: https://doi.org/10.1177/0143034392134003
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W070
+  type: article
+  year: 1992
+  authors:
+  - Oakland, Thomas
+  title: Book Reviews
+  venue: School Psychology International
+  doi: 10.1177/0143034392134008
+  url: https://doi.org/10.1177/0143034392134008
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W071
+  type: article
+  year: 1992
+  authors:
+  - Oakland, Thomas D.
+  title: Formulating Priorities for International School Psychology toward the Turn of the Twentieth Century
+  venue: School Psychology International
+  doi: 10.1177/0143034392132008
+  url: https://doi.org/10.1177/0143034392132008
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W072
+  type: article
+  year: 1992
+  authors:
+  - Oakland, Thomas D.
+  title: Review of Health Hazards in Adolescence.
+  venue: 'Contemporary Psychology: A Journal of Reviews'
+  doi: 10.1037/031417
+  url: https://doi.org/10.1037/031417
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W073
+  type: article
+  year: 1992
+  authors:
+  - Oakland, Thomas
+  title: 'School dropouts: Characteristics and prevention'
+  venue: Applied and Preventive Psychology
+  doi: 10.1016/s0962-1849(05)80126-x
+  url: https://doi.org/10.1016/s0962-1849(05)80126-x
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W074
+  type: article
+  year: 1993
+  authors:
+  - Oakland, Thomas
+  title: A brief history of international school psychology
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(93)90024-d
+  url: https://doi.org/10.1016/0022-4405(93)90024-d
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W075
+  type: article
+  year: 1993
+  authors:
+  - Nandakumar, Ratna
+  - Glutting, Joseph J.
+  - Oakland, Thomas
+  title: 'Mantel-Haenszel Methodology for Detecting Item Bias: An Introduction and Example Using the Guide to the Assessment of Test Session Behavior'
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/073428299301100201
+  url: https://doi.org/10.1177/073428299301100201
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W076
+  type: article
+  year: 1994
+  authors:
+  - Glutting, Joseph J.
+  - Oakland, Thomas
+  - Konold, Timothy R.
+  title: 'Criterion-related bias with the guide to the assessment of test-session behavior for the WISC-III and WIAT: Possible race/ethnicity, gender, and SES effects'
+  venue: Journal of School Psychology
+  doi: 10.1016/0022-4405(94)90033-7
+  url: https://doi.org/10.1016/0022-4405(94)90033-7
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W077
+  type: article
+  year: 1994
+  authors:
+  - Oakland, Thomas
+  title: 'Issues of importance to the membership of the American Psychological Association: Implications for planning.'
+  venue: American Psychologist
+  doi: 10.1037/0003-066x.49.10.879
+  url: https://doi.org/10.1037/0003-066x.49.10.879
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W078
+  type: article
+  year: 1994
+  authors:
+  - Oakland, Thomas
+  - Stafford, Mary
+  - Wechsler, Solange
+  - Bensusan, Edith
+  title: The Construct and Measurement of Achievement among Brazilian Children
+  venue: School Psychology International
+  doi: 10.1177/0143034394152003
+  url: https://doi.org/10.1177/0143034394152003
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W079
+  type: article
+  year: 1994
+  authors:
+  - Oakland, Thomas
+  - Stafford, Mary
+  - Wechsler, Solange
+  - Bensusanc, Edith
+  title: The Construct and Measurement of Intelligence among Brazilian Children
+  venue: School Psychology International
+  doi: 10.1177/0143034394154004
+  url: https://doi.org/10.1177/0143034394154004
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W080
+  type: article
+  year: 1995
+  authors:
+  - Konold, Timothy R.
+  - Glutting, Joseph J.
+  - Oakland, Thomas
+  - O'Donnell, Louise
+  title: Congruence of Test-Behavior Dimensions among Child Groups that Vary in Gender, Race-Ethnicity, and Ses
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/073428299501300201
+  url: https://doi.org/10.1177/073428299501300201
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W081
+  type: article
+  year: 1995
+  authors:
+  - Wang, Fang-Fang
+  - Oakland, Thomas
+  title: Qualities Related to Intelligence among Chinese Children Between Ages 4 to 6
+  venue: School Psychology International
+  doi: 10.1177/0143034395161005
+  url: https://doi.org/10.1177/0143034395161005
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W082
+  type: article
+  year: 1995
+  authors:
+  - Oakland, Thomas
+  - Feldman, Nusia
+  - De Viloriac, Carmen Leon
+  title: School Psychology in Venezuela
+  venue: School Psychology International
+  doi: 10.1177/0143034395161003
+  url: https://doi.org/10.1177/0143034395161003
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W083
+  type: chapter
+  year: 1995
+  authors:
+  - Oakland, Thomas
+  title: Test Use With Children and Youth Internationally
+  venue: International Perspectives on Academic Assessment
+  doi: 10.1007/978-94-011-0639-9_1
+  url: https://doi.org/10.1007/978-94-011-0639-9_1
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W084
+  type: article
+  year: 1995
+  authors:
+  - Oakland, Thomas
+  title: The Bell Curve:Some Implications for the Discipline of School Psychology and the Practices of School Psychology
+  venue: School Psychology Review
+  doi: 10.1080/02796015.1995.12085747
+  url: https://doi.org/10.1080/02796015.1995.12085747
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W085
+  type: article
+  year: 1996
+  authors:
+  - Oakland, Thomas
+  - Falkenberg, Bradd A.
+  - Oakland, Christopher
+  title: Assessment of Leadership in Children, Youth and Adults
+  venue: Gifted Child Quarterly
+  doi: 10.1177/001698629604000304
+  url: https://doi.org/10.1177/001698629604000304
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W086
+  type: article
+  year: 1996
+  authors:
+  - Oakland, Thomas
+  - Gulek, Cengiz
+  - Glutting, Joseph
+  title: 'Children''s Test-Taking Behaviors: A Review of Literature, Case Study, and Research on Turkish Children'
+  venue: European Journal of Psychological Assessment
+  doi: 10.1027/1015-5759.12.3.240
+  url: https://doi.org/10.1027/1015-5759.12.3.240
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W087
+  type: article
+  year: 1996
+  authors:
+  - Oakland, Thomas
+  title: 'Qualities that will infIuence testing and assessment practices with children and youth toward the beginning of the twenty-first century: international perspectives'
+  venue: Psicologia Escolar e Educacional
+  doi: 10.1590/s1413-85571996000100002
+  url: https://doi.org/10.1590/s1413-85571996000100002
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W088
+  type: article
+  year: 1996
+  authors:
+  - Glutting, Joseph J.
+  - Youngstrom, Eric A.
+  - Oakland, Tom
+  - Watkins, Marley W.
+  title: Situational Specificity and Generality of Test Behaviors for Samples of Normal and Referred Children
+  venue: School Psychology Review
+  doi: 10.1080/02796015.1996.12085804
+  url: https://doi.org/10.1080/02796015.1996.12085804
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W089
+  type: article
+  year: 1996
+  authors:
+  - Stafford, Mary E.
+  - Oakland, Thomas D.
+  title: 'Validity of Temperament Constructs Using the Student Styles Questionnaire: Comparisons for Three Racial-Ethnic Groups'
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/073428299601400202
+  url: https://doi.org/10.1177/073428299601400202
+  topics:
+  - temperament-styles
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W090
+  type: article
+  year: 1997
+  authors:
+  - Oakland, Thomas
+  title: A Multi-Year Home-Based Program to Promote Development of Young Palestinian Children Who Exhibit Developmental Delays
+  venue: School Psychology International
+  doi: 10.1177/0143034397181003
+  url: https://doi.org/10.1177/0143034397181003
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W091
+  type: article
+  year: 1997
+  authors:
+  - Oakland, Thomas
+  title: Affective assessment
+  venue: Psicologia Escolar e Educacional
+  doi: 10.1590/s1413-85571997000100002
+  url: https://doi.org/10.1590/s1413-85571997000100002
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W092
+  type: article
+  year: 1997
+  authors:
+  - Oakland, Thomas
+  - Goldman, Susan
+  - Bischoff, Herbert
+  title: Code of Ethics of the International School Psychology Association
+  venue: School Psychology International
+  doi: 10.1177/0143034397184001
+  url: https://doi.org/10.1177/0143034397184001
+  topics:
+  - international
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W093
+  type: article
+  year: 1997
+  authors:
+  - Oakland, T.
+  - Hambleton, R. K.
+  - Magtvet, Knut A.
+  title: International Perspectives on Academic Assessment
+  venue: 'Educational Measurement: Issues and Practice'
+  doi: 10.1111/j.1745-3992.1997.tb00612.x
+  url: https://doi.org/10.1111/j.1745-3992.1997.tb00612.x
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W094
+  type: article
+  year: 1997
+  authors:
+  - Oakland, Thomas
+  - Cunningham, Jacqueline
+  title: International School Psychology Association Definition of School Psychology
+  venue: School Psychology International
+  doi: 10.1177/0143034397183001
+  url: https://doi.org/10.1177/0143034397183001
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W095
+  type: article
+  year: 1997
+  authors:
+  - Mpofu, Elias
+  - Zindi, Fred
+  - Oakland, Thomas
+  - Peresuh, Munhuweyi
+  title: 'SCHOOL PSYCHOLOGY PRACTICES IN EAST AND SOUTHERN AFRICA: SPECIAL EDUCATORS'' PERSPECTIVES'
+  venue: The Journal of Special Education
+  doi: 10.1177/002246699703100307
+  url: https://doi.org/10.1177/002246699703100307
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W096
+  type: article
+  year: 1997
+  authors:
+  - Oakland, Thomas
+  title: 'Test Use Among School Psychologists: Past, Current, and Emerging Practices'
+  venue: European Journal of Psychological Assessment
+  doi: 10.1027/1015-5759.13.1.2
+  url: https://doi.org/10.1027/1015-5759.13.1.2
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W097
+  type: article
+  year: 1997
+  authors:
+  - Valencia, Richard R.
+  - Rankin, Richard J.
+  - Oakland, Tom
+  title: 'WISC-R factor structures among White, Mexican American, and African American children: A research note'
+  venue: Psychology in the Schools
+  doi: 10.1002/(sici)1520-6807(199701)34:1<11::aid-pits2>3.0.co;2-y
+  url: https://doi.org/10.1002/(sici)1520-6807(199701)34:1<11::aid-pits2>3.0.co;2-y
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W098
+  type: article
+  year: 1998
+  authors:
+  - Oakland, Thomas
+  - Black, Jeffrey L.
+  - Stanford, George
+  - Nussbaum, Nancy L.
+  - Balise, Raymond R.
+  title: An Evaluation of the Dyslexia Training Program
+  venue: Journal of Learning Disabilities
+  doi: 10.1177/002221949803100204
+  url: https://doi.org/10.1177/002221949803100204
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W099
+  type: chapter
+  year: 1998
+  authors:
+  - Oakland, Thomas
+  - Glutting, Joseph
+  title: Assessment of Test Behaviors with the WISC-III
+  venue: WISC-III Clinical Use and Interpretation
+  doi: 10.1016/b978-012564930-8/50014-0
+  url: https://doi.org/10.1016/b978-012564930-8/50014-0
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W100
+  type: chapter
+  year: 1998
+  authors:
+  - Scheuneman, Janice Dowd
+  - Oakland, Thomas
+  title: High-stakes testing in education.
+  venue: 'Test interpretation and diversity: Achieving equity in assessment.'
+  doi: 10.1037/10279-004
+  url: https://doi.org/10.1037/10279-004
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W101
+  type: article
+  year: 1998
+  authors:
+  - Cunningham, Jacqueline
+  - Oakland, Thomas
+  title: International School Psychology Association Guidelines for the Preparation of School Psychologists
+  venue: School Psychology International
+  doi: 10.1177/0143034398191002
+  url: https://doi.org/10.1177/0143034398191002
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W102
+  type: article
+  year: 2000
+  authors:
+  - Stanford, George
+  - Oakland, Thomas
+  title: Cognitive Deficits Underlying Learning Disabilities
+  venue: School Psychology International
+  doi: 10.1177/0143034300213007
+  url: https://doi.org/10.1177/0143034300213007
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W103
+  type: article
+  year: 2000
+  authors:
+  - Kane, Harrison
+  - Oakland, Thomas D.
+  title: 'Secular Declines in Spearman''sg: Some Evidence from the United States'
+  venue: The Journal of Genetic Psychology
+  doi: 10.1080/00221320009596716
+  url: https://doi.org/10.1080/00221320009596716
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W104
+  type: article
+  year: 2000
+  authors:
+  - Oakland, Thomas
+  - Joyce, Diana
+  - Horton, Connie
+  - Glutting, Joseph
+  title: Temperament-Based Learning Styles of Identified Gifted and Nongifted Students
+  venue: Gifted Child Quarterly
+  doi: 10.1177/001698620004400304
+  url: https://doi.org/10.1177/001698620004400304
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S19
+- id: W105
+  type: article
+  year: 2000
+  authors:
+  - Oakland, Thomas
+  - Banner, Diane
+  - Livingston, Rita
+  title: Temperament-based Learning Styles of Visually Impaired Students
+  venue: Journal of Visual Impairment & Blindness
+  doi: 10.1177/0145482x0009400104
+  url: https://doi.org/10.1177/0145482x0009400104
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S19
+- id: W106
+  type: article
+  year: 2000
+  authors:
+  - Alfonso, Vincent C.
+  - LaRocca, Regina
+  - Oakland, Thomas D.
+  - Spanakos, Alexandra
+  title: The Course on Individual Cognitive Assessment
+  venue: School Psychology Review
+  doi: 10.1080/02796015.2000.12085997
+  url: https://doi.org/10.1080/02796015.2000.12085997
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W107
+  type: article
+  year: 2000
+  authors:
+  - Oakland, Thomas
+  - Broom, Jason
+  - Glutting, Joseph
+  title: Use of Freedom from Distractibility and Processing Speed to Assess Children's Test-Taking Behaviors
+  venue: Journal of School Psychology
+  doi: 10.1016/s0022-4405(00)00047-9
+  url: https://doi.org/10.1016/s0022-4405(00)00047-9
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W108
+  type: article
+  year: 2001
+  authors:
+  - Oakland, Thomas
+  - Poortinga, Ype H.
+  - Schlegel, Justin
+  - Hambleton, Ronald K.
+  title: 'International Test Commission: Its History, Current Status, and Future Directions'
+  venue: International Journal of Testing
+  doi: 10.1207/s15327574ijt0101_2
+  url: https://doi.org/10.1207/s15327574ijt0101_2
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W109
+  type: article
+  year: 2001
+  authors:
+  - Mpofu, Elias
+  - Oakland, Thomas
+  title: Predicting School Achievement in Zimbabwean Multiracial Schools Using Biggs' Learning Process Questionnaire
+  venue: South African Journal of Psychology
+  doi: 10.1177/008124630103100303
+  url: https://doi.org/10.1177/008124630103100303
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W110
+  type: article
+  year: 2001
+  authors:
+  - Oakland, Thomas
+  - Stafford, Mary E.
+  - Horton, Connie B.
+  - Glutting, Joseph J.
+  title: 'Temperament and Vocational Preferences: Age, Gender, and Racial-Ethnic Comparisons Using the Student Styles Questionnaire'
+  venue: Journal of Career Assessment
+  doi: 10.1177/106907270100900306
+  url: https://doi.org/10.1177/106907270100900306
+  topics:
+  - temperament-styles
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W111
+  type: article
+  year: 2001
+  authors:
+  - Brue, Alan W.
+  - Oakland, Thomas
+  title: The Portage Guide to Early Intervention
+  venue: School Psychology International
+  doi: 10.1177/0143034301223001
+  url: https://doi.org/10.1177/0143034301223001
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W112
+  type: article
+  year: 2002
+  authors:
+  - Oakland, Thomas
+  title: 'Book Review: Assessment of children and youth'
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/073428290202000207
+  url: https://doi.org/10.1177/073428290202000207
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W113
+  type: article
+  year: 2002
+  authors:
+  - Oakland, Thomas
+  title: International test adaptation guidelines
+  venue: Psichologija
+  doi: 10.15388/psichol.2002..8959
+  url: https://doi.org/10.15388/psichol.2002..8959
+  topics:
+  - test-adaptation
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W114
+  type: article
+  year: 2003
+  authors:
+  - Oakland, Thomas
+  - Mpofu, Elias
+  - Glasgow, Ken
+  - Jumel, Bernard
+  title: Diagnosis and Administrative Interventions for Students With Mental Retardation in Australia, France, United States, and Zimbabwe 98 Years After Binet's First Intelligence Test
+  venue: International Journal of Testing
+  doi: 10.1207/s15327574ijt0301_4
+  url: https://doi.org/10.1207/s15327574ijt0301_4
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W115
+  type: article
+  year: 2003
+  authors:
+  - Oakland, Thomas D.
+  title: 'International School Psychology: Psychology''s Worldwide Portal to Children and Youth.'
+  venue: American Psychologist
+  doi: 10.1037/0003-066x.58.11.985
+  url: https://doi.org/10.1037/0003-066x.58.11.985
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W116
+  type: article
+  year: 2004
+  authors:
+  - Hambleton, Ronald K.
+  - Oakland, Thomas
+  title: Advances, Issues, and Research in Testing Practices Around the World
+  venue: Applied Psychology
+  doi: 10.1111/j.1464-0597.2004.00165.x
+  url: https://doi.org/10.1111/j.1464-0597.2004.00165.x
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W117
+  type: article
+  year: 2004
+  authors:
+  - Oakland, Thomas
+  - Lane, Holly B.
+  title: 'Language, Reading, and Readability Formulas: Implications for Developing and Adapting Tests'
+  venue: International Journal of Testing
+  doi: 10.1207/s15327574ijt0403_3
+  url: https://doi.org/10.1207/s15327574ijt0403_3
+  topics:
+  - test-adaptation
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W118
+  type: article
+  year: 2004
+  authors:
+  - Oakland, Thomas
+  - Faulkner, Michael
+  - Bassett, Kyle
+  title: Temperament styles of children from Australia and the United States
+  venue: The Australian Educational and Developmental Psychologist
+  doi: 10.1017/s081651220002928x
+  url: https://doi.org/10.1017/s081651220002928x
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S19
+- id: W119
+  type: article
+  year: 2004
+  authors:
+  - Oakland, Thomas
+  - Joyce, Diana
+  title: Temperament-based Learning Styles and School-based Applications
+  venue: Canadian Journal of School Psychology
+  doi: 10.1177/082957350401900103
+  url: https://doi.org/10.1177/082957350401900103
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S19
+- id: W120
+  type: article
+  year: 2004
+  authors:
+  - Oakland, Thomas
+  title: Use of Educational and Psychological Tests Internationally
+  venue: Applied Psychology
+  doi: 10.1111/j.1464-0597.2004.00166.x
+  url: https://doi.org/10.1111/j.1464-0597.2004.00166.x
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W121
+  type: article
+  year: 2005
+  authors:
+  - Oakland, Thomas
+  - Rossen, Eric
+  title: 'A 21st-Century Model for Identifying Students for Gifted and Talented Programs in Light of National Conditions: An Emphasis on Race and Ethnicity'
+  venue: Gifted Child Today
+  doi: 10.1177/107621750502800413
+  url: https://doi.org/10.1177/107621750502800413
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W122
+  type: chapter
+  year: 2005
+  authors:
+  - Spruill, Jean
+  - Oakland, Thomas
+  - Harrison, Patti
+  title: Assessment of Mental Retardation
+  venue: WISC-IV Clinical Use and Interpretation
+  doi: 10.1016/b978-012564931-5/50010-4
+  url: https://doi.org/10.1016/b978-012564931-5/50010-4
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W123
+  type: chapter
+  year: 2005
+  authors:
+  - Oakland, Thomas
+  - Glutting, Joseph
+  - Watkins, Marley W.
+  title: Assessment of Test Behaviors with the WISC-IV
+  venue: WISC-IV Clinical Use and Interpretation
+  doi: 10.1016/b978-012564931-5/50015-3
+  url: https://doi.org/10.1016/b978-012564931-5/50015-3
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W124
+  type: article
+  year: 2005
+  authors:
+  - Joyce, Diana
+  - Oakland, Thomas
+  title: Temperament Differences Among Children with Conduct Disorder and Oppositional Defiant Disorder
+  venue: The California School Psychologist
+  doi: 10.1007/bf03340927
+  url: https://doi.org/10.1007/bf03340927
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S19
+- id: W125
+  type: chapter
+  year: 2005
+  authors:
+  - Oakland, Thomas
+  title: The International Test Commission and its Role in Advancing Measurement Practices and International Guidelines
+  venue: Computer‐Based Testing and the Internet
+  doi: 10.1002/9780470712993.ch
+  url: https://doi.org/10.1002/9780470712993.ch
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W126
+  type: article
+  year: 2005
+  authors:
+  - Oakland, Thomas
+  title: 'The Thayer Conference: Comments on Fagan''s discussion of its 50th anniversary.'
+  venue: School Psychology Quarterly
+  doi: 10.1521/scpq.2005.20.3.252
+  url: https://doi.org/10.1521/scpq.2005.20.3.252
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W127
+  type: chapter
+  year: 2006
+  authors:
+  - Mpofu, Elias
+  - Oakland, Thomas
+  title: Assessment of Value Change in Adults with Acquired Disabilities
+  venue: Clinician's Handbook of Adult Behavioral Assessment
+  doi: 10.1016/b978-012343013-7/50026-4
+  url: https://doi.org/10.1016/b978-012343013-7/50026-4
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W128
+  type: article
+  year: 2006
+  authors:
+  - Kane, Harrison
+  - Oakland, Thomas
+  - Brand, Christopher
+  title: 'Differentiation at Higher Levels of Cognitive Ability: Evidence From the United States'
+  venue: The Journal of Genetic Psychology
+  doi: 10.3200/gntp.167.3.327-341
+  url: https://doi.org/10.3200/gntp.167.3.327-341
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W129
+  type: article
+  year: 2006
+  authors:
+  - Edwards, Oliver W.
+  - Oakland, Thomas D.
+  title: Factorial Invariance of Woodcock-Johnson III Scores for African Americans and Caucasian Americans
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282906289595
+  url: https://doi.org/10.1177/0734282906289595
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W130
+  type: chapter
+  year: 2006
+  authors:
+  - Oakland, Thomas
+  title: Foreword, by Thomas Oakland
+  venue: Dynamic Assessment in Practice
+  doi: 10.1017/cbo9780511607516.003
+  url: https://doi.org/10.1017/cbo9780511607516.003
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W131
+  type: chapter
+  year: 2006
+  authors:
+  - Schwean, Vicki L.
+  - Saklofske, Donald H.
+  - Oakland, Thomas
+  - Weiss, Lawrence G.
+  - Holdnack, James A.
+  - Prifitera, Aurelio
+  title: Report Writing
+  venue: WISC-IV Advanced Clinical Interpretation
+  doi: 10.1016/b978-012088763-7/50009-7
+  url: https://doi.org/10.1016/b978-012088763-7/50009-7
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W132
+  type: article
+  year: 2006
+  authors:
+  - Oakland, Thomas
+  - Lub, Li
+  title: Temperament Styles of Children from the People's Republic of China and the United States
+  venue: School Psychology International
+  doi: 10.1177/0143034306064545
+  url: https://doi.org/10.1177/0143034306064545
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W133
+  type: article
+  year: 2006
+  authors:
+  - Oakland, Thomas
+  - Mogaji, Andrew
+  - Dempsey, Jack
+  title: Temperament Styles of Nigerian and U.S. Children
+  venue: Journal of Psychology in Africa
+  doi: 10.1080/14330237.2006.10820101
+  url: https://doi.org/10.1080/14330237.2006.10820101
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W134
+  type: article
+  year: 2006
+  authors:
+  - Oakland, Thomas
+  - Mpofu, Elias
+  - Sulkowski, Michael
+  title: Temperament Styles of Zimbabwe and U.S. Children
+  venue: Canadian Journal of School Psychology
+  doi: 10.1177/0829573506298838
+  url: https://doi.org/10.1177/0829573506298838
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W135
+  type: article
+  year: 2007
+  authors:
+  - Oakland, Thomas
+  - Mpofu, Elias
+  - Grégoire, Jacques
+  - Faulkner, Michael
+  title: 'An Exploration of Learning Disabilities in Four Countries: Implications for Test Development and Use in Developing Countries'
+  venue: International Journal of Testing
+  doi: 10.1080/15305050709336858
+  url: https://doi.org/10.1080/15305050709336858
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W136
+  type: article
+  year: 2007
+  authors:
+  - Leach, Mark M.
+  - Oakland, Thomas
+  title: 'Ethics Standards Impacting Test Development and Use: A Review of 31 Ethics Codes Impacting Practices in 35 Countries'
+  venue: International Journal of Testing
+  doi: 10.1080/15305050709336859
+  url: https://doi.org/10.1080/15305050709336859
+  topics:
+  - international
+  - ethics-professional
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W137
+  type: chapter
+  year: 2007
+  authors:
+  - Jimerson, Shane R.
+  - Oakland, Thomas D.
+  - Farrell, Peter T.
+  title: Introduction to the Handbook of International School Psychology
+  venue: The Handbook of International School Psychology
+  doi: 10.4135/9781412976138.n1
+  url: https://doi.org/10.4135/9781412976138.n1
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W138
+  type: chapter
+  year: 2007
+  authors:
+  - Oakland, Thomas D.
+  - Jimerson, Shane R.
+  title: 'School Psychology Internationally: A Retrospective View and Influential Conditions'
+  venue: The Handbook of International School Psychology
+  doi: 10.4135/9781412976138.n45
+  url: https://doi.org/10.4135/9781412976138.n45
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W139
+  type: chapter
+  year: 2007
+  authors:
+  - Farrell, Peter T.
+  - Jimerson, Shane R.
+  - Oakland, Thomas D.
+  title: 'School Psychology Internationally: A Synthesis of Findings'
+  venue: The Handbook of International School Psychology
+  doi: 10.4135/9781412976138.n49
+  url: https://doi.org/10.4135/9781412976138.n49
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W140
+  type: chapter
+  year: 2007
+  authors:
+  - Jimerson, Shane R.
+  - Oakland, Thomas D.
+  title: School Psychology in the United States
+  venue: The Handbook of International School Psychology
+  doi: 10.4135/9781412976138.n42
+  url: https://doi.org/10.4135/9781412976138.n42
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W141
+  type: article
+  year: 2007
+  authors:
+  - Oakland, Thomas
+  - Alghorani, Mohammed Adnan
+  - Lee, Dong Hun
+  title: Temperament-Based Learning Styles of Palestinian and US Children
+  venue: School Psychology International
+  doi: 10.1177/0143034307075684
+  url: https://doi.org/10.1177/0143034307075684
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W142
+  type: book
+  year: 2007
+  authors:
+  - Jimerson, Shane
+  - Oakland, Thomas
+  - Farrell, Peter
+  title: The Handbook of International School Psychology
+  doi: 10.4135/9781412976138
+  url: https://doi.org/10.4135/9781412976138
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W143
+  type: chapter
+  year: 2007
+  authors:
+  - Oakland, Thomas D.
+  title: 'The International School Psychology Association: Its Formation, Accomplishments, and Future Missions'
+  venue: The Handbook of International School Psychology
+  doi: 10.4135/9781412976138.n47
+  url: https://doi.org/10.4135/9781412976138.n47
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W144
+  type: chapter
+  year: 2008
+  authors:
+  - Harrison, Patti L.
+  - Oakland, Thomas
+  title: ABAS-II Assessment Methods
+  venue: Adaptive Behavior Assessment System-II
+  doi: 10.1016/b978-012373586-7.00003-5
+  url: https://doi.org/10.1016/b978-012373586-7.00003-5
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W145
+  type: article
+  year: 2008
+  authors:
+  - Ditterline, Jeffrey
+  - Banner, Diane
+  - Oakland, Thomas
+  - Becton, Daniel
+  title: Adaptive Behavior Profiles of Students with Disabilities
+  venue: Journal of Applied School Psychology
+  doi: 10.1080/15377900802089973
+  url: https://doi.org/10.1080/15377900802089973
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W146
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  - Harrison, Patti L.
+  title: Adaptive Behaviors and Skills
+  venue: Adaptive Behavior Assessment System-II
+  doi: 10.1016/b978-012373586-7.00001-1
+  url: https://doi.org/10.1016/b978-012373586-7.00001-1
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W147
+  type: chapter
+  year: 2008
+  authors:
+  - Mpofu, Elias
+  - Oakland, Thomas
+  - Chimedza, Robert
+  title: 'Africa: East and Southern, Special Education in'
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced0061
+  url: https://doi.org/10.1002/9780470373699.speced0061
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W148
+  type: article
+  year: 2008
+  authors:
+  - Benson, Nicholas
+  - Oakland, Thomas
+  - Shermis, Mark
+  title: Cross-National Invariance of Children's Temperament
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282908318563
+  url: https://doi.org/10.1177/0734282908318563
+  topics:
+  - temperament-styles
+  - test-adaptation
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W149
+  type: article
+  year: 2008
+  authors:
+  - Dong Hun Lee
+  - Oakland, Thomas
+  - Jackson, Gina
+  - Glutting, Joseph
+  title: Estimated Prevalence of Attention-Deficit/ Hyperactivity Disorder Symptoms Among College Freshmen
+  venue: Journal of Learning Disabilities
+  doi: 10.1177/0022219407311748
+  url: https://doi.org/10.1177/0022219407311748
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W150
+  type: article
+  year: 2008
+  authors:
+  - Rossen, Eric
+  - Oakland, Thomas
+  title: 'Graduate preparation in research methods: The current status of APA-accredited professional programs in psychology.'
+  venue: Training and Education in Professional Psychology
+  doi: 10.1037/1931-3918.2.1.42
+  url: https://doi.org/10.1037/1931-3918.2.1.42
+  topics:
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W151
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  title: International School Psychology Association
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1117
+  url: https://doi.org/10.1002/9780470373699.speced1117
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W152
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  - Kane, Harrison
+  title: International Test Use in Special Education
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1118
+  url: https://doi.org/10.1002/9780470373699.speced1118
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W153
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  - Martin, Tamara J.
+  title: Journal of School Psychology
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1167
+  url: https://doi.org/10.1002/9780470373699.speced1167
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W154
+  type: article
+  year: 2008
+  authors:
+  - Wei, Youhua
+  - Oakland, Thomas
+  - Algina, James
+  title: Multigroup Confirmatory Factor Analysis for the Adaptive Behavior Assessment System-II Parent Form, Ages 5–21
+  venue: American Journal on Mental Retardation
+  doi: 10.1352/0895-8017(2008)113[178:mcfaft]2.0.co;2
+  url: https://doi.org/10.1352/0895-8017(2008)113[178:mcfaft]2.0.co;2
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W155
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  title: Nondiscriminatory Assessment
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1481
+  url: https://doi.org/10.1002/9780470373699.speced1481
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W156
+  type: chapter
+  year: 2008
+  authors:
+  - Laurent, Jeff
+  - Oakland, Thomas
+  title: Primary Mental Abilities Test
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1661
+  url: https://doi.org/10.1002/9780470373699.speced1661
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W157
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  - Harrison, Patti L.
+  title: Professional and Legal Issues in Adaptive Behavior Assessment
+  venue: Adaptive Behavior Assessment System-II
+  doi: 10.1016/b978-012373586-7.00002-3
+  url: https://doi.org/10.1016/b978-012373586-7.00002-3
+  topics:
+  - adaptive-behavior
+  - ethics-professional
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W158
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  title: School Psychologists
+  venue: '21st Century Education: A Reference Handbook'
+  doi: 10.4135/9781412964012.n7
+  url: https://doi.org/10.4135/9781412964012.n7
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W159
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  title: School Psychology
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1849
+  url: https://doi.org/10.1002/9780470373699.speced1849
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W160
+  type: chapter
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  - Laurent, Jeff
+  title: Sex Differences in Learning Abilities
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1899
+  url: https://doi.org/10.1002/9780470373699.speced1899
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W161
+  type: chapter
+  year: 2008
+  authors:
+  - Cunningham, Jacqueline
+  - Oakland, Thomas
+  title: Sex Education of Individuals with Disabilities
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9780470373699.speced1900
+  url: https://doi.org/10.1002/9780470373699.speced1900
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W162
+  type: article
+  year: 2008
+  authors:
+  - Oakland, Thomas
+  - Pretorius, Jenny D.
+  - Dong Hun Lee
+  title: Temperament Styles of Children from South Africa and the United States
+  venue: School Psychology International
+  doi: 10.1177/0143034308099205
+  url: https://doi.org/10.1177/0143034308099205
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W163
+  type: article
+  year: 2009
+  authors:
+  - Oakland, Thomas
+  - Harris, Josette G.
+  title: Impact of Test-Taking Behaviors on Full-Scale IQ Scores From the Wechsler Intelligence Scale for Children—IV Spanish Edition
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282909332045
+  url: https://doi.org/10.1177/0734282909332045
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W164
+  type: article
+  year: 2009
+  authors:
+  - Oakland, Thomas
+  title: Increasing Professional Psychology's Accountability and Access Internationally
+  venue: PsycCRITIQUES
+  doi: 10.1037/a0014544
+  url: https://doi.org/10.1037/a0014544
+  topics:
+  - international
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W165
+  type: article
+  year: 2009
+  authors:
+  - Aricak, O. Tolga
+  - Oakland, Thomas
+  title: Multigroup Confirmatory Factor Analysis for the Teacher Form, Ages 5 to 21, of the Adaptive Behavior Assessment System-II
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282909350209
+  url: https://doi.org/10.1177/0734282909350209
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W166
+  type: chapter
+  year: 2009
+  authors:
+  - Ditterline, Jeffrey
+  - Oakland, Thomas
+  title: Relationships Between Adaptive Behavior and Impairment
+  venue: Assessing Impairment
+  doi: 10.1007/978-1-387-87542-2_4
+  url: https://doi.org/10.1007/978-1-387-87542-2_4
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W167
+  type: chapter
+  year: 2009
+  authors:
+  - Bassett, Kyle
+  - Oakland, Thomas
+  title: Temperament Preferences for Children Ages 8 Through 17 in a Nationally Represented Sample
+  venue: Intelligent Testing
+  doi: 10.1017/cbo9780511575907.006
+  url: https://doi.org/10.1017/cbo9780511575907.006
+  topics:
+  - temperament-styles
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W168
+  type: article
+  year: 2009
+  authors:
+  - Yan, Gonggu
+  - Saklofske, Donald H.
+  - Oakland, Thomas
+  title: Views of Chinese Psychologists Toward Intelligence
+  venue: School Psychology International
+  doi: 10.1177/0143034309337343
+  url: https://doi.org/10.1177/0143034309337343
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W169
+  type: article
+  year: 2010
+  authors:
+  - Woolf, Steve
+  - Woolf, Christine Merman
+  - Oakland, Thomas
+  title: Adaptive Behavior Among Adults With Intellectual Disabilities and Its Relationship to Community Independence
+  venue: Intellectual and Developmental Disabilities
+  doi: 10.1352/1944-7558-48.3.209
+  url: https://doi.org/10.1352/1944-7558-48.3.209
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W170
+  type: chapter
+  year: 2010
+  authors:
+  - Oakland, Thomas
+  title: Cross‐Cultural and Cross‐National Assessment
+  venue: The Corsini Encyclopedia of Psychology
+  doi: 10.1002/9780470479216.corpsy0242
+  url: https://doi.org/10.1002/9780470479216.corpsy0242
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W171
+  type: article
+  year: 2010
+  authors:
+  - Leach, Mark M.
+  - Oakland, Thomas
+  title: Displaying Ethical Behaviors by Psychologists When Standards Are Unclear
+  venue: Ethics & Behavior
+  doi: 10.1080/10508421003798893
+  url: https://doi.org/10.1080/10508421003798893
+  topics:
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W172
+  type: article
+  year: 2010
+  authors:
+  - Kane, Harrison D.
+  - Oakland, Thomas D.
+  title: 'Group Differences in Cognitive Ability: A CHC Theory Framework'
+  venue: Mankind Quarterly
+  doi: 10.46469/mq.2010.50.4.4
+  url: https://doi.org/10.46469/mq.2010.50.4.4
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W173
+  type: article
+  year: 2010
+  authors:
+  - Carlson, Janet F.
+  - Benson, Nicholas
+  - Oakland, Thomas
+  title: Implications of the International Classification of Functioning, Disability and Health (ICF) for Test Development and Use
+  venue: School Psychology International
+  doi: 10.1177/0143034310377149
+  url: https://doi.org/10.1177/0143034310377149
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W174
+  type: chapter
+  year: 2010
+  authors:
+  - Weiss, Lawrence G.
+  - Oakland, Thomas
+  - Aylward, Glen P.
+  title: Preface
+  venue: Bayley-III Clinical Use and Interpretation
+  doi: 10.1016/b978-0-12-374177-6.10010-8
+  url: https://doi.org/10.1016/b978-0-12-374177-6.10010-8
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W175
+  type: article
+  year: 2010
+  authors:
+  - Mpofu, Elias
+  - Oakland, Thomas
+  - Gwirayi, Pesanayi
+  title: 'Temperament Styles in Zimbabwean Early Adolescents: A Rasch Measurement Model Analysis'
+  venue: South African Journal of Psychology
+  doi: 10.1177/008124631004000105
+  url: https://doi.org/10.1177/008124631004000105
+  topics:
+  - temperament-styles
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W176
+  type: article
+  year: 2010
+  authors:
+  - Dong Hun Lee
+  - Oakland, Thomas
+  - Changgu Ahn
+  title: Temperament Styles of Children in South Korea and the United States
+  venue: School Psychology International
+  doi: 10.1177/0143034309341621
+  url: https://doi.org/10.1177/0143034309341621
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W177
+  type: article
+  year: 2010
+  authors:
+  - Oakland, Thomas
+  - Hatzichristou, Chryse
+  title: Temperament Styles of Greek and US Children
+  venue: School Psychology International
+  doi: 10.1177/0143034310377302
+  url: https://doi.org/10.1177/0143034310377302
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W178
+  type: chapter
+  year: 2011
+  authors:
+  - Oakland, Thomas
+  title: Adaptive Behavior Assessment System – Second Edition
+  venue: Encyclopedia of Clinical Neuropsychology
+  doi: 10.1007/978-0-387-79948-3_1506
+  url: https://doi.org/10.1007/978-0-387-79948-3_1506
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W179
+  type: article
+  year: 2011
+  authors:
+  - Oakland, Thomas
+  - Algina, James
+  title: 'Adaptive Behavior Assessment System-II Parent/Primary Caregiver Form: Ages 0–5: Its Factor Structure and Other Implications for Practice'
+  venue: Journal of Applied School Psychology
+  doi: 10.1080/15377903.2011.565267
+  url: https://doi.org/10.1080/15377903.2011.565267
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W180
+  type: article
+  year: 2011
+  authors:
+  - Benson, Nicholas
+  - Oakland, Thomas
+  title: 'International Classification of Functioning, Disability, and Health: Implications for School Psychologists'
+  venue: Canadian Journal of School Psychology
+  doi: 10.1177/0829573510396982
+  url: https://doi.org/10.1177/0829573510396982
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W181
+  type: chapter
+  year: 2011
+  authors:
+  - Oakland, Thomas
+  title: 'Internationalizing the Psychology Curriculum: An Emphasis on School Psychology Internationally'
+  venue: International and Cultural Psychology
+  doi: 10.1007/978-1-4614-0073-8_11
+  url: https://doi.org/10.1007/978-1-4614-0073-8_11
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W182
+  type: chapter
+  year: 2011
+  authors:
+  - Hambleton, Ronald K.
+  - Bartram, David
+  - Oakland, Thomas
+  title: Technical Advances and Guidelines for Improving Testing Practices
+  venue: IAAP Handbook of Applied Psychology
+  doi: 10.1002/9781444395150.ch14
+  url: https://doi.org/10.1002/9781444395150.ch14
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W183
+  type: article
+  year: 2011
+  authors:
+  - Oakland, Thomas
+  - Singh, Kuldeep
+  - Callueng, Camelo
+  - Singh Puri, Gurmit
+  - Goen, Akiko
+  title: Temperament styles of Indian and USA children
+  venue: School Psychology International
+  doi: 10.1177/0143034311403041
+  url: https://doi.org/10.1177/0143034311403041
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W184
+  type: article
+  year: 2011
+  authors:
+  - Oakland, Thomas
+  - Callueng, Carmelo
+  - Rizwan, Muhammad
+  - Aftab, Sobia
+  title: Temperament styles of children from Pakistan and the United States
+  venue: School Psychology International
+  doi: 10.1177/0143034311420358
+  url: https://doi.org/10.1177/0143034311420358
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W185
+  type: article
+  year: 2011
+  authors:
+  - Oakland, Thomas
+  - Callueng, Carmelo
+  - Harris, Josette G.
+  title: The Impact of Test-taking Behaviors on WISC-IV Spanish Domain Scores in Its Standardization Sample
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282911423358
+  url: https://doi.org/10.1177/0734282911423358
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W186
+  type: chapter
+  year: 2012
+  authors:
+  - Oakland, Thomas
+  - Leach, Mark M.
+  - Bartram, Dave
+  - Lindsay, Geoff
+  - Smedler, Ann-Charlotte
+  - Zhang, Houcan
+  title: 'An International Perspective on Ethics Codes for Psychology: A Focus on Test Development and Use'
+  venue: The Oxford Handbook of International Psychological Ethics
+  doi: 10.1093/oxfordhb/9780199739165.013.0002
+  url: https://doi.org/10.1093/oxfordhb/9780199739165.013.0002
+  topics:
+  - international
+  - ethics-professional
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W187
+  type: article
+  year: 2012
+  authors:
+  - Oakland, Thomas
+  title: Impediments and Possible Solutions to Young Children’s Mental Health Viewed Internationally
+  venue: PsycCRITIQUES
+  doi: 10.1037/a0027067
+  url: https://doi.org/10.1037/a0027067
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W188
+  type: article
+  year: 2012
+  authors:
+  - Oakland, Thomas
+  - Jones, Douglas
+  - Callueng, Carmelo
+  title: International Knowledge Displayed by School Psychology Students in the U.S.A.
+  venue: International Perspectives in Psychology
+  doi: 10.1037/a0026805
+  url: https://doi.org/10.1037/a0026805
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W189
+  type: chapter
+  year: 2012
+  authors:
+  - Oakland, Thomas
+  title: Principles, Standards, and Guidelines that Impact Test Development and Use and Sources of Information
+  venue: The Oxford Handbook of International Psychological Ethics
+  doi: 10.1093/oxfordhb/9780199739165.013.0015
+  url: https://doi.org/10.1093/oxfordhb/9780199739165.013.0015
+  topics:
+  - international
+  - ethics-professional
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W190
+  type: article
+  year: 2012
+  authors:
+  - Wechsler, Solange Muglia
+  - Vendramini, Claudette Maria Medeiros
+  - Oakland, Thomas
+  title: 'Thinking and Creative Styles: A Validity Study'
+  venue: Creativity Research Journal
+  doi: 10.1080/10400419.2012.677359
+  url: https://doi.org/10.1080/10400419.2012.677359
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W191
+  type: article
+  year: 2012
+  authors:
+  - Mpofu, Elias
+  - Ntinda, Kayi
+  - Oakland, Thomas
+  title: Understanding Human Abilities in Sub-Saharan African Settings
+  venue: Online Readings in Psychology and Culture
+  doi: 10.9707/2307-0919.1036
+  url: https://doi.org/10.9707/2307-0919.1036
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W192
+  type: chapter
+  year: 2013
+  authors:
+  - Oakland, Thomas
+  - Daley, Matthew
+  title: 'Adaptive behavior: Its history, concepts, assessment, and applications.'
+  venue: 'APA handbook of testing and assessment in psychology, Vol. 3: Testing and assessment in school psychology and education.'
+  doi: 10.1037/14049-009
+  url: https://doi.org/10.1037/14049-009
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W193
+  type: article
+  year: 2013
+  authors:
+  - Oakland, Thomas
+  - Iliescu, Dragos
+  - Chen, Hsin-Yi
+  - Chen, Juliet Honglei
+  title: Cross-National Assessment of Adaptive Behavior in Three Countries
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282912469492
+  url: https://doi.org/10.1177/0734282912469492
+  topics:
+  - adaptive-behavior
+  - test-adaptation
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W194
+  type: article
+  year: 2013
+  authors:
+  - Oakland, Thomas
+  title: 'School Reform: Recommendations From Other Informed Voices'
+  venue: PsycCRITIQUES
+  doi: 10.1037/a0031583
+  url: https://doi.org/10.1037/a0031583
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W195
+  type: chapter
+  year: 2013
+  authors:
+  - Oakland, Thomas
+  - Wechsler, Solange Muglia
+  - Maree, Kobus
+  title: 'Test use with children across cultures: A view from three countries.'
+  venue: 'APA handbook of testing and assessment in psychology, Vol. 3: Testing and assessment in school psychology and education.'
+  doi: 10.1037/14049-011
+  url: https://doi.org/10.1037/14049-011
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W196
+  type: article
+  year: 2013
+  authors:
+  - Rowiński, Tomasz
+  - Cieciuch, Jan
+  - Oakland, Thomas
+  title: The Factorial Structure of Four Temperament Styles and Measurement Invariance Across Gender and Age Groups
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282913487045
+  url: https://doi.org/10.1177/0734282913487045
+  topics:
+  - temperament-styles
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W197
+  type: chapter
+  year: 2014
+  authors:
+  - Mpofu, Elias
+  - Oakland, Thomas
+  - Chimedza, Robert
+  title: 'Africa: East and Southern Special Education'
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese0061
+  url: https://doi.org/10.1002/9781118660584.ese0061
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W198
+  type: article
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  title: 'An Epilogue: Issues and Implications for Incorporating Multicultural Issues in the International School Psychology Association''s Professional Preparation Guidelines'
+  venue: International Journal of School & Educational Psychology
+  doi: 10.1080/21683603.2014.934614
+  url: https://doi.org/10.1080/21683603.2014.934614
+  topics:
+  - international
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W199
+  type: article
+  year: 2014
+  authors:
+  - Mpofu, Elias
+  - Oakland, Thomas
+  - Ntinda, Kayi
+  - Seeco, Elizabeth
+  - Maree, Jacobus G.
+  title: Constructing a Framework for the Use of Tests Within a Developing Nation’s School System
+  venue: International Perspectives in Psychology
+  doi: 10.1037/ipp0000015
+  url: https://doi.org/10.1037/ipp0000015
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W200
+  type: article
+  year: 2014
+  authors:
+  - Wechsler, Solange Muglia
+  - Benson, Nicholas
+  - Oakland, Thomas
+  - Lourençoni, Maria Angela
+  title: Factor structure of the inventory of adult temperament styles
+  venue: 'Psicologia: Reflexão e Crítica'
+  doi: 10.1590/1678-7153.201427412
+  url: https://doi.org/10.1590/1678-7153.201427412
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S19
+- id: W201
+  type: article
+  year: 2014
+  authors:
+  - Calluen, Carmelo
+  - Oakland, Thomas
+  title: If you do not know the child's temperament you do not know the child
+  venue: Estudos de Psicologia (Campinas)
+  doi: 10.1590/0103-166x2014000100001
+  url: https://doi.org/10.1590/0103-166x2014000100001
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S19
+- id: W202
+  type: chapter
+  year: 2014
+  authors:
+  - Saklofske, Donald H.
+  - van de Vijver, Fons J. R.
+  - Oakland, Thomas
+  - Mpofu, Elias
+  - Suzuki, Lisa A.
+  title: 'Intelligence and Culture: History and Assessment'
+  venue: Handbook of Intelligence
+  doi: 10.1007/978-1-4939-1562-0_22
+  url: https://doi.org/10.1007/978-1-4939-1562-0_22
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W203
+  type: article
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  - Hatzichristou, Chryse
+  title: 'International Perspectives on Academic and Professional Preparation of School and Educational Psychologists: Introduction to a Special Issue of theInternational Journal of School & Educational
+    Psychology'
+  venue: International Journal of School & Educational Psychology
+  doi: 10.1080/21683603.2014.934617
+  url: https://doi.org/10.1080/21683603.2014.934617
+  topics:
+  - international
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W204
+  type: chapter
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  - Zorn, Elizabeth
+  title: International School Psychology Association
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese1252
+  url: https://doi.org/10.1002/9781118660584.ese1252
+  topics:
+  - international
+  sourceIds:
+  - S19
+- id: W205
+  type: chapter
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  - Kane, Harrison
+  title: International Test Use in Special Education
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese1253
+  url: https://doi.org/10.1002/9781118660584.ese1253
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W206
+  type: chapter
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  - Martin, Tamara J.
+  - Eby, Lauren K.
+  title: Journal of School Psychology
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese1304
+  url: https://doi.org/10.1002/9781118660584.ese1304
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W207
+  type: chapter
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  title: Nondiscriminatory Assessment
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese1714
+  url: https://doi.org/10.1002/9781118660584.ese1714
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W208
+  type: chapter
+  year: 2014
+  authors:
+  - Laurent, Jeff
+  - Oakland, Thomas
+  title: Primary Mental Abilities Test
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese1936
+  url: https://doi.org/10.1002/9781118660584.ese1936
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W209
+  type: article
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  - Hatzichristou, Chryse
+  title: 'Professional Preparation in School Psychology: A Summary of Information from Programs in Seven Countries'
+  venue: International Journal of School & Educational Psychology
+  doi: 10.1080/21683603.2014.934638
+  url: https://doi.org/10.1080/21683603.2014.934638
+  topics:
+  - international
+  - ethics-professional
+  sourceIds:
+  - S19
+- id: W210
+  type: chapter
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  title: School Psychology
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese2136
+  url: https://doi.org/10.1002/9781118660584.ese2136
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W211
+  type: chapter
+  year: 2014
+  authors:
+  - Oakland, Thomas
+  - Laurent, Jeff
+  title: Sex Differences in Learning Abilities
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese2188
+  url: https://doi.org/10.1002/9781118660584.ese2188
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W212
+  type: chapter
+  year: 2014
+  authors:
+  - Cunningham, Jacqueline
+  - Oakland, Thomas
+  title: Sex Education of Individuals With Disabilities
+  venue: Encyclopedia of Special Education
+  doi: 10.1002/9781118660584.ese2189
+  url: https://doi.org/10.1002/9781118660584.ese2189
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W213
+  type: article
+  year: 2014
+  authors:
+  - Wechsler, Solange M.
+  - Oakland, Thomas
+  - León, Carmem
+  - Vivas, Eleonora
+  - de Almeida, Leandro
+  - Franco, Amanda
+  - Pérez‐Solís, María
+  - Contini, Norma
+  title: Test development and use in five Iberian Latin American countries
+  venue: International Journal of Psychology
+  doi: 10.1002/ijop.12068
+  url: https://doi.org/10.1002/ijop.12068
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W214
+  type: article
+  year: 2014
+  authors:
+  - Kane, Harrison
+  - Oakland, Thomas David
+  title: 'The differentiation of adaptive behaviours: evidence from high and low performers'
+  venue: Educational Psychology
+  doi: 10.1080/01443410.2014.893558
+  url: https://doi.org/10.1080/01443410.2014.893558
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W215
+  type: article
+  year: 2014
+  authors:
+  - Primi, Ricardo
+  - Wechsler, Solange Muglia
+  - de Cassia Nakano, Tatiana
+  - Oakland, Thomas
+  - Guzzo, Raquel Souza Lobo
+  title: Using Item Response Theory Methods With the Brazilian Temperament Scale for Students
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282914528613
+  url: https://doi.org/10.1177/0734282914528613
+  topics:
+  - temperament-styles
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W216
+  type: article
+  year: 2015
+  authors:
+  - Oakland, Thomas D.
+  - Zhong, Nicole Hongxuan
+  - Kane, Harrison D.
+  title: 'Gender Differences in Adaptive Behavior among Children and Adolescents: Evidence from the USA'
+  venue: Mankind Quarterly
+  doi: 10.46469/mq.2015.56.2.8
+  url: https://doi.org/10.46469/mq.2015.56.2.8
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S19
+- id: W217
+  type: chapter
+  year: 2015
+  authors:
+  - Mpofu, Elias
+  - Oakland, Thomas
+  - Ntinda, Kayi
+  - Maree, Jacobus G.
+  - Seeco, Elizabeth G.
+  title: Locality, observability and community action (LOCUM) in test development and use in emerging education settings
+  venue: Handbook of International Development and Education
+  doi: 10.4337/9781783473540.00027
+  url: https://doi.org/10.4337/9781783473540.00027
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W218
+  type: article
+  year: 2015
+  authors:
+  - Oakland, Thomas
+  - Callueng, Carmelo
+  title: Temperament Styles of Children in Three Sub-Saharan African Countries
+  venue: Canadian Journal of School Psychology
+  doi: 10.1177/0829573514567506
+  url: https://doi.org/10.1177/0829573514567506
+  topics:
+  - temperament-styles
+  - international
+  sourceIds:
+  - S19
+- id: W219
+  type: article
+  year: 2015
+  authors:
+  - Oakland, Thomas
+  - Douglas, Sara
+  - Kane, Harrison
+  title: Top Ten Standardized Tests Used Internationally With Children and Youth by School Psychologists in 64 Countries
+  venue: Journal of Psychoeducational Assessment
+  doi: 10.1177/0734282915595303
+  url: https://doi.org/10.1177/0734282915595303
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W220
+  type: chapter
+  year: 2016
+  authors:
+  - Oakland, Thomas
+  title: A Brief History of the International Test Commission
+  venue: The ITC International Handbook of Testing and Assessment
+  doi: 10.1093/med:psych/9780199356942.003.0003
+  url: https://doi.org/10.1093/med:psych/9780199356942.003.0003
+  topics:
+  - test-adaptation
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W221
+  type: chapter
+  year: 2016
+  authors:
+  - Oakland, Thomas
+  - Iliescu, Dragos
+  title: Ethical Standards, Guidelines, and Related Issues Pertinent to International Testing and Assessment
+  venue: The ITC International Handbook of Testing and Assessment
+  doi: 10.1093/med:psych/9780199356942.003.0029
+  url: https://doi.org/10.1093/med:psych/9780199356942.003.0029
+  topics:
+  - test-adaptation
+  - international
+  - ethics-professional
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W222
+  type: article
+  year: 2016
+  authors:
+  - Oakland, Thomas
+  - Wechsler, Solange Muglia
+  title: 'Guidelines for preparing psychological specialists: An entry-level course on intellectual assessment'
+  venue: International Journal of School & Educational Psychology
+  doi: 10.1080/21683603.2015.1101406
+  url: https://doi.org/10.1080/21683603.2015.1101406
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W223
+  type: chapter
+  year: 2016
+  authors:
+  - Ditterline, Jeffrey
+  - Oakland, Thomas
+  - McGoldrick, Keith D.
+  title: Relationships Between Adaptive Behavior and Impairment
+  venue: Assessing Impairment
+  doi: 10.1007/978-1-4899-7996-4_3
+  url: https://doi.org/10.1007/978-1-4899-7996-4_3
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W224
+  type: chapter
+  year: 2016
+  authors:
+  - Oakland, Thomas
+  title: Testing and Assessment of Immigrants and Second-Language Learners
+  venue: The ITC International Handbook of Testing and Assessment
+  doi: 10.1093/med:psych/9780199356942.003.0022
+  url: https://doi.org/10.1093/med:psych/9780199356942.003.0022
+  topics:
+  - test-adaptation
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W225
+  type: article
+  year: 2016
+  authors:
+  - Liu, Shuyan
+  - Oakland, Thomas
+  title: 'The emergence and evolution of school psychology literature: A scientometric analysis from 1907 through 2014.'
+  venue: School Psychology Quarterly
+  doi: 10.1037/spq0000141
+  url: https://doi.org/10.1037/spq0000141
+  topics:
+  - other
+  sourceIds:
+  - S19
+- id: W226
+  type: chapter
+  year: 2017
+  authors:
+  - Harrison, Patti L.
+  - Oakland, Thomas
+  title: 'Adaptive Behavior Assessment System: Third Edition'
+  venue: Encyclopedia of Clinical Neuropsychology
+  doi: 10.1007/978-3-319-56782-2_1506-2
+  url: https://doi.org/10.1007/978-3-319-56782-2_1506-2
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W227
+  type: chapter
+  year: 2018
+  authors:
+  - Harrison, Patti L.
+  - Oakland, Thomas
+  title: 'Adaptive Behavior Assessment System: Third Edition'
+  venue: Encyclopedia of Clinical Neuropsychology
+  doi: 10.1007/978-3-319-57111-9_1506
+  url: https://doi.org/10.1007/978-3-319-57111-9_1506
+  topics:
+  - adaptive-behavior
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W228
+  type: article
+  year: 2019
+  authors:
+  - Callueng, Carmelo M.
+  - Emam, Mahmoud
+  - Oakland, Thomas
+  title: 'Temperament Styles of Children from Egypt and the United States: A Cross-Cultural Examination'
+  venue: Community Mental Health Journal
+  doi: 10.1007/s10597-019-00515-4
+  url: https://doi.org/10.1007/s10597-019-00515-4
+  topics:
+  - temperament-styles
+  - test-adaptation
+  sourceIds:
+  - S19
+- id: W229
+  type: article
+  year: 2020
+  authors:
+  - Oakland, Thomas
+  title: Test Development and Use Internationally
+  venue: 'Psychology: the Journal of the Hellenic Psychological Society'
+  doi: 10.12681/psy_hps.23702
+  url: https://doi.org/10.12681/psy_hps.23702
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W230
+  type: article
+  year: 2021
+  authors:
+  - Merino-Soto, Cesar
+  - Oakland, Thomas
+  - Dominguez-Lara, Sergio
+  - Copez-Lonzoy, Anthony
+  title: 'Estatus Internacional Sobre el Desarrollo y Uso de test: Posibles Implicaciones para el Perú'
+  venue: Revista Interamericana de Psicología/Interamerican Journal of Psychology
+  doi: 10.30849/ripijp.v55i1.964
+  url: https://doi.org/10.30849/ripijp.v55i1.964
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19
+- id: W231
+  type: chapter
+  year: 2023
+  authors:
+  - Hanson, William E.
+  - Leighton, Jacqueline P.
+  - Donaldson, Stewart I.
+  - Oakland, Thomas
+  - Terjesen, Mark D.
+  - Shealy, Craig
+  title: 'Assessment: The power and potential of psychological testing, educational measurement, and program evaluation around the world.'
+  venue: 'Going global: How psychologists can meet a world of need.'
+  doi: 10.1037/0000311-003
+  url: https://doi.org/10.1037/0000311-003
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: T001
+  type: test
+  year: 1996
+  authors:
+  - Oakland, Thomas
+  - Horton, Connie
+  - Glutting, Joseph
+  title: Student Styles Questionnaire (SSQ)
+  venue: Pearson
+  url: https://marketplace.unl.edu/buros/test-reviews/alphabetical-list/student-styles-questionnairetm.html
+  topics:
+  - temperament-styles
+  sourceIds:
+  - S14
+- id: T002
+  type: test
+  year: 2015
+  authors:
+  - Harrison, Patti L.
+  - Oakland, Thomas
+  title: Adaptive Behavior Assessment System, Third Edition (ABAS-3)
+  venue: Western Psychological Services
+  url: https://www.txautism.net/evaluations/adaptive-behavior-assessment-system-third-edition
+  topics:
+  - adaptive-behavior
+  sourceIds:
+  - S17

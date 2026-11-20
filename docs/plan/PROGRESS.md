@@ -9,7 +9,7 @@
 | — | 規劃 v2、設計規格、原型、執行手冊 | ✅ 完成 | Fable／Opus | 2026-11-17 |
 | M0 | 環境準備（P1–P4、Q9–Q13） | ✅ 完成（P4、Q13 延後） | 使用者 | 2026-11-20 |
 | M1 | 事實查證 | ✅ 完成（有限制） | Sonnet | 2026-11-20 |
-| M2 | 著作目錄 | 🔄 進行中（子代理蒐集中） | Sonnet | |
+| M2 | 著作目錄 | ✅ 完成（有限制） | Sonnet | 2026-11-20 |
 | M3 | 專案骨架＋檢查腳本 | 🔄 程式完成；待 P4 與 CI 實跑 | Sonnet | |
 | M4 | 設計系統（使用者確認截圖） | ⬜ | Sonnet | |
 | M5 | 首頁＋生平區 | ⬜ | Sonnet | |
@@ -20,14 +20,13 @@
 | M10 | 上線前檢查、預覽部署 | ⬜ | Sonnet | |
 | M11 | 聯絡家屬提醒、公開、模板化 | ⬜ | Sonnet＋使用者 | |
 
-進度：2/12 ▓▓░░░░░░░░░░ 17%（M0、M1）
+進度：3/12 ▓▓▓░░░░░░░░░ 25%（M0、M1、M2）
 
 預計：約 11–13 個工作 session；使用者及時回覆時約 1.5–2 週完成預覽版。
 
 ## 下一個任務
 
-1. M2：整合 `works.yaml`（等 Crossref／PubMed 子代理；書與測驗清單已有，需抽查）。
-2. M3：確認 P4；push 後看 CI 與 deploy 是否通過。
+1. M3：確認 P4；push 後看 CI 與 deploy 是否通過。
 3. M1 待決（建議轉 Opus）：F9、F18b。見下方紀錄。
 
 ## 待使用者回答
@@ -37,6 +36,15 @@
 - 照片（M8 前）
 
 ## 紀錄
+
+### 2026-11-20 M2
+
+- `works.yaml`：233 筆。231 筆來自 Crossref（子代理找出 DOI，我再逐筆用 Crossref 重查，標題、作者都由 API 回傳；每筆作者含 Oakland）。另 2 筆測驗：SSQ（S14）、ABAS-3（S17）。來源 S19 = Crossref。
+- 排除：33 筆 PsycEXTRA dataset／posted-content（通訊、會議報告，書目性質不明）。不確定的 2 筆放 `docs/plan/works-uncertain.yaml`，不上線。2 筆因 429 沒重查（已排除）。
+- 限制：Crossref 召回不完整，清單不是窮盡的。11 套測驗只找到 2 套（SSQ、ABAS-3）；ABAS-II（2003）只有書目引用（F31a）。Pearson 頁說 5 套、訃聞說 11 套（F18b），不寫數字。
+- 書籍（Open Library 找到約 10 本，如 1974 *Assessing minority group children*、2010 *Bayley-III clinical use and interpretation*）年份和出版者未逐本核對，**未列入** `works.yaml`。M6 前可用 Crossref／目錄再核。
+- 2015 年後的條目是逝世後出版或登錄較晚，M6 顯示時要標註。
+- 標題裡有 HTML 實體已解碼。主題標籤用關鍵字自動標，M6 前抽查。
 
 ### 2026-11-20 M1／M3
 
