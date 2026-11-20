@@ -10,10 +10,10 @@ export interface HomeCopy {
   life: { h2: string; lead: string; chapters: { h: string; p: string; alt: string }[] };
   work: { h2: string; lead: string; diagram: { center: string; spokes: string[]; alt: string }; items: { name: string; text: string; value: string }[] };
   idea: { label: string; before: string; strong: string; after: string };
-  learn: { h2: string; lead: string; items: { name: string; text: string; value: string }[] };
-  writing: { h2: string; lead: string; items: { name: string; text: string; value: string; href: string }[] };
-  macau: { h2: string; p: string; quote: string; alt: string };
-  memories: { h2: string; p: string };
+  learn: { alt: string; h2: string; lead: string; items: { name: string; text: string; value: string }[] };
+  writing: { alt: string; h2: string; lead: string; items: { name: string; text: string; value: string; href: string }[] };
+  macau: { h2: string; p: string; quote: string; alt: string; signAlt: string };
+  memories: { alt: string; h2: string; p: string };
   close: { h2: string; p: string };
   footer: { lede: string; made: string; credits: string };
 }
@@ -30,7 +30,7 @@ export const copy: Record<Lang, HomeCopy> = {
     otherLang: { label: '繁體中文', href: '' },
     hero: {
       h1: 'Thomas D. Oakland',
-      lead: 'School psychologist, 1939-2015. He co-authored tests of adaptive behavior and student styles and worked in more than 40 countries.',
+      lead: 'School psychologist, 1939-2015. He co-authored tests and worked in more than 40 countries.',
       alt: 'The University of Texas at Austin Main Building',
     },
     life: {
@@ -61,6 +61,7 @@ export const copy: Record<Lang, HomeCopy> = {
       after: ', from birth to age 89, in conceptual, social and practical skills.',
     },
     learn: {
+      alt: 'Rows of wooden seats in an empty lecture hall',
       h2: 'Learning units from his work',
       lead: 'Five units, each built on a work he co-authored or edited.',
       items: [
@@ -72,6 +73,7 @@ export const copy: Record<Lang, HomeCopy> = {
       ],
     },
     writing: {
+      alt: 'A university library reading room with long wooden tables and tall bookshelves',
       h2: 'Selected writing on school psychology',
       lead: 'A few works from the full catalogue.',
       items: [
@@ -86,8 +88,10 @@ export const copy: Record<Lang, HomeCopy> = {
       p: 'From January to May 2011 the Department of Psychology at the University of Macau hosted him as a Visiting Professor for one semester.',
       quote: 'He “worked diligently with our faculty, students and local schools.” The department newsletter, 2010-2011.',
       alt: 'The administration building of the University of Macau',
+      signAlt: 'A sign in Chinese and Portuguese pointing the way to the University of Macau',
     },
     memories: {
+      alt: 'Two park benches under trees',
       h2: 'Memorial notes',
       p: 'Students, colleagues and friends can send a few lines about him. We ask your permission before anything goes up, and you may stay anonymous.',
     },
@@ -95,7 +99,7 @@ export const copy: Record<Lang, HomeCopy> = {
     footer: {
       lede: 'A memorial and learning site. Every fact on it has a source.',
       made: 'Made by ClinicMind, clinical psychologist',
-      credits: '',
+      credits: 'Photographs via Wikimedia Commons',
     },
   },
   'zh-hant': {
@@ -107,7 +111,7 @@ export const copy: Record<Lang, HomeCopy> = {
     otherLang: { label: 'English', href: '' },
     hero: {
       h1: 'Thomas D. Oakland',
-      lead: '學校心理學家（1939-2015）。他共同編製適應行為與學生風格的測驗，足跡遍及 40 多個國家。',
+      lead: '學校心理學家（1939-2015）。他共同編製測驗，足跡遍及 40 多個國家。',
       alt: 'The University of Texas at Austin 主樓',
     },
     life: {
@@ -138,6 +142,7 @@ export const copy: Record<Lang, HomeCopy> = {
       after: '：從出生到 89 歲，涵蓋概念、社會與實用技能。',
     },
     learn: {
+      alt: '空講堂裡一排排木製座椅',
       h2: '源自他研究的學習單元',
       lead: '五個單元，每個都以他合著或主編的一項作品為基礎。',
       items: [
@@ -149,6 +154,7 @@ export const copy: Record<Lang, HomeCopy> = {
       ],
     },
     writing: {
+      alt: '大學圖書館閱覽室，有長木桌與高大的書架',
       h2: '學校心理學精選著作',
       lead: '從完整著作目錄中挑出的幾項。',
       items: [
@@ -163,8 +169,10 @@ export const copy: Record<Lang, HomeCopy> = {
       p: '2011 年 1 月至 5 月，澳門大學心理學系邀請他擔任訪問教授，為期一個學期。',
       quote: '系刊寫道，他「與我們的教師、學生和本地學校認真合作」。（2010-2011 年系刊）',
       alt: '澳門大學行政大樓',
+      signAlt: '中葡文路牌，指向澳門大學的方向',
     },
     memories: {
+      alt: '樹下的兩張公園長椅',
       h2: '追思紀念',
       p: '學生、同事與朋友，都可以寫幾行關於他的話。公開前我們會先徵求你的同意，你也可以匿名。',
     },
@@ -172,7 +180,7 @@ export const copy: Record<Lang, HomeCopy> = {
     footer: {
       lede: '紀念與學習網站。所有事實都有來源。',
       made: '臨床心語（ClinicMind），臨床心理師 製作',
-      credits: '',
+      credits: '照片來自 Wikimedia Commons',
     },
   },
 };

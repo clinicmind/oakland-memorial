@@ -1,0 +1,5 @@
+[
+ { "check": "copy-headline", "target": "h1#hero-h", "reason": "Memorial site: the h1 is the person's name, as DESIGN_SPEC v2 section 4.1 decided; the category (school psychologist) is in the lead right under it." },
+ { "check": "hero-lines", "target": "section.hero h1", "reason": "Stress test fills the h1 to 32 characters; the real h1 is the 17-character name and fits on two lines at 1440 and 390 (zh-hant page only; Chinese glyphs are wider)." },
+ { "check": "hero-maxchars", "target": "section.hero.hero--photo", "reason": "Stress test fills the h1 to 32 characters; the real zh-hant h1 is 17 characters and the hero fits the first screen at 390." }
+]

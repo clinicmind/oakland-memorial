@@ -1,0 +1,34 @@
+---
+import { copy } from '../i18n/home';
+import { site, type Lang } from '../../site.config';
+import { url } from '../i18n/url';
+interface Props { lang: Lang; home?: boolean }
+const { lang, home = false } = Astro.props;
+const c = copy[lang];
+const at = (id: string) => (home ? `#${id}` : `${url(lang)}#${id}`);
+const top = home ? '#top' : url(lang);
+const nav = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn], ['writing', c.nav.writing], ['macau', c.nav.macau], ['memories', c.nav.memories]] as const;
+const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg>`;
+---
+  <footer class="footer closing footer--dark ground-inverse" id="contact" aria-labelledby="close-h">
+    <div class="wrap">
+      <div class="closing__cta close--type">
+        <div class="section-head"><h2 id="close-h">{c.close.h2}</h2><p>{c.close.p}</p></div>
+        <a class="btn btn--primary btn--xl btn--wide" href={at('memories')}>{c.share}<Fragment set:html={arrow} /></a>
+      </div>
+      <div class="closing__links">
+        <div class="grid">
+          <div class="span-6 stack-4">
+            <a class="nav__logo" href={top}>{site.person.name}</a>
+            <p class="footer__lede">{c.footer.lede}</p>
+          </div>
+          <div class="span-3 footer__col"><h3>{c.nav.life}</h3><ul>{nav.slice(0, 3).map(([id, label]) => <li><a href={at(id)}>{label}</a></li>)}</ul></div>
+          <div class="span-3 footer__col"><h3>{c.nav.writing}</h3><ul>{nav.slice(3).map(([id, label]) => <li><a href={at(id)}>{label}</a></li>)}</ul></div>
+        </div>
+        <div class="footer__legal">
+          <span>&copy; 2026 {c.footer.made}</span>
+          <a class="credits" href={url(lang, 'credits/')}>{c.footer.credits}</a>
+        </div>
+      </div>
+    </div>
+  </footer>

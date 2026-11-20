@@ -1,0 +1,11 @@
+{
+ "page": "dist/zh-hant/index.html",
+ "url": null,
+ "root": "dist",
+ "kind": "service",
+ "category": "紀念與學習網站 學校心理學家",
+ "primary": "分享回憶",
+ "rounds": 3,
+ "start": "2026-11-20T17:34:07.233Z",
+ "by": "gate.mjs --start"
+}

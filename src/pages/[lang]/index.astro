@@ -3,6 +3,9 @@ import Base from '../../layouts/Base.astro';
 import { copy, factIds } from '../../i18n/home';
 import { LOCALES, HTML_LANG, site, type Lang } from '../../../site.config';
 import { url } from '../../i18n/url';
+import dims from '../../i18n/photos.json';
+import SiteNav from '../../components/SiteNav.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
 
 export function getStaticPaths() { return LOCALES.map((lang) => ({ params: { lang } })); }
 const lang = Astro.params.lang as Lang;
@@ -10,12 +13,23 @@ const c = copy[lang];
 const other: Lang = lang === 'en' ? 'zh-hant' : 'en';
 const img = (n: string) => `${import.meta.env.BASE_URL}assets/img/${n}`.replace(/\/{2,}/g, '/');
 // 照片：ID 對應 public/assets/img/credits.json。hero 是過渡用的替代照片，等使用者提供照片後換掉。
+const pa = (name: string, sizes: string) => {
+  const base = name.replace('.webp', '');
+  const d = (dims as Record<string, { w: number; h: number }>)[name];
+  const steps = [500, 960, 1280, 1920].filter((w) => w < d.w);
+  const set = [...steps.map((w) => `${img(`${base}-${w}.webp`)} ${w}w`), `${img(name)} ${d.w}w`].join(', ');
+  return { src: img(name), srcset: set, sizes, width: d.w, height: d.h };
+};
 const P = {
   hero: 'photo-f158008636.webp',
   indiana: 'photo-f19598734.webp',
   ut: 'photo-f52969256.webp',
   uf: 'photo-f10034341.webp',
   macau: 'photo-f14809678.webp',
+  macauSign: 'photo-f199390693.webp',
+  learn: 'photo-f33633818.webp',
+  writing: 'photo-f1177377.webp',
+  memories: 'photo-f131588403.webp',
 };
 const chapterImgs = [P.indiana, P.ut, P.uf, P.macau];
 const nav = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn], ['writing', c.nav.writing], ['macau', c.nav.macau], ['memories', c.nav.memories]];
@@ -23,26 +37,11 @@ const diagramSpec = JSON.stringify({ layout: 'hub', alt: c.work.diagram.alt, cen
 const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg>`;
 ---
 <Base lang={lang} title={c.title} description={c.description} path="">
-  <header class="nav nav--centre">
-    <div class="wrap nav__bar">
-      <a class="skip-link" href="#top">{c.skip}</a>
-      <a class="nav__logo" href="#top"><span class="mark mark--initial" aria-hidden="true">O</span>{site.person.name}</a>
-      <nav class="nav__links" aria-label={lang === 'en' ? 'Main' : '主要導覽'}>
-        {nav.map(([id, label]) => <div class="nav__item"><a class="nav__link" href={`#${id}`}>{label}</a></div>)}
-        <div class="nav__item"><a class="nav__link" href={url(other)} lang={HTML_LANG[other]} hreflang={HTML_LANG[other]}>{c.otherLang.label}</a></div>
-      </nav>
-      <div class="nav__actions">
-        <a class="btn btn--primary" href="#contact">{c.share}</a>
-      </div>
-      <button class="nav__toggle" type="button" aria-expanded="false" aria-label={c.menu}>
-        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>
-      </button>
-    </div>
-  </header>
+  <SiteNav lang={lang} home />
 
   <main id="top" data-facts={factIds.join(',')}>
     <section class="hero hero--photo" data-enter data-calm="left" aria-labelledby="hero-h">
-      <img class="hero__bg" src={img(P.hero)} alt={c.hero.alt} data-source="commons" data-subject="landmark" style="--ly-pos: 50% 50%; --ly-pos-phone: 50% 50%" fetchpriority="high" />
+      <img class="hero__bg" {...pa(P.hero, '(max-width: 639px) 150vw, 100vw')} alt={c.hero.alt} data-source="commons" data-subject="landmark" style="--ly-pos: 50% 50%; --ly-pos-phone: 50% 50%" fetchpriority="high" />
       <div class="wrap"><div class="hero-text">
         <div class="hero__text">
           <h1 id="hero-h">{c.hero.h1}</h1>
@@ -61,7 +60,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
         <ol class="mo-ph__list">
           {c.life.chapters.map((ch, i) => (
             <li class="mo-ph__ch">
-              <figure class="mo-ph__pic"><img src={img(chapterImgs[i])} alt={ch.alt} data-source="commons" data-subject="landmark" width="1800" height="1200" loading="lazy" /></figure>
+              <figure class="mo-ph__pic"><img {...pa(chapterImgs[i], `(min-width: 1024px) 100vw, ${Math.ceil((dims as Record<string, { w: number; h: number }>)[chapterImgs[i]].w / (dims as Record<string, { w: number; h: number }>)[chapterImgs[i]].h * 165)}vw`)} alt={ch.alt} data-source="commons" data-subject="landmark" loading="lazy" /></figure>
               <h3>{ch.h}</h3>
               <p>{ch.p}</p>
             </li>
@@ -93,71 +92,53 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
       </div>
     </section>
 
-      <section class="section ground-surface" id="learn" aria-labelledby="learn-h">
-        <div class="wrap grid grid--top">
-          <div class="span-8">
-            <div class="section-head"><h2 id="learn-h">{c.learn.h2}</h2><p>{c.learn.lead}</p></div>
-            <ul class="rows">
-              {c.learn.items.map((it) => (
-                <li><span class="rows__name">{it.name}</span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
-              ))}
-            </ul>
-          </div>
+      <section class="section ground-surface" id="learn" style="--h: 1" aria-labelledby="learn-h">
+      <div class="wrap grid grid--middle">
+        <div class="span-6">
+          <div class="section-head"><h2 id="learn-h">{c.learn.h2}</h2><p>{c.learn.lead}</p></div>
+          <ul class="rows">
+            {c.learn.items.map((it) => (
+              <li><span class="rows__name">{it.name}</span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
+            ))}
+          </ul>
         </div>
-      </section>
+        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img {...pa(P.learn, '(min-width: 1024px) 75vw, 170vw')} alt={c.learn.alt} data-source="commons" data-subject="stand-in" loading="lazy" /></figure>
+      </div>
+    </section>
 
-      <section class="section ground-surface" id="writing" aria-labelledby="writing-h">
-        <div class="wrap grid grid--top">
-          <div class="span-8">
-            <div class="section-head"><h2 id="writing-h">{c.writing.h2}</h2><p>{c.writing.lead}</p></div>
-            <ul class="rows">
-              {c.writing.items.map((it) => (
-                <li><span class="rows__name"><a class="link" href={it.href} rel="noopener" target="_blank">{it.name}</a></span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
-              ))}
-            </ul>
-          </div>
+    <section class="section ground-surface" id="writing" style="--h: 1" aria-labelledby="writing-h">
+      <div class="wrap grid grid--middle">
+        <div class="span-6">
+          <div class="section-head"><h2 id="writing-h">{c.writing.h2}</h2><p>{c.writing.lead}</p></div>
+          <ul class="rows">
+            {c.writing.items.map((it) => (
+              <li><span class="rows__name"><a class="link" href={it.href} rel="noopener" target="_blank">{it.name}</a></span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
+            ))}
+          </ul>
         </div>
-      </section>
+        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img {...pa(P.writing, '(min-width: 1024px) 75vw, 170vw')} alt={c.writing.alt} data-source="commons" data-subject="stand-in" loading="lazy" /></figure>
+      </div>
+    </section>
 
-    <section class="section" id="macau" aria-labelledby="macau-h">
+    <section class="section" id="macau" style="--h: 1" aria-labelledby="macau-h">
       <div class="wrap grid grid--middle">
         <div class="span-6">
           <div class="section-head"><h2 id="macau-h">{c.macau.h2}</h2><p>{c.macau.p}</p></div>
           <p class="t-lead">{c.macau.quote}</p>
         </div>
-        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img src={img(P.macau)} alt={c.macau.alt} data-source="commons" data-subject="landmark" loading="lazy" /></figure>
+        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img {...pa(P.macauSign, '(min-width: 1024px) 75vw, 170vw')} alt={c.macau.signAlt} data-source="commons" data-subject="landmark" loading="lazy" /></figure>
       </div>
     </section>
 
-    <section class="section" id="memories" aria-labelledby="memories-h">
-      <div class="wrap grid grid--top">
-        <div class="span-8">
+    <section class="section" id="memories" style="--h: 1" aria-labelledby="memories-h">
+      <div class="wrap grid grid--middle">
+        <div class="span-6">
           <div class="section-head"><h2 id="memories-h">{c.memories.h2}</h2><p>{c.memories.p}</p></div>
         </div>
+        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img {...pa(P.memories, '(min-width: 1024px) 75vw, 170vw')} alt={c.memories.alt} data-source="commons" data-subject="stand-in" loading="lazy" /></figure>
       </div>
     </section>
   </main>
 
-  <footer class="footer closing footer--dark ground-inverse" id="contact" aria-labelledby="close-h">
-    <div class="wrap">
-      <div class="closing__cta close--type">
-        <div class="section-head"><h2 id="close-h">{c.close.h2}</h2><p>{c.close.p}</p></div>
-        <a class="btn btn--primary btn--xl btn--wide" href="#memories">{c.share}<Fragment set:html={arrow} /></a>
-      </div>
-      <div class="closing__links">
-        <div class="grid">
-          <div class="span-6 stack-4">
-            <a class="nav__logo" href="#top"><span class="mark mark--initial" aria-hidden="true">O</span>{site.person.name}</a>
-            <p class="footer__lede">{c.footer.lede}</p>
-          </div>
-          <div class="span-3 start-8 footer__col"><h3>{c.nav.life}</h3><ul>{nav.slice(0, 3).map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}</ul></div>
-          <div class="span-3 footer__col"><h3>{c.nav.writing}</h3><ul>{nav.slice(3).map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}</ul></div>
-        </div>
-        <div class="footer__legal">
-          <span>&copy; 2026 {c.footer.made}</span>
-          <span class="credits" id="photo-credits">{c.footer.credits}</span>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <SiteFooter lang={lang} home />
 </Base>

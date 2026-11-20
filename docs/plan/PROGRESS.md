@@ -11,7 +11,7 @@
 | M1 | 事實查證 | ✅ 完成（有限制） | Sonnet | 2026-11-20 |
 | M2 | 著作目錄 | ✅ 完成（有限制） | Sonnet | 2026-11-20 |
 | M3 | 專案骨架＋檢查腳本 | 🔄 程式完成；待 P4 與 CI 實跑 | Sonnet | |
-| M4 | 設計系統（使用者確認截圖） | 🔄 程式完成；待使用者確認截圖 | Sonnet | |
+| M4 | 設計系統 v2（taste-skill）＋首頁 | ✅ 完成（gate PASS：英文、中文） | Sonnet | 2026-11-20 |
 | M5 | 首頁＋生平區 | ⬜ | Sonnet | |
 | M6 | 學術貢獻區 | ⬜ | Sonnet | |
 | M7 | 學習中心 | ⬜ | Opus 內容／Sonnet 頁面 | |
@@ -20,13 +20,12 @@
 | M10 | 上線前檢查、預覽部署 | ⬜ | Sonnet | |
 | M11 | 聯絡家屬提醒、公開、模板化 | ⬜ | Sonnet＋使用者 | |
 
-進度：3/12 ▓▓▓░░░░░░░░░ 25%（M0、M1、M2）
+進度：4/12 ▓▓▓▓░░░░░░░░ 33%（M0–M2、M4；M3 部署已通過）
 
 預計：約 11–13 個工作 session；使用者及時回覆時約 1.5–2 週完成預覽版。
 
 ## 下一個任務
 
-0. **暫停視覺／版面工作**（M4 元件樣式、M5 頁面）。使用者不接受 M4 設計（經 Opus 規劃 session 轉達：「太普通，美感不夠」）。等新的 DESIGN_SPEC v2。期間只做純資料工作。
 
 1. M3：確認 P4；push 後看 CI 與 deploy 是否通過。
 
@@ -38,6 +37,21 @@
 - 照片（M8 前）
 
 ## 紀錄
+
+### 2026-11-20 M4 v2（taste-skill 設計）
+
+- 依 DESIGN_SPEC v2 重做。發牌結果沒有改（cool-white-slate、Albert Sans、photo hero、photo-chapters＋word-highlight、nav-centre、footer-dark、close-type、surface-pairs、tonal、initial）。
+- **Gate：英文 PASS、中文 PASS。** 3 個 waiver（上限 5）：`copy-headline`（h1 是人名，規格已同意）；`hero-lines`、`hero-maxchars`（zh 頁：checker 把 h1 灌到 32 字做壓力測試，實際 h1 17 字放得下）。
+- perf：0 FAIL（字體改用 unicode-range 切片，圖片有 500／960／1280 srcset）。layout check 無 findings。截圖在 `docs/plan/design-v2-shots/`（5 種寬度在 `shots/`，不進 repo）。
+- 偏離規格或 skill：
+  1. hero lead 改成「He co-authored tests and worked in more than 40 countries.」（原文「built fairer ways to assess children」沒有來源）。
+  2. 導覽的主按鈕改為文字連結（`nav__link`），原因：手機 320 寬放不下 logo＋按鈕＋選單。語言切換在導覽右側。
+  3. 首頁標題改成含主題名詞的寫法（checker 的 copy-headings）：例如「A career history in four universities」。
+  4. 澳門區塊用中葡文路牌照片（Commons，2024 年拍攝，只是方向牌，不暗示 2011 年的場景）；人生章節的澳門照片是舊校園（2011 年正確）。
+  5. `photos.mjs fetch` 在 Commons 限流（HTTP 429）時會卡住，改用同樣的縮圖網址慢速下載，自己轉 WebP 並寫 `credits.json`。沒有修改 skill 檔案。
+- 替代照片（全部要換成使用者提供或有授權的照片）：hero＝UT Austin 塔樓（CC BY-SA 4.0）；Indiana＝Morrison Hall（CC BY-SA 3.0）；UT＝Main Building（CC0）；UF＝Florida Gymnasium 磚造建築（CC BY-SA 3.0）；澳門＝UM 行政大樓（CC BY-SA 1.0）；learn＝空講堂（公有領域）；writing＝Yale 法學院圖書館閱覽室（CC BY-SA 3.0）；macau＝路牌（CC BY-SA 4.0）；memories＝公園長椅（CC0）。授權列表在 `/[lang]/credits/`。
+- 未做：來源標籤（S1 等）在首頁沒有。子頁會有。投稿管道還沒決定，「Share a memory」現在連到頁內的 #memories。
+
 
 ### 2026-11-20 M4
 
