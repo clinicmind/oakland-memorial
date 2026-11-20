@@ -43,6 +43,8 @@ const zh = lang === 'zh-hant';
     <link rel="stylesheet" href={a('motion/motion.css')} />
     <link rel="stylesheet" href={a('layout/layout.css')} />
     <link rel="stylesheet" href={a('icons/icon.css')} />
+    <link rel="stylesheet" href={a('ui/base.css')} />
+    <link rel="stylesheet" href={a('diagrams/diagram.css')} />
     <style is:inline set:html={`:root {
   --p-bg: #f7f9fa; --p-surface: #ecf0f2; --p-ink: #1f3038; --p-muted: #5d6b72;
   --p-accent: #0d7480; --p-accent-ink: #ffffff; --p-action: #0d7480; --p-action-ink: #ffffff;
@@ -66,5 +68,6 @@ const zh = lang === 'zh-hant';
     <script is:inline type="module" src={a('system.js')}></script>
     <script is:inline type="module" src={a('motion/motion.js')}></script>
     <script is:inline type="module" src={a('layout/layout.js')}></script>
+    <script is:inline type="module" src={a('diagrams/mount.js')}></script>
   </body>
 </html>

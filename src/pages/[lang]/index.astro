@@ -12,13 +12,14 @@ const img = (n: string) => `${import.meta.env.BASE_URL}assets/img/${n}`.replace(
 // 照片：ID 對應 public/assets/img/credits.json。hero 是過渡用的替代照片，等使用者提供照片後換掉。
 const P = {
   hero: 'photo-f158008636.webp',
-  indiana: 'photo-f38900072.webp',
+  indiana: 'photo-f19598734.webp',
   ut: 'photo-f52969256.webp',
-  uf: 'photo-f9168925.webp',
+  uf: 'photo-f10034341.webp',
   macau: 'photo-f14809678.webp',
 };
 const chapterImgs = [P.indiana, P.ut, P.uf, P.macau];
 const nav = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn], ['writing', c.nav.writing], ['macau', c.nav.macau], ['memories', c.nav.memories]];
+const diagramSpec = JSON.stringify({ layout: 'hub', alt: c.work.diagram.alt, center: { label: c.work.diagram.center }, spokes: c.work.diagram.spokes.map((label) => ({ label })) });
 const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg>`;
 ---
 <Base lang={lang} title={c.title} description={c.description} path="">
@@ -69,15 +70,18 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
       </div>
     </section>
 
-    <section class="section" id="work" aria-labelledby="work-h">
-      <div class="wrap grid grid--top">
-        <div class="span-8">
+    <section class="section" id="work" style="--h: 1" aria-labelledby="work-h">
+      <div class="wrap grid grid--middle">
+        <div class="span-6">
           <div class="section-head"><h2 id="work-h">{c.work.h2}</h2><p>{c.work.lead}</p></div>
           <ul class="rows">
             {c.work.items.map((it) => (
               <li><span class="rows__name">{it.name}</span><p>{it.text}</p>{it.value && <span class="rows__value">{it.value}</span>}</li>
             ))}
           </ul>
+        </div>
+        <div class="span-6 start-7">
+          <div class="panel"><div class="dg" role="img" aria-label={c.work.diagram.alt} data-diagram={diagramSpec}></div></div>
         </div>
       </div>
     </section>
@@ -89,8 +93,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
       </div>
     </section>
 
-    <div class="ground-surface">
-      <section class="section" id="learn" aria-labelledby="learn-h">
+      <section class="section ground-surface" id="learn" aria-labelledby="learn-h">
         <div class="wrap grid grid--top">
           <div class="span-8">
             <div class="section-head"><h2 id="learn-h">{c.learn.h2}</h2><p>{c.learn.lead}</p></div>
@@ -103,7 +106,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
         </div>
       </section>
 
-      <section class="section" id="writing" aria-labelledby="writing-h">
+      <section class="section ground-surface" id="writing" aria-labelledby="writing-h">
         <div class="wrap grid grid--top">
           <div class="span-8">
             <div class="section-head"><h2 id="writing-h">{c.writing.h2}</h2><p>{c.writing.lead}</p></div>
@@ -115,7 +118,6 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
           </div>
         </div>
       </section>
-    </div>
 
     <section class="section" id="macau" aria-labelledby="macau-h">
       <div class="wrap grid grid--middle">
