@@ -68,13 +68,13 @@
   quote: "S3: \"professor of school psychology at the UF College of Education from 1995 until his retirement in 2010\""
 - id: F9
   claim:
-    en: "Retirement year differs by source: the UF statement says 2010; the family obituary and Fagan's tribute say 2013."
-    zh-hant: "退休年份各來源不同：UF 聲明寫 2010 年；家屬訃聞與 Fagan 悼念文寫 2013 年。"
+    en: "He retired from the University of Florida and holds the title Professor Emeritus."
+    zh-hant: "他從 University of Florida 退休，並獲頒榮休教授（Professor Emeritus）頭銜。"
   sourceIds: ["S3", "S2", "S12"]
-  status: X
+  status: V
   checkedOn: "2026-11-20"
-  quote: "S3: \"...until his retirement in 2010, when he was conferred the distinction of professor emeritus.\" S2: \"He officially retired from the University of Florida as Professor Emeritus in 2013.\" S12: \"...until his retirement in 2013\""
-  note: "Sources conflict and no opened source reconciles them. The plan's 'stopped teaching 2010, emeritus 2013' reading is NOT supported by the text (S3 says emeritus was conferred in 2010). Site must list both years with sources, or say 'retired from UF' without a year. Needs decision."
+  quote: "S3: \"...from 1995 until his retirement in 2010, when he was conferred the distinction of professor emeritus.\" S2: \"He officially retired from the University of Florida as Professor Emeritus in 2013.\""
+  note: "Retirement year conflicts: 2010 (S3, S1) versus 2013 (S2, S12). Per user decision (2026-11-20, relayed by the planning session), the site does NOT state a retirement year. Only 'retired from UF' and 'Professor Emeritus' are stated; both are supported by S2 and S3. The Sources page may explain the 2010/2013 conflict openly. Timeline: show 'University of Florida, from 1995' with no end year."
 - id: F10
   claim:
     en: "He served as president of the International School Psychology Association (ISPA)."
@@ -160,7 +160,7 @@
   status: X
   checkedOn: "2026-11-20"
   quote: "S2: \"...and 11 psychological tests.\" S8: \"...authored more than 180 chapters and articles, and five psychological tests.\""
-  note: "Do not state a test count. List only tests found in sources (M2). Chapters and articles: S2 'more than 200', S3 '100 chapters, 200 articles', S8 'more than 180'; do not state a count either."
+  note: "User decision (2026-11-20): the site states no test count and no chapter/article total. List only tests found in sources: SSQ, ABAS-3 (ABAS-II only as a bibliographic citation). Chapters and articles: S2 'more than 200', S3 '100 chapters, 200 articles', S8 'more than 180'; do not state a count either."
 - id: F19
   claim:
     en: "The Adaptive Behavior Assessment System, Third Edition (ABAS-3, 2015) is by Harrison and Oakland and published by Western Psychological Services."

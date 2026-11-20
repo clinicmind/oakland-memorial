@@ -24,7 +24,7 @@ scenario('基準資料通過', () => {}, null);
 scenario('引用狀態 C 的事實會失敗', (r) =>
   writeFileSync(join(r, 'src/content/pages/en/bad.md'), page('en', 'factIds: [F33]')), /\[狀態\].*F33/);
 scenario('引用狀態 X 的事實會失敗', (r) =>
-  writeFileSync(join(r, 'src/content/pages/en/bad.md'), page('en', 'factIds: [F9]')), /\[狀態\].*F9/);
+  writeFileSync(join(r, 'src/content/pages/en/bad.md'), page('en', 'factIds: [F18b]')), /\[狀態\].*F18b/);
 scenario('內文 {fact:} 引用 C 會失敗', (r) =>
   writeFileSync(join(r, 'src/content/pages/en/bad.md'), page('en', '', 'see {fact:F31b}')), /\[狀態\].*F31b/);
 scenario('刪掉一個 en 檔會失敗', (r) =>
