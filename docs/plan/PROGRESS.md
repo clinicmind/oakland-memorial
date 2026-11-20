@@ -43,6 +43,13 @@
 
 ## 紀錄
 
+### 2026-11-20 M10（Lighthouse，手機模擬）
+
+- 首頁：Performance 72–76、Accessibility 100、Best Practices 100、SEO 66（預覽期 noindex 所致，公開後會回到 100）。`works/`：97／100／100／63。
+- 首頁 Performance 未達 90。原因：LCP 約 6–10 秒（模擬慢速 4G），頁面載入約 2 MB 照片。kit 的 `system.js` 會把 lazy 圖片在載入後改成 eager，所以我不能靠 lazy loading 減少。已把照片重新壓成 WebP quality 58（4.1 MB 到 3.4 MB），分數只升一點。skill 自己的 perf 檢查 0 FAIL。換成真照片時，請先把照片壓小再放。
+- 還沒做：外部連結檢查、`@astrojs/sitemap`（預覽期 noindex，公開時再加）。
+
+
 ### 2026-11-20 M8（頁面）
 
 - Q13 同意，照草稿使用。新增 U1–U9（`approvedByUser: true`，來源 `UM`）、`/[lang]/macau/`、`/legacy/`、`/memories/`。文字照草稿，第一人稱，署名「臨床心語（ClinicMind），臨床心理師」。沒有其他同學的名字；治療師公會不寫正式名稱；不寫喪禮地點。
