@@ -87,41 +87,41 @@
 
 | # | 事實 | 來源 | 狀態 |
 |---|---|---|---|
-| F1 | 全名 Thomas David Oakland。朋友稱他 Tom | S1, S2 | A |
-| F2 | 1939-11-23 生於美國 Wisconsin 州 Kenosha | S1, S2, S10 | A |
-| F3 | 2015-03-04 於 Florida 州 Gainesville 家中去世，享年 75 歲 | S1, S2, S3 | A |
-| F4 | 大學就讀 Lawrence College；之後曾任中學教師 | S1, S2 | B |
-| F5 | Indiana University 教育心理學 MS（1965）、PhD（1967） | S1, S8 | A |
-| F6 | 在 University of Texas at Austin 教育心理學系任教 27 年 | S1, S2 | A |
-| F7 | 到任 UT Austin：1967 或 1968；離任：1994 或 1995 | S1, S2 | **X** |
-| F8 | 1995 年起任教 University of Florida，教授學校心理學 | S1, S3 | A |
-| F9 | 退休：UF 聲明說 2010；家屬訃聞說 2013 年正式成為 Professor Emeritus | S3, S2 | **X** |
-| F10 | 曾任 International School Psychology Association (ISPA) 會長 | S3 | B |
-| F11 | 曾任 International Test Commission (ITC) 會長 | S3 | B |
-| F12 | 曾任 International Foundation for Children's Education 會長 | S3 | B |
-| F13 | Fulbright 學者，任職 University of Brasília | S2 | B |
-| F14 | 曾任教 University of Hong Kong 心理學系 | S2 | B |
-| F15 | 曾任教 Iberoamerican University（San José, Costa Rica） | S2 | B |
-| F16 | 2010–2011 學年，澳門大學心理學系接待他作訪問學者，為期一個學期 | S4 | B |
-| F17 | 工作足跡超過 40 個國家 | S2 | B |
-| F18 | 12 本書、200 多篇章節與論文、11 套心理測驗（原文動詞要核對：authored 或 edited） | S1, S2 | B |
-| F19 | 與 Patti Harrison 合著 Adaptive Behavior Assessment System（ABAS）。ABAS-3 於 2015 年由 Western Psychological Services 出版 | S9, S17 | A |
-| F20 | ABAS-3 涵蓋概念、社會、實用三大領域，共 11 個技能範圍；適用年齡從出生到 89 歲 | S9, S17 | B |
-| F21 | 1990 年 APA Division 16 Distinguished Service Award | S1 | B |
-| F22 | 2000 年 APA Division 16 Senior Scientist Award | S1 | B |
-| F23 | 2001 年 NASP Legends Award | S1 | B |
-| F24 | 2003 年 Indiana University Distinguished Alumni Award | S1, S8 | A |
-| F25 | 2003 年 APA 國際心理學傑出貢獻獎（正式獎名要核對） | S1 | B |
-| F26 | 2004 年 UF Senior Faculty Distinguished International Educator of the Year | S1 | B |
-| F27 | 兩名兒子：David Thomas Oakland（Houston）、Christopher Oakland（Austin）。**不在網站公開** | S2 | B |
-| F28 | Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013)，三國適應行為比較，*Journal of Psychoeducational Assessment* | S13 | B |
-| F29 | 在家中遇害。網站只用一句話說明（見 6.3） | S1, S3 | B |
-| F30 | Oakland, T., Glutting, J. J., & Horton, C. B. (1996). *Student Styles Questionnaire*. The Psychological Corporation。用途：了解學生在偏好、氣質、個人風格上的個別差異 | S14 | B |
-| F31a | ABAS-II 出版於 2003 年 | S16 | B |
-| F31b | ABAS 第一版出版於 2000 年 | 無 | **C** |
-| F32 | Jimerson, S. R., Oakland, T. D., & Farrell, P. T. (Eds.). (2007). *The Handbook of International School Psychology*. Sage. ISBN 9781412926690。收錄 43 個國家的作者 | S15 | A |
-| F33 | 參與 ITC 測驗翻譯與改編準則 | 無 | **C** |
-| F34 | ISPA、ITC 會長任期年份 | 無 | **C** |
+| F1 | 全名 Thomas David Oakland。朋友稱他 Tom | S1, S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F2 | 1939-11-23 生於美國 Wisconsin 州 Kenosha | S1, S2, S10 | V (M1 2026-11-20；見 facts.yaml) |
+| F3 | 2015-03-04 於 Florida 州 Gainesville 家中去世，享年 75 歲 | S1, S2, S3 | V (M1 2026-11-20；見 facts.yaml) |
+| F4 | 大學就讀 Lawrence College；之後曾任中學教師 | S1, S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F5 | Indiana University 教育心理學 MS（1965）、PhD（1967） | S1, S8 | V (M1 2026-11-20；見 facts.yaml) |
+| F6 | 在 University of Texas at Austin 教育心理學系任教 27 年 | S1, S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F7 | 到任 UT Austin：1967 或 1968；離任：1994 或 1995 | S1, S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F8 | 1995 年起任教 University of Florida，教授學校心理學 | S1, S3 | V (M1 2026-11-20；見 facts.yaml) |
+| F9 | 退休：UF 聲明說 2010；家屬訃聞說 2013 年正式成為 Professor Emeritus | S3, S2 | X (M1 2026-11-20；見 facts.yaml) |
+| F10 | 曾任 International School Psychology Association (ISPA) 會長 | S3 | V (M1 2026-11-20；見 facts.yaml) |
+| F11 | 曾任 International Test Commission (ITC) 會長 | S3 | V (M1 2026-11-20；見 facts.yaml) |
+| F12 | 曾任 International Foundation for Children's Education 會長 | S3 | V (M1 2026-11-20；見 facts.yaml) |
+| F13 | Fulbright 學者，任職 University of Brasília | S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F14 | 曾任教 University of Hong Kong 心理學系 | S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F15 | 曾任教 Iberoamerican University（San José, Costa Rica） | S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F16 | 2010–2011 學年，澳門大學心理學系接待他作訪問學者，為期一個學期 | S4 | V (M1 2026-11-20；見 facts.yaml) |
+| F17 | 工作足跡超過 40 個國家 | S2 | V (M1 2026-11-20；見 facts.yaml) |
+| F18 | 12 本書、200 多篇章節與論文、11 套心理測驗（原文動詞要核對：authored 或 edited） | S1, S2 | X (M1 2026-11-20；見 facts.yaml) |
+| F19 | 與 Patti Harrison 合著 Adaptive Behavior Assessment System（ABAS）。ABAS-3 於 2015 年由 Western Psychological Services 出版 | S9, S17 | V (M1 2026-11-20；見 facts.yaml) |
+| F20 | ABAS-3 涵蓋概念、社會、實用三大領域，共 11 個技能範圍；適用年齡從出生到 89 歲 | S9, S17 | V (M1 2026-11-20；見 facts.yaml) |
+| F21 | 1990 年 APA Division 16 Distinguished Service Award | S1 | V (M1 2026-11-20；見 facts.yaml) |
+| F22 | 2000 年 APA Division 16 Senior Scientist Award | S1 | V (M1 2026-11-20；見 facts.yaml) |
+| F23 | 2001 年 NASP Legends Award | S1 | V (M1 2026-11-20；見 facts.yaml) |
+| F24 | 2003 年 Indiana University Distinguished Alumni Award | S1, S8 | V (M1 2026-11-20；見 facts.yaml) |
+| F25 | 2003 年 APA 國際心理學傑出貢獻獎（正式獎名要核對） | S1 | V (M1 2026-11-20；見 facts.yaml) |
+| F26 | 2004 年 UF Senior Faculty Distinguished International Educator of the Year | S1 | V (M1 2026-11-20；見 facts.yaml) |
+| F27 | 兩名兒子：David Thomas Oakland（Houston）、Christopher Oakland（Austin）。**不在網站公開** | S2 | C (M1 2026-11-20；見 facts.yaml) |
+| F28 | Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013)，三國適應行為比較，*Journal of Psychoeducational Assessment* | S13 | V (M1 2026-11-20；見 facts.yaml) |
+| F29 | 在家中遇害。網站只用一句話說明（見 6.3） | S1, S3 | V (M1 2026-11-20；見 facts.yaml) |
+| F30 | Oakland, T., Glutting, J. J., & Horton, C. B. (1996). *Student Styles Questionnaire*. The Psychological Corporation。用途：了解學生在偏好、氣質、個人風格上的個別差異 | S14 | V (M1 2026-11-20；見 facts.yaml) |
+| F31a | ABAS-II 出版於 2003 年 | S16 | V (M1 2026-11-20；見 facts.yaml) |
+| F31b | ABAS 第一版出版於 2000 年 | 無 | C (M1 2026-11-20；見 facts.yaml) |
+| F32 | Jimerson, S. R., Oakland, T. D., & Farrell, P. T. (Eds.). (2007). *The Handbook of International School Psychology*. Sage. ISBN 9781412926690。收錄 43 個國家的作者 | S15 | B (M1 2026-11-20；見 facts.yaml) |
+| F33 | 參與 ITC 測驗翻譯與改編準則 | 無 | C (M1 2026-11-20；見 facts.yaml) |
+| F34 | ISPA、ITC 會長任期年份 | 無 | V (M1 2026-11-20；見 facts.yaml) |
 
 ### 2.4 事實表：澳門與發起人（使用者親述）
 

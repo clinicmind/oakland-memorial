@@ -1,0 +1,310 @@
+- id: F1
+  claim:
+    en: "Thomas David Oakland (known as Tom)."
+    zh-hant: "Thomas David Oakland（朋友稱他 Tom）。"
+  sourceIds: ["S2", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S12: \"Thomas David Oakland was born on November 23, 1939 in Kenosha, Wisconsin\"; S2 refers to him as \"Tom\": \"Tom is warmly known as one of the 'Founding Fathers of International School Psychology.'\""
+- id: F2
+  claim:
+    en: "Born 23 November 1939 in Kenosha, Wisconsin."
+    zh-hant: "1939 年 11 月 23 日生於 Wisconsin 州 Kenosha。"
+  sourceIds: ["S1", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S12: \"Thomas David Oakland was born on November 23, 1939 in Kenosha, Wisconsin and died at age 75 in his home in Gainesville, Florida on March 4, 2015.\""
+  note: "S2 does not give the birth date; S10 not opened (HTTP 403)."
+- id: F3
+  claim:
+    en: "Died at home in Gainesville, Florida, on 4 March 2015, aged 75."
+    zh-hant: "2015 年 3 月 4 日在 Florida 州 Gainesville 家中離世，享年 75 歲。"
+  sourceIds: ["S2", "S3", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"...died March 4 at his house in Gainesville, FL.\" S12: \"...died at age 75 in his home in Gainesville, Florida on March 4, 2015.\""
+- id: F4
+  claim:
+    en: "He attended Lawrence College, then began his career as a middle-school teacher."
+    zh-hant: "他就讀 Lawrence College，畢業後先擔任中學教師。"
+  sourceIds: ["S2"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"Upon graduation from Lawrence, he began his career as a middle-school teacher, before completing the doctoral program in educational psychology at Indiana University in 1967.\""
+- id: F5
+  claim:
+    en: "He earned his MS (1965) and PhD (1967) in educational psychology from Indiana University."
+    zh-hant: "他在 Indiana University 取得教育心理學碩士（1965）與博士（1967）學位。"
+  sourceIds: ["S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S12: \"...he received his MS and PhD degrees in educational psychology from Indiana University in 1965 and 1967, respectively.\""
+  note: "S1 and S8 confirm the PhD year (1967) only; the MS year comes from S12."
+- id: F6
+  claim:
+    en: "He taught at the University of Texas at Austin for 27 years."
+    zh-hant: "他在 University of Texas at Austin 任教 27 年。"
+  sourceIds: ["S2", "S3"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"...at the University of Texas at Austin, where he remained for 27 years.\""
+  note: "S12 lists 1967 start and 1995 move to UF; do not compute years from these."
+- id: F7
+  claim:
+    en: "He joined the University of Texas at Austin in 1967 and left in 1995 to chair the Department of Educational Psychology at the University of Florida."
+    zh-hant: "他於 1967 年到 University of Texas at Austin 任教，1995 年轉往 University of Florida，擔任教育心理學系系主任。"
+  sourceIds: ["S2", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"That same year [1967], Dr. Oakland became a Professor in the Department of Educational Psychology at the University of Texas at Austin\"; \"...he left Texas in 1995 to become the Chair of the Department of Educational Psychology at the University of Florida\". S12: \"assistant professor from 1967 to 1972\"."
+  note: "Resolved in M1: 1967 and 1995 are supported by S2 and S12. 1968 and 1994 appear in no opened source. Do not write 'a source says 1968'."
+- id: F8
+  claim:
+    en: "From 1995 he taught school psychology at the University of Florida."
+    zh-hant: "1995 年起他在 University of Florida 任教，專長為學校心理學。"
+  sourceIds: ["S3", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S3: \"professor of school psychology at the UF College of Education from 1995 until his retirement in 2010\""
+- id: F9
+  claim:
+    en: "Retirement year differs by source: the UF statement says 2010; the family obituary and Fagan's tribute say 2013."
+    zh-hant: "退休年份各來源不同：UF 聲明寫 2010 年；家屬訃聞與 Fagan 悼念文寫 2013 年。"
+  sourceIds: ["S3", "S2", "S12"]
+  status: X
+  checkedOn: "2026-11-20"
+  quote: "S3: \"...until his retirement in 2010, when he was conferred the distinction of professor emeritus.\" S2: \"He officially retired from the University of Florida as Professor Emeritus in 2013.\" S12: \"...until his retirement in 2013\""
+  note: "Sources conflict and no opened source reconciles them. The plan's 'stopped teaching 2010, emeritus 2013' reading is NOT supported by the text (S3 says emeritus was conferred in 2010). Site must list both years with sources, or say 'retired from UF' without a year. Needs decision."
+- id: F10
+  claim:
+    en: "He served as president of the International School Psychology Association (ISPA)."
+    zh-hant: "他曾擔任國際學校心理學協會（ISPA）會長。"
+  sourceIds: ["S3", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S3: \"...presidencies for the International Foundation for Children's Education, the International School Psychology Association and the International Test Commission.\""
+- id: F11
+  claim:
+    en: "He served as president of the International Test Commission (ITC)."
+    zh-hant: "他曾擔任國際測驗委員會（ITC）會長。"
+  sourceIds: ["S3"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S3: \"...presidencies for the International Foundation for Children's Education, the International School Psychology Association and the International Test Commission.\""
+- id: F12
+  claim:
+    en: "He served as president of the International Foundation for Children's Education."
+    zh-hant: "他曾擔任國際兒童教育基金會（International Foundation for Children's Education）會長。"
+  sourceIds: ["S3"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S3: same sentence as F10/F11."
+  note: "Chinese name of the foundation is a translation; check at M9."
+- id: F13
+  claim:
+    en: "He was a Fulbright Scholar at the University of Brasilia."
+    zh-hant: "他曾是 Fulbright 學者，任職於巴西的 University of Brasília。"
+  sourceIds: ["S2", "S3"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"...Dr. Oakland also was a Fulbright Scholar at the University of Brasilia...\""
+- id: F14
+  claim:
+    en: "He was a member of the faculty of psychology at the University of Hong Kong."
+    zh-hant: "他曾任教於 University of Hong Kong 心理學系。"
+  sourceIds: ["S2", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"...was a member of the faculty of psychology at the University of Hong Kong...\""
+  note: "S12 calls him Honorary Professor at HKU. Keep wording general."
+- id: F15
+  claim:
+    en: "He taught at the Iberoamerican University in San Jose, Costa Rica."
+    zh-hant: "他曾任教於哥斯大黎加 San José 的 Iberoamerican University。"
+  sourceIds: ["S2"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"...and the Iberoamerican University in San Jose, Costa Rica.\""
+- id: F16
+  claim:
+    en: "From January to May 2011 he was a Visiting Professor at the University of Macau Department of Psychology for one semester."
+    zh-hant: "2011 年 1 月至 5 月，他以 Visiting Professor 身分在澳門大學心理學系訪問一個學期。"
+  sourceIds: ["S4"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S4: \"From January to May 2011, DPSY, with the help of the Dean, was fortunate to be able to support a Visiting Professor for one semester. Professor Tom Oakland, a senior scholar with hundreds of publications from the University of Florida.\""
+  note: "S4 gives the exact months. Q10 said the user does not remember the semester; S4 now answers it. S4 names no course. Course info stays U (user-stated)."
+- id: F17
+  claim:
+    en: "He worked in more than 40 countries."
+    zh-hant: "他的工作足跡超過 40 個國家。"
+  sourceIds: ["S8"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S8: \"Throughout his career, Oakland has worked in over forty countries\""
+  note: "Other sources give higher numbers: S2 'more than 50 countries' (lived and worked), S3 'more than 45 countries' (scholarly work), S12 'more than three dozen'. 'More than 40' is the one wording consistent with all."
+- id: F18a
+  claim:
+    en: "He authored or edited 12 books."
+    zh-hant: "他撰寫或編輯了 12 本書。"
+  sourceIds: ["S2", "S3"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S2: \"In all, he authored or edited 12 books, more than 200 chapters and articles, and 11 psychological tests.\" S3: \"He has authored or edited 12 books, 100 chapters, 200 articles\""
+  note: "Verb is 'authored or edited'. The 12 books are not listed in any source; M2 lists only books found."
+- id: F18b
+  claim:
+    en: "The number of psychological tests differs by source: 11 (family obituary) versus five (IU Honors and Awards, Pearson author page)."
+    zh-hant: "心理測驗的數量各來源不同：家屬訃聞寫 11 套；IU 榮譽頁與 Pearson 作者頁寫 5 套。"
+  sourceIds: ["S2", "S8", "S3"]
+  status: X
+  checkedOn: "2026-11-20"
+  quote: "S2: \"...and 11 psychological tests.\" S8: \"...authored more than 180 chapters and articles, and five psychological tests.\""
+  note: "Do not state a test count. List only tests found in sources (M2). Chapters and articles: S2 'more than 200', S3 '100 chapters, 200 articles', S8 'more than 180'; do not state a count either."
+- id: F19
+  claim:
+    en: "The Adaptive Behavior Assessment System, Third Edition (ABAS-3, 2015) is by Harrison and Oakland and published by Western Psychological Services."
+    zh-hant: "《適應行為評量系統第三版》（ABAS-3，2015）由 Harrison 與 Oakland 編製，Western Psychological Services 出版。"
+  sourceIds: ["S17"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S17: \"Harrison & Oakland, 2015\"; reference: \"Torrance, CA: Western Psychological Services\"."
+  note: "Narrowed in M1. S9 returned HTTP 403. 'Patti' as first name and 'co-authored the first ABAS' are not shown in opened sources; only ABAS-II (2003) is: see F31a."
+- id: F20
+  claim:
+    en: "ABAS-3 groups adaptive skills into three domains (Conceptual, Social, Practical) with 11 adaptive skill areas, for ages from birth through 89."
+    zh-hant: "ABAS-3 把適應技能分成概念、社會、實用三大領域，共 11 個技能範圍，適用年齡從出生到 89 歲。"
+  sourceIds: ["S17"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S17: \"groups adaptive skills into three broad domains: Conceptual, Social, and Practical.\" Same page: \"11 related adaptive skill areas\" and \"individuals from birth through 89 years of age\"."
+  note: "S17 lists Motor as a separate area for ages 0 to 5; whether it is one of the 11 was not checked. Keep wording as in claim."
+- id: F21
+  claim:
+    en: "He received the APA Division 16 Distinguished Service Award in 1990."
+    zh-hant: "1990 年獲 APA Division 16 Distinguished Service Award。"
+  sourceIds: ["S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S12: \"...a recipient of APA Division 16's Distinguished Service Award (1990) and Senior Scientist Award (2000).\""
+- id: F22
+  claim:
+    en: "He received the APA Division 16 Senior Scientist Award in 2000."
+    zh-hant: "2000 年獲 APA Division 16 Senior Scientist Award。"
+  sourceIds: ["S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S12: same sentence as F21."
+- id: F23
+  claim:
+    en: "He received the NASP Legend Award in 2002 and gave the Legends Address at the 2002 NASP convention."
+    zh-hant: "2002 年獲 NASP Legend Award，並在 2002 年 NASP 年會發表 Legends Address。"
+  sourceIds: ["S8", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S8: \"...received the 2002 National Association of School Psychology's Legend Award\". S12: \"Tom Oakland was the honored Legends Address speaker at the 2002 NASP convention\"."
+  note: "CORRECTED: the plan said 2001. S8 and S12 both say 2002."
+- id: F24
+  claim:
+    en: "He received the Indiana University School of Education Distinguished Alumni Award in 2003."
+    zh-hant: "2003 年獲 Indiana University 教育學院 Distinguished Alumni Award。"
+  sourceIds: ["S8"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S8: \"School of Education Distinguished Alumni Award - 2003\""
+  note: "Award name per S8 includes 'School of Education'."
+- id: F25
+  claim:
+    en: "He received the APA Award for Distinguished Contributions to the International Advancement of Psychology in 2003."
+    zh-hant: "2003 年獲 APA 國際心理學進展傑出貢獻獎（Award for Distinguished Contributions to the International Advancement of Psychology）。"
+  sourceIds: ["S1", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S1: \"APA Award for Distinguished Contributions to the International Advancement of Psychology\" (2003). S12: \"...awarded a Distinguished Contributions to International Psychology from the APA (Oakland, 2003).\""
+  note: "Official award name per S1. Chinese rendering is a translation; check at M9."
+- id: F26
+  claim:
+    en: "He received the University of Florida Senior Faculty Distinguished International Educator of the Year Award in 2004."
+    zh-hant: "2004 年獲 University of Florida Senior Faculty Distinguished International Educator of the Year Award。"
+  sourceIds: ["S3"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S3: \"He received UF's Senior Faculty Distinguished International Educator of the Year Award in 2004\""
+- id: F27
+  claim:
+    en: "(Not for publication.) Family details."
+    zh-hant: "（不公開）家屬資料。"
+  sourceIds: ["S2", "S12"]
+  status: C
+  checkedOn: null
+  quote: "S2 and S12 name the family. Not published (MASTER_PLAN 2.3, 6.4)."
+  note: "Status C on purpose, so no page may cite it."
+- id: F28
+  claim:
+    en: "Oakland, Iliescu, Chen & Chen (2013), 'Cross-national assessment of adaptive behavior in three countries', Journal of Psychoeducational Assessment, advance online publication, doi:10.1177/0734282912469492."
+    zh-hant: "Oakland、Iliescu、Chen 與 Chen（2013）發表〈三個國家適應行為的跨國評量〉，載於 Journal of Psychoeducational Assessment（線上先行出版）。"
+  sourceIds: ["S13"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S13: \"Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013). Cross-national assessment of adaptive behavior in three countries. Journal of Psychoeducational Assessment. Advance online publication. doi:10.1177/0734282912469492\""
+  note: "Volume and pages not in S13. Get them from Crossref (M2)."
+- id: F29
+  claim:
+    en: "He died tragically at his home in Gainesville on 4 March 2015 (see the UF College of Education statement)."
+    zh-hant: "他於 2015 年 3 月 4 日在家中不幸離世。網站只用這一句，並連到 UF 官方聲明。"
+  sourceIds: ["S3"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S3: \"...was killed on Wednesday, March 4, when, Gainesville police allege...\" (S3 describes the event; S2 gives no cause.)"
+  note: "Wording on the site follows MASTER_PLAN 6.3. No suspect name, no case detail."
+- id: F30
+  claim:
+    en: "Student Styles Questionnaire (1996) by Oakland, Horton and Glutting; it detects individual differences in students' preferences, temperaments and personal styles."
+    zh-hant: "《Student Styles Questionnaire》（1996）由 Oakland、Horton 與 Glutting 編製，用於了解學生在偏好、氣質與個人風格上的個別差異。"
+  sourceIds: ["S14"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S14: \"Designed to detect individual differences students display in their preferences, temperaments, and personal styles.\" Authors listed: \"Oakland, Thomas; Horton, Connie; Glutting, Joseph\"."
+  note: "CORRECTED: author order per S14 is Oakland, Horton, Glutting. S14 lists publisher Pearson; 'The Psychological Corporation' is not in S14. Do not state publisher until a source shows it."
+- id: F31a
+  claim:
+    en: "ABAS-II was published in 2003 (Harrison & Oakland)."
+    zh-hant: "ABAS-II 於 2003 年出版（Harrison 與 Oakland）。"
+  sourceIds: ["S16"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S16: \"Harrison, P. L., & Oakland T. (2003a). Adaptive Behaviour Assessment System – Second Edition. San Antonio, TX: Harcourt Assessment.\""
+  note: "S16 also has an ABAS-III entry dated 2005; that is an error in S16. Do not cite it."
+- id: F31b
+  claim:
+    en: "ABAS first edition publication year."
+    zh-hant: "ABAS 第一版出版年。"
+  sourceIds: []
+  status: C
+  checkedOn: null
+  note: "No opened source gives it."
+- id: F32
+  claim:
+    en: "Jimerson, Oakland & Farrell (Eds.) (2007), The Handbook of International School Psychology, Sage; ISBN 9781412926690; authors from 43 countries."
+    zh-hant: "Jimerson、Oakland 與 Farrell 主編（2007），《The Handbook of International School Psychology》，Sage 出版；ISBN 9781412926690；作者來自 43 個國家。"
+  sourceIds: ["S15"]
+  status: B
+  checkedOn: null
+  note: "S15 returned HTTP 403, so it is unverified. S12 (Fagan) cites 'Jimerson, Oakland, & Farrell, 2007'. Re-check at M2 via Crossref or another catalog. Open Library lists 2006 (likely e-edition)."
+- id: F33
+  claim:
+    en: "Role in ITC guidelines for translating and adapting tests."
+    zh-hant: "參與 ITC 測驗翻譯與改編準則。"
+  sourceIds: []
+  status: C
+  checkedOn: null
+  note: "No opened source (S2, S3, S11, S12) says this. Do not write it."
+- id: F34
+  claim:
+    en: "He served as ISPA president from 1995 to 1997."
+    zh-hant: "1995 至 1997 年擔任 ISPA 會長。"
+  sourceIds: ["S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "S12: \"...Psychology Association in several roles, including its presidency from 1995 to 1997.\""
+  note: "ITC and IFCE terms: no source. S12 is the only source for these years."

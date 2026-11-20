@@ -1,0 +1,17 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { LOCALES, type Lang } from '../../../site.config';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const entry = await getEntry('pages', `${lang}/home`);
+if (!entry) throw new Error(`Missing pages/${lang}/home.md`);
+const { Content } = await render(entry);
+---
+<Base lang={lang} title={entry.data.title}>
+  <h1>{entry.data.title}</h1>
+  <Content />
+</Base>

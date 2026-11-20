@@ -1,0 +1,14 @@
+---
+import { DEFAULT_LANG } from '../../site.config';
+const to = `${import.meta.env.BASE_URL}/${DEFAULT_LANG}/`.replace(/\/\/+/g, '/');
+---
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${to}`} />
+    <link rel="canonical" href={to} />
+    <title>Redirecting…</title>
+  </head>
+  <body><a href={to}>繁體中文</a> · <a href={to.replace(DEFAULT_LANG, 'en')}>English</a></body>
+</html>
