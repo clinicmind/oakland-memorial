@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "check:content": "tsx scripts/check-content.ts",
     "check": "astro check && npm run check:content && npm run test:check",
@@ -14,7 +14,8 @@
   "dependencies": {
     "@fontsource-variable/albert-sans": "^5.3.0",
     "@fontsource/noto-sans-tc": "^5.3.1",
-    "astro": "^5.18.2"
+    "astro": "^5.18.2",
+    "pagefind": "^1.6.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",

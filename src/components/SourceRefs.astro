@@ -1,0 +1,8 @@
+---
+import { url } from '../i18n/url';
+import type { Lang } from '../../site.config';
+interface Props { ids: string[]; lang: Lang }
+const { ids, lang } = Astro.props;
+const label = lang === 'en' ? 'Source' : '來源';
+---
+{ids.map((id) => <a class="src-ref" href={url(lang, `sources/#${id}`)} aria-label={`${label} ${id}`}>{id}</a>)}

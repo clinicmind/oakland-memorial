@@ -1,0 +1,24 @@
+---
+import Page from '../../layouts/Page.astro';
+import type { Lang } from '../../../site.config';
+export function getStaticPaths() { return (['zh-hant', 'en'] as const).map((lang) => ({ params: { lang } })); }
+const lang = Astro.params.lang as Lang;
+const t = { en: { title: 'Search', lead: 'Search every page of this site, in English or Chinese.' }, 'zh-hant': { title: '搜尋', lead: '搜尋本站所有頁面，可用中文或英文。' } }[lang];
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Page lang={lang} title={t.title} description={t.lead} path="search/">
+  <link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
+  <div class="doc-block page-head">
+    <div class="wrap"><div class="prose">
+      <h1 class="t-h2">{t.title}</h1>
+      <p class="t-lead">{t.lead}</p>
+      <div id="search"></div>
+    </div></div>
+  </div>
+  <script is:inline define:vars={{ base, lang }}>
+    const s = document.createElement('script');
+    s.src = base + '/pagefind/pagefind-ui.js';
+    s.onload = () => new PagefindUI({ element: '#search', showSubResults: true, baseUrl: base + '/', bundlePath: base + '/pagefind/' });
+    document.head.appendChild(s);
+  </script>
+</Page>

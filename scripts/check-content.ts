@@ -67,6 +67,7 @@ export function checkContent(root: string, forbiddenNames: string[]): Problem[] 
       rel.get(slug)!.add(lang);
       const { data: fm, body } = frontmatter(readFileSync(f, 'utf8'));
       for (const id of fm.factIds ?? []) checkFactRef(`${coll}/${r.join('/')}`, id);
+      for (const g of fm.groups ?? []) for (const id of g.factIds ?? []) checkFactRef(`${coll}/${r.join('/')}`, id);
       for (const m of body.matchAll(/\{fact:([A-Za-z0-9]+)\}/g)) checkFactRef(`${coll}/${r.join('/')}`, m[1]);
       for (const s of fm.sourceIds ?? [])
         if (!sourceIds.has(s)) problems.push(`[來源] ${coll}/${r.join('/')}: sourceId ${s} 不存在`);

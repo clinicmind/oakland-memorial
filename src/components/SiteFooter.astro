@@ -22,8 +22,18 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
             <a class="nav__logo" href={top}>{site.person.name}</a>
             <p class="footer__lede">{c.footer.lede}</p>
           </div>
-          <div class="span-3 footer__col"><h3>{c.nav.life}</h3><ul>{nav.slice(0, 3).map(([id, label]) => <li><a href={at(id)}>{label}</a></li>)}</ul></div>
-          <div class="span-3 footer__col"><h3>{c.nav.writing}</h3><ul>{nav.slice(3).map(([id, label]) => <li><a href={at(id)}>{label}</a></li>)}</ul></div>
+          <div class="span-3 footer__col"><h3>{c.footer.colA}</h3><ul>
+            <li><a href={url(lang, 'life/')}>{c.footer.links.life}</a></li>
+            <li><a href={url(lang, 'honors/')}>{c.footer.links.honors}</a></li>
+            <li><a href={url(lang, 'places/')}>{c.footer.links.places}</a></li>
+            <li><a href={url(lang, 'works/')}>{c.footer.links.works}</a></li>
+          </ul></div>
+          <div class="span-3 footer__col"><h3>{c.footer.colB}</h3><ul>
+            <li><a href={at('learn')}>{c.footer.links.learn}</a></li>
+            <li><a href={at('memories')}>{c.footer.links.memorial}</a></li>
+            <li><a href={url(lang, 'sources/')}>{c.footer.links.sources}</a></li>
+            <li><a href={url(lang, 'search/')}>{c.footer.links.search}</a></li>
+          </ul></div>
         </div>
         <div class="footer__legal">
           <span>&copy; 2026 {c.footer.made}</span>

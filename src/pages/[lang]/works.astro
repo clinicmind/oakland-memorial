@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+import { type Lang } from '../../../site.config';
+import { wk } from '../../i18n/pages';
+import { url } from '../../i18n/url';
+import { authorList } from '../../i18n/works';
+
+export function getStaticPaths() { return (['zh-hant', 'en'] as const).map((lang) => ({ params: { lang } })); }
+const lang = Astro.params.lang as Lang;
+const t = wk[lang];
+const all = (await getCollection('works')).map((w) => w.data && { id: w.id, ...w.data });
+all.sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+const tests = all.filter((w) => w.type === 'test');
+const rest = all.filter((w) => w.type !== 'test');
+const books = rest.filter((w) => w.type === 'book');
+const testPage: Record<string, string> = { T001: 'tests/ssq/', T002: 'tests/abas-3/' };
+const topicKeys = Object.keys(t.topics) as (keyof typeof t.topics)[];
+---
+<Page lang={lang} title={t.title} description={t.description} path="works/">
+  <div class="doc-block page-head">
+    <div class="wrap"><div class="prose">
+      <h1 class="t-h2">{t.title}</h1>
+      <p class="t-lead">{t.lead}</p>
+      <p class="t-small">{t.note}</p>
+    </div></div>
+  </div>
+
+  <div class="doc-block" aria-labelledby="tests-h">
+    <div class="wrap"><div class="prose">
+      <h2 id="tests-h" class="t-h3">{t.tests}</h2>
+      <ul class="work-list">
+        {tests.map((w) => (
+          <li>
+            <a class="link" href={url(lang, testPage[w.id])}><span lang="en">{w.title}</span></a>
+            <span class="wmeta" lang="en">{authorList(w.authors)} ({w.year}). {w.venue}</span>
+          </li>
+        ))}
+      </ul>
+    </div></div>
+  </div>
+
+  <div class="doc-block" aria-labelledby="books-h">
+    <div class="wrap"><div class="prose">
+      <h2 id="books-h" class="t-h3">{t.books}</h2>
+      <ul class="work-list">
+        {books.map((w) => (
+          <li>
+            <a class="link" href={w.url ?? '#'} rel="noopener" target="_blank"><span lang="en">{w.title}</span></a>
+            <span class="wmeta" lang="en">{authorList(w.authors)} ({w.year}). {w.venue}</span>
+          </li>
+        ))}
+      </ul>
+    </div></div>
+  </div>
+
+  <div class="doc-block" aria-labelledby="browser-h" id="browser" data-total={rest.length}>
+    <div class="wrap"><div class="prose">
+      <h2 id="browser-h" class="t-h3">{t.browser}</h2>
+      <form class="tl-filters" role="search" onsubmit="return false" style="align-items:end;gap:16px">
+        <label style="display:grid;gap:4px;flex:1 1 16rem">{t.search}
+          <input id="wb-q" type="search" style="font:inherit;padding:10px 12px;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:var(--bg);color:var(--ink);min-height:44px" />
+        </label>
+        <label style="display:grid;gap:4px">{t.type}
+          <select id="wb-type" style="font:inherit;padding:10px 12px;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:var(--bg);color:var(--ink);min-height:44px">
+            <option value="">{t.all}</option>
+            {(['book', 'chapter', 'article'] as const).map((k) => <option value={k}>{t.types[k]}</option>)}
+          </select>
+        </label>
+        <label style="display:grid;gap:4px">{t.topic}
+          <select id="wb-topic" style="font:inherit;padding:10px 12px;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:var(--bg);color:var(--ink);min-height:44px">
+            <option value="">{t.all}</option>
+            {topicKeys.map((k) => <option value={k}>{t.topics[k]}</option>)}
+          </select>
+        </label>
+      </form>
+      <p class="t-small" id="wb-count" role="status" aria-live="polite">{t.count(rest.length, rest.length)}</p>
+      <ol class="work-list" id="wb-list">
+        {rest.map((w) => (
+          <li data-type={w.type} data-topics={w.topics.join(' ')} data-text={`${w.title} ${w.authors.join(' ')} ${w.venue ?? ''} ${w.year}`.toLowerCase()}>
+            <span lang="en">{authorList(w.authors)} ({w.year}). {w.title}. {w.venue ? <i>{w.venue}</i> : null}.</span>
+            {w.doi ? <> <a class="link" href={w.url ?? `https://doi.org/${w.doi}`} rel="noopener" target="_blank">{t.doi}</a></> : null}
+            <span class="wmeta">{t.types[w.type]}{w.year > 2015 ? ` · ${t.after}` : ''}</span>
+          </li>
+        ))}
+      </ol>
+      <script define:vars={{ countTpl: lang }}>
+        const q = document.getElementById('wb-q'), ty = document.getElementById('wb-type'), tp = document.getElementById('wb-topic');
+        const items = [...document.querySelectorAll('#wb-list > li')];
+        const out = document.getElementById('wb-count');
+        const total = items.length;
+        const fmt = countTpl === 'en' ? (n) => `${n} of ${total} works` : (n) => `${total} 筆中的 ${n} 筆`;
+        const run = () => {
+          const s = q.value.trim().toLowerCase();
+          let n = 0;
+          for (const li of items) {
+            const ok = (!s || li.dataset.text.includes(s)) && (!ty.value || li.dataset.type === ty.value) && (!tp.value || li.dataset.topics.split(' ').includes(tp.value));
+            li.hidden = !ok; if (ok) n++;
+          }
+          out.textContent = fmt(n);
+        };
+        [q, ty, tp].forEach((el) => el.addEventListener('input', run));
+      </script>
+    </div></div>
+  </div>
+</Page>

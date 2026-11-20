@@ -56,7 +56,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
 
     <section class="section" id="life" data-moment="photo-chapters" aria-labelledby="life-h">
       <div class="wrap mo-ph">
-        <div class="mo-ph__head"><h2 id="life-h">{c.life.h2}</h2><p>{c.life.lead}</p></div>
+        <div class="mo-ph__head"><h2 id="life-h">{c.life.h2}</h2><p>{c.life.lead} <a class="link" href={url(lang, 'life/#timeline')}>{c.more.life}</a></p></div>
         <ol class="mo-ph__list">
           {c.life.chapters.map((ch, i) => (
             <li class="mo-ph__ch">
@@ -72,7 +72,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
     <section class="section" id="work" style="--h: 1" aria-labelledby="work-h">
       <div class="wrap grid grid--middle">
         <div class="span-6">
-          <div class="section-head"><h2 id="work-h">{c.work.h2}</h2><p>{c.work.lead}</p></div>
+          <div class="section-head"><h2 id="work-h">{c.work.h2}</h2><p>{c.work.lead} <a class="link" href={url(lang, 'works/')}>{c.more.work}</a></p></div>
           <ul class="rows">
             {c.work.items.map((it) => (
               <li><span class="rows__name">{it.name}</span><p>{it.text}</p>{it.value && <span class="rows__value">{it.value}</span>}</li>
@@ -88,7 +88,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
     <section class="section statement" id="idea" data-moment="word-highlight" aria-label={c.idea.label}>
       <div class="wrap">
         <p class="t-label">{c.idea.label}</p>
-        <p class="mo-wh__text">{c.idea.before} <strong>{c.idea.strong}</strong>{c.idea.after}</p>
+        <p class="mo-wh__text" role="group">{c.idea.before} <strong>{c.idea.strong}</strong>{c.idea.after}</p>
       </div>
     </section>
 
@@ -109,14 +109,14 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
     <section class="section ground-surface" id="writing" style="--h: 1" aria-labelledby="writing-h">
       <div class="wrap grid grid--middle">
         <div class="span-6">
-          <div class="section-head"><h2 id="writing-h">{c.writing.h2}</h2><p>{c.writing.lead}</p></div>
+          <div class="section-head"><h2 id="writing-h">{c.writing.h2}</h2><p>{c.writing.lead} <a class="link" href={url(lang, 'works/#browser')}>{c.more.writing}</a></p></div>
           <ul class="rows">
             {c.writing.items.map((it) => (
               <li><span class="rows__name"><a class="link" href={it.href} rel="noopener" target="_blank">{it.name}</a></span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
             ))}
           </ul>
         </div>
-        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img {...pa(P.writing, '(min-width: 1024px) 75vw, 170vw')} alt={c.writing.alt} data-source="commons" data-subject="stand-in" loading="lazy" /></figure>
+        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .62"><img {...pa(P.writing, '(min-width: 1024px) 75vw, 170vw')} alt={c.writing.alt} data-source="commons" data-subject="stand-in" loading="lazy" /></figure>
       </div>
     </section>
 

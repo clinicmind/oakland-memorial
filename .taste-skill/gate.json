@@ -1,35 +1,17 @@
 {
- "start": "2026-11-20T17:34:07.233Z",
- "round": 1,
+ "start": "2026-11-20T17:56:45.898Z",
+ "round": 0,
  "idle": 0,
  "errors": 0,
  "status": "pass",
  "history": [
   {
-   "at": "2026-11-20T17:36:16.936Z",
-   "mode": "manual",
-   "status": "fail",
-   "fails": 2,
-   "round": 1,
-   "reused": false,
-   "stopHookActive": false
-  },
-  {
-   "at": "2026-11-20T17:36:19.392Z",
-   "mode": "manual",
-   "status": "fail",
-   "fails": 2,
-   "round": 1,
-   "reused": true,
-   "stopHookActive": false
-  },
-  {
-   "at": "2026-11-20T17:36:25.541Z",
+   "at": "2026-11-20T17:58:55.916Z",
    "mode": "manual",
    "status": "pass",
    "fails": 0,
-   "round": 1,
-   "reused": true,
+   "round": 0,
+   "reused": false,
    "stopHookActive": false
   }
  ],
@@ -42,15 +24,11 @@
   "category": "紀念與學習網站 學校心理學家",
   "primary": "分享回憶",
   "rounds": 3,
-  "start": "2026-11-20T17:34:07.233Z",
+  "start": "2026-11-20T17:56:45.898Z",
   "by": "gate.mjs --start"
  },
  "manual": true,
- "roundKey": "8f27cf67058787cc:2482707f",
- "roundFree": false,
- "idleFree": false,
- "blockKey": null,
- "fp": "8f27cf67058787cc",
+ "fp": "d6aa4803e9f42111",
  "page": "dist/zh-hant/index.html",
  "found": {
   "fails": [
@@ -88,6 +66,22 @@
     ]
    },
    {
+    "check": "neighbour",
+    "where": "#writing section.section.ground-surface \"學校心理學精選著作從目錄中挑出的四項。 查看全部著作 Inter\"",
+    "msg": "framed, 54px of #macau section.section \"2011 年訪問澳門大學2011 年 1 月至 5 月，澳門大學\" shows",
+    "fix": "keep the next section's heading and picture out of this screen",
+    "widths": [
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "neighbour"
+    ],
+    "wheres": [
+     "#writing section.section.ground-surface \"學校心理學精選著作從目錄中挑出的四項。 查看全部著作 Inter\""
+    ]
+   },
+   {
     "check": "hero-maxchars",
     "where": "section.hero.hero--photo section.hero.hero--photo \"Thomas D. Oakland 學校心理學家 他共同編製測驗\"",
     "msg": "with a 32-character h1 (heroes.json maxChars): ends at y 861, past the fold (844): 1.02 screens tall",
@@ -118,20 +112,9 @@
    },
    {
     "check": "pinned",
-    "where": "section#life > div.wrap.mo-ph \"任教與求學的四所大學 他求學、任教與訪問的地方。 01 / 04 Indiana\"",
+    "where": "section#life > div.wrap.mo-ph \"任教與求學的四所大學 他求學、任教與訪問的地方。 閱讀完整年表 01 / 04 \"",
     "msg": "held on screen for 3 screens of scroll (position: sticky) while the page moves on (inside a dealt moment's section, [data-moment]: expected on every kind, two moments at most, house rule; its still is judged under reduced motion)",
     "fix": "let the section scroll with the page",
-    "widths": [
-     1440,
-     390
-    ],
-    "from": "consistency"
-   },
-   {
-    "check": "cta",
-    "where": "section#life \"任教與求學的四所大學\"",
-    "msg": "a section over 1.5 screens long with no link or button in it",
-    "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
     "widths": [
      1440,
      390
@@ -234,7 +217,7 @@
    {
     "check": "lang",
     "where": "html \"zh-Hant\"",
-    "msg": "<html lang=\"zh-Hant\">, but the words read as en (15 common en words against 0 zh ones in 181)",
+    "msg": "<html lang=\"zh-Hant\">, but the words read as en (15 common en words against 0 zh ones in 184)",
     "fix": "set <html lang> to the language the page is written in, from the brief (\"de\" for a German page)",
     "widths": [
      1440
@@ -258,6 +241,16 @@
     "fix": "show the action once a screen besides the nav's button: the hero's, the close's or the phone bar's, never all at once",
     "widths": [
      1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "no-visual",
+    "where": "section#work \"學校心理學：測驗與手冊\"",
+    "msg": "pictures, effects and mocks cover 25% of this section; a feature section needs a visual (about 25% or more)",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     390
     ],
     "from": "consistency"
    },
@@ -335,6 +328,23 @@
    "reason": "Stress test fills the h1 to 32 characters; the real h1 is the 17-character name and fits on two lines at 1440 and 390 (zh-hant page only; Chinese glyphs are wider)."
   },
   {
+   "check": "neighbour",
+   "where": "#writing section.section.ground-surface \"學校心理學精選著作從目錄中挑出的四項。 查看全部著作 Inter\"",
+   "msg": "framed, 54px of #macau section.section \"2011 年訪問澳門大學2011 年 1 月至 5 月，澳門大學\" shows",
+   "fix": "keep the next section's heading and picture out of this screen",
+   "widths": [
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "neighbour"
+   ],
+   "wheres": [
+    "#writing section.section.ground-surface \"學校心理學精選著作從目錄中挑出的四項。 查看全部著作 Inter\""
+   ],
+   "reason": "At 390 the section grows with its four entries and photo; its length is not a whole number of screens, so the next section's top falls in the second screen tile. The content cannot be cut further."
+  },
+  {
    "check": "hero-maxchars",
    "where": "section.hero.hero--photo section.hero.hero--photo \"Thomas D. Oakland 學校心理學家 他共同編製測驗\"",
    "msg": "with a 32-character h1 (heroes.json maxChars): ends at y 861, past the fold (844): 1.02 screens tall",
@@ -353,5 +363,5 @@
   }
  ],
  "warnCount": 18,
- "at": "2026-11-20T17:36:25.542Z"
+ "at": "2026-11-20T17:58:55.916Z"
 }

@@ -1,0 +1,14 @@
+---
+import Base from './Base.astro';
+import SiteNav from '../components/SiteNav.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/pages.css';
+import { site, type Lang } from '../../site.config';
+interface Props { lang: Lang; title: string; description: string; path: string }
+const { lang, title, description, path } = Astro.props;
+---
+<Base lang={lang} title={`${title} | ${site.person.name}`} description={description} path={path}>
+  <SiteNav lang={lang} path={path} />
+  <main id="main"><slot /></main>
+  <SiteFooter lang={lang} />
+</Base>

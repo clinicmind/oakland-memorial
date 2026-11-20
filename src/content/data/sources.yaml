@@ -18,10 +18,12 @@
   title: "Jimerson, S. R. (2015). Thomas D. Oakland (1939-2015). American Psychologist, 70(6), 567"
   url: "https://pubmed.ncbi.nlm.nih.gov/26348339/"
   accessedOn: null
+  note: "Not read: PubMed returned a cookie page and the DOI page did not load."
 - id: S6
   title: "Fagan, T. (2015-09). Remembering Tom Oakland. NASP Communique"
   url: null
   accessedOn: null
+  note: "Full text not found online; the same tribute is reprinted in S12 (pp. 32-40)."
 - id: S7
   title: "Pearson author page: Oakland"
   url: "https://www.pearsonassessments.com/professional-assessments/products/authors/oakland-thomas.html"
@@ -34,10 +36,12 @@
   title: "WorldCat: ABAS-3"
   url: "https://search.worldcat.org/title/905907421"
   accessedOn: null
+  note: "Not read: the server answered HTTP 403."
 - id: S10
   title: "Legacy.com obituary (Gainesville Sun)"
   url: "https://www.legacy.com/us/obituaries/gainesville/name/thomas-oakland-obituary?id=9601699"
   accessedOn: null
+  note: "Not read: the server answered HTTP 403."
 - id: S11
   title: "Nonpartisan Education Review tribute"
   url: "https://nonpartisaneducation.org/blog1/2015/03/tom-oakland-1939-2015/"
@@ -58,6 +62,7 @@
   title: "Texas A&M library catalog: The Handbook of International School Psychology"
   url: "https://libcat.library.tamu.edu/Record/in00002207366"
   accessedOn: null
+  note: "Not read: the server answered HTTP 403."
 - id: S16
   title: "UNSW resource page: ABAS-II"
   url: "https://www2.psy.unsw.edu.au/users/smcdonald/Resources/Language%20and%20Communication/Adaptive%20Behavior%20Assessment%20System-II%20(ABAS-II).pdf"
@@ -74,3 +79,4 @@
   title: "Crossref REST API (api.crossref.org), queried 2026-11-20"
   url: "https://api.crossref.org/works"
   accessedOn: "2026-11-20"
+  note: "Used to verify every bibliographic entry in the works list."

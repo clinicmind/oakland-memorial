@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import SiteNav from '../../components/SiteNav.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
-import credits from '../../../public/assets/img/credits.json';
+import credits from "../../../public/assets/img/credits.json";
 import { LOCALES, type Lang } from '../../../site.config';
 
 export function getStaticPaths() { return LOCALES.map((lang) => ({ params: { lang } })); }
@@ -16,7 +16,7 @@ const photos = (credits as { photos: { id: string; alt: string; by: string; lice
 <Base lang={lang} title={`${t.title} | Thomas D. Oakland`} description={t.lead} path="credits/">
   <SiteNav lang={lang} path="credits/" />
   <main id="main">
-    <section class="section">
+    <div class="doc-block">
       <div class="wrap grid grid--top">
         <div class="span-8">
           <div class="section-head"><h1 class="t-h2">{t.title}</h1><p>{t.lead}</p></div>
@@ -31,7 +31,7 @@ const photos = (credits as { photos: { id: string; alt: string; by: string; lice
           </ul>
         </div>
       </div>
-    </section>
+    </div>
   </main>
   <SiteFooter lang={lang} />
 </Base>

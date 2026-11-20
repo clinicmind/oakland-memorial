@@ -75,7 +75,10 @@ export const collections = {
   sources,
   timeline,
   works,
-  pages: defineCollection({ loader: md('src/content/pages'), schema: longform() }),
+  pages: defineCollection({
+    loader: md('src/content/pages'),
+    schema: longform().extend({ groups: z.array(z.object({ title: z.string(), factIds: z.array(z.string()) })).default([]) }),
+  }),
   learn: defineCollection({ loader: md('src/content/learn'), schema: longform() }),
   glossary: defineCollection({ loader: md('src/content/glossary'), schema: longform() }),
   memories: defineCollection({
