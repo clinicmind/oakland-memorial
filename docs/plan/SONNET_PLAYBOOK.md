@@ -143,6 +143,8 @@ Sonnet 在第一個 session 開頭檢查這些項目。缺少的項目，用一�
 
 ### M4 設計系統
 
+> **2026-11-20 改版：** v1 的 M4 被使用者退回。M4 改依 `DESIGN_SPEC.md` v2 和 `design-taste-frontend` skill 重做，驗收以 DESIGN_SPEC v2 第 7 節為準。下面原本的步驟只作參考；兩者衝突時，以 DESIGN_SPEC v2 為準。
+
 目標：把原型轉成可重用的元件和 token。
 
 1. 把 `DESIGN_SPEC.md` 第 2 節的 token 寫入 `src/styles/tokens.css`。

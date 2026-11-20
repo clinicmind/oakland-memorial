@@ -1,0 +1,2 @@
+Source: https://github.com/Leonxlnx/taste-skill (commit f6b7657), MIT License.
+Installed unmodified. Do not edit files here to pass checks.
