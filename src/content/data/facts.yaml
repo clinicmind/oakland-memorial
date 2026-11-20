@@ -285,12 +285,21 @@
   note: "No opened source gives it."
 - id: F32
   claim:
-    en: "Jimerson, Oakland & Farrell (Eds.) (2007), The Handbook of International School Psychology, Sage; ISBN 9781412926690; authors from 43 countries."
-    zh-hant: "Jimerson、Oakland 與 Farrell 主編（2007），《The Handbook of International School Psychology》，Sage 出版；ISBN 9781412926690；作者來自 43 個國家。"
+    en: "Jimerson, Oakland and Farrell (Eds.) edited The Handbook of International School Psychology (SAGE, 2007)."
+    zh-hant: "Jimerson、Oakland 與 Farrell 主編《The Handbook of International School Psychology》（SAGE，2007）。"
+  sourceIds: ["S19", "S12"]
+  status: V
+  checkedOn: "2026-11-20"
+  quote: "Crossref record (doi 10.4135/9781412976138): type edited-book, publisher SAGE Publications, Inc., 2007, editors Jimerson, Oakland, Farrell, ISBN 9781412926690. S12 (Fagan) cites it as \"Jimerson, Oakland, & Farrell, 2007\"."
+  note: "Split in M1 follow-up: bibliographic part verified through Crossref (S19) and cited in S12. The '43 countries' claim moved to F32b (unverified; S15 returned HTTP 403)."
+- id: F32b
+  claim:
+    en: "The Handbook of International School Psychology includes authors from 43 countries."
+    zh-hant: "《The Handbook of International School Psychology》收錄來自 43 個國家的作者。"
   sourceIds: ["S15"]
   status: B
   checkedOn: null
-  note: "S15 returned HTTP 403, so it is unverified. S12 (Fagan) cites 'Jimerson, Oakland, & Farrell, 2007'. Re-check at M2 via Crossref or another catalog. Open Library lists 2006 (likely e-edition)."
+  note: "S15 (Texas A&M catalog) returned HTTP 403. Do not publish the number until a source is opened."
 - id: F33
   claim:
     en: "Role in ITC guidelines for translating and adapting tests."

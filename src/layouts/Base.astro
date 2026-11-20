@@ -1,37 +1,70 @@
 ---
-import '@fontsource/newsreader/latin-400.css';
-import '@fontsource/newsreader/latin-500.css';
-import '@fontsource-variable/inter';
-import '@fontsource/noto-serif-tc/chinese-traditional-400.css';
-import '@fontsource/noto-serif-tc/chinese-traditional-500.css';
+import '@fontsource-variable/albert-sans';
 import '@fontsource/noto-sans-tc/chinese-traditional-400.css';
 import '@fontsource/noto-sans-tc/chinese-traditional-500.css';
-import '../styles/global.css';
 import { HTML_LANG, LOCALES, site, type Lang } from '../../site.config';
-import { ui } from '../i18n/ui';
 import { url } from '../i18n/url';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
-import Reveal from '../components/Reveal.astro';
-interface Props { lang: Lang; title?: string; path?: string; noindex?: boolean; current?: string; description?: string }
-const { lang, title, path = '', noindex = false, current, description } = Astro.props;
-const pageTitle = title ? `${title} | ${site.title[lang]}` : site.title[lang];
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  path?: string;
+  noindex?: boolean;
+  ogImage?: string;
+}
+const { lang, title, description, path = '', noindex = false, ogImage } = Astro.props;
+const a = (p: string) => `${import.meta.env.BASE_URL}assets/${p}`.replace(/\/{2,}/g, '/');
+const zh = lang === 'zh-hant';
 ---
 <!doctype html>
-<html lang={HTML_LANG[lang]} class="no-js">
+<!-- type: service. deal (fixed by docs/plan/DESIGN_SPEC.md section 2): palette cool-white-slate, type albert, radius soft,
+     hero photo, nav nav-centre, footer footer-dark, close close-type, rhythm surface-pairs, buttons tonal, mark initial.
+     moments: photo-chapters (#life), word-highlight (#idea). -->
+<html lang={HTML_LANG[lang]} data-type="service" data-radius="soft" data-buttons="tonal" data-motion>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{pageTitle}</title>
-    {description && <meta name="description" content={description} />}
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href={a('favicon.svg')} type="image/svg+xml" />
+    <meta name="theme-color" content="#f7f9fa" />
+    <meta name="site-kind" content="other" />
+    <meta name="page-type" content="service" />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
     {LOCALES.map((l) => <link rel="alternate" hreflang={HTML_LANG[l]} href={url(l, path)} />)}
+    <link rel="stylesheet" href={a('system.css')} />
+    <link rel="stylesheet" href={a('ui/cards.css')} />
+    <link rel="stylesheet" href={a('motion/motion.css')} />
+    <link rel="stylesheet" href={a('layout/layout.css')} />
+    <link rel="stylesheet" href={a('icons/icon.css')} />
+    <style is:inline set:html={`:root {
+  --p-bg: #f7f9fa; --p-surface: #ecf0f2; --p-ink: #1f3038; --p-muted: #5d6b72;
+  --p-accent: #0d7480; --p-accent-ink: #ffffff; --p-action: #0d7480; --p-action-ink: #ffffff;
+  --p-inv-bg: #1f3038; --p-inv-surface: #2c3c44; --p-inv-ink: #f7f9fa; --p-inv-muted: #9ea7ab;
+  --p-inv-accent: #f7f9fa; --p-inv-accent-ink: #1f3038; --p-inv-action: #f7f9fa; --p-inv-action-ink: #1f3038;
+  --font-display: "Albert Sans Variable", "Albert Sans", "Noto Sans TC", system-ui, sans-serif;
+  --font-text: "Albert Sans Variable", "Albert Sans", "Noto Sans TC", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-tracking: ${zh ? '0' : '-0.025em'};
+  --display-tracking-xl: ${zh ? '0' : '-0.035em'};
+}`} />
+    <script is:inline>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+    <script is:inline>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
+    <link rel="modulepreload" href={a('moments/moments.js')} />
+    <link rel="modulepreload" href={a('moments/lib.js')} />
+    <link rel="modulepreload" href={a('moments/photo-chapters/moment.js')} />
+    <link rel="modulepreload" href={a('moments/word-highlight/moment.js')} />
   </head>
   <body>
-    <a class="skip" href="#main">{ui.skip[lang]}</a>
-    <SiteHeader lang={lang} path={path} current={current} />
-    <main id="main"><slot /></main>
-    <SiteFooter lang={lang} />
-    <Reveal />
+    <slot />
+    <script is:inline type="module" src={a('system.js')}></script>
+    <script is:inline type="module" src={a('motion/motion.js')}></script>
+    <script is:inline type="module" src={a('layout/layout.js')}></script>
   </body>
 </html>

@@ -1,5 +1,0 @@
----
-interface Props { title: string; tone?: 'info' | 'note' }
-const { title, tone = 'info' } = Astro.props;
----
-<aside class:list={['callout', tone === 'note' && 'note']}><strong>{title}</strong><p><slot /></p></aside>

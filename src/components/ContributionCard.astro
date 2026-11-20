@@ -1,7 +1,0 @@
----
-interface Props { no: string; title: string; summary: string; href: string; more: string }
-const { no, title, summary, href, more } = Astro.props;
----
-<a class="card rv" href={href}>
-  <span class="no">{no}</span><h3>{title}</h3><p>{summary}</p><span class="more">{more} →</span>
-</a>
