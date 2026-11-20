@@ -1,26 +1,37 @@
 ---
+import '@fontsource/newsreader/latin-400.css';
+import '@fontsource/newsreader/latin-500.css';
+import '@fontsource-variable/inter';
+import '@fontsource/noto-serif-tc/chinese-traditional-400.css';
+import '@fontsource/noto-serif-tc/chinese-traditional-500.css';
+import '@fontsource/noto-sans-tc/chinese-traditional-400.css';
+import '@fontsource/noto-sans-tc/chinese-traditional-500.css';
+import '../styles/global.css';
 import { HTML_LANG, LOCALES, site, type Lang } from '../../site.config';
-interface Props { lang: Lang; title?: string; path?: string; noindex?: boolean }
-const { lang, title, path = '', noindex = false } = Astro.props;
-const base = import.meta.env.BASE_URL;
-const href = (l: string) => `${base}${l}/${path}`.replace(/\/\/+/g, '/');
-const other = LOCALES.find((l) => l !== lang)!;
+import { ui } from '../i18n/ui';
+import { url } from '../i18n/url';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Reveal from '../components/Reveal.astro';
+interface Props { lang: Lang; title?: string; path?: string; noindex?: boolean; current?: string; description?: string }
+const { lang, title, path = '', noindex = false, current, description } = Astro.props;
 const pageTitle = title ? `${title} | ${site.title[lang]}` : site.title[lang];
 ---
 <!doctype html>
-<html lang={HTML_LANG[lang]}>
+<html lang={HTML_LANG[lang]} class="no-js">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
+    {description && <meta name="description" content={description} />}
     {noindex && <meta name="robots" content="noindex, nofollow" />}
-    {LOCALES.map((l) => <link rel="alternate" hreflang={HTML_LANG[l]} href={href(l)} />)}
+    {LOCALES.map((l) => <link rel="alternate" hreflang={HTML_LANG[l]} href={url(l, path)} />)}
   </head>
   <body>
-    <header>
-      <a href={href(lang)}>{site.title[lang]}</a>
-      <a href={href(other)} hreflang={HTML_LANG[other]} lang={HTML_LANG[other]}>{other === 'en' ? 'English' : '繁體中文'}</a>
-    </header>
-    <main><slot /></main>
+    <a class="skip" href="#main">{ui.skip[lang]}</a>
+    <SiteHeader lang={lang} path={path} current={current} />
+    <main id="main"><slot /></main>
+    <SiteFooter lang={lang} />
+    <Reveal />
   </body>
 </html>

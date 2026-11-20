@@ -11,7 +11,7 @@
 | M1 | 事實查證 | ✅ 完成（有限制） | Sonnet | 2026-11-20 |
 | M2 | 著作目錄 | ✅ 完成（有限制） | Sonnet | 2026-11-20 |
 | M3 | 專案骨架＋檢查腳本 | 🔄 程式完成；待 P4 與 CI 實跑 | Sonnet | |
-| M4 | 設計系統（使用者確認截圖） | ⬜ | Sonnet | |
+| M4 | 設計系統（使用者確認截圖） | 🔄 程式完成；待使用者確認截圖 | Sonnet | |
 | M5 | 首頁＋生平區 | ⬜ | Sonnet | |
 | M6 | 學術貢獻區 | ⬜ | Sonnet | |
 | M7 | 學習中心 | ⬜ | Opus 內容／Sonnet 頁面 | |
@@ -36,6 +36,14 @@
 - 照片（M8 前）
 
 ## 紀錄
+
+### 2026-11-20 M4
+
+- 完成：`tokens.css`、`global.css`、Fontsource 字體（Newsreader、Inter Variable、Noto Serif/Sans TC，400／500）、元件 SiteHeader、LangSwitch、MobileNav、Hero、StatRow、ContributionCard、Timeline、TimelineItem、SourceBadge（popover）、QuoteBlock、TopicTile、Callout、Breadcrumb、SiteFooter；`/[lang]/styleguide/`（noindex）。
+- 驗證：4 種視窗 × 亮／暗，共 8 組。無橫向捲動、無 console 錯誤、axe 無 serious／critical（0 項違規）。選單開關、Esc、來源 popover、年表篩選都用 Playwright 測過。截圖在 `docs/plan/styleguide-shots/`，腳本 `scripts/shots.cjs`。
+- **偏離規格（為了對比 ≥ 4.5:1）**：淺色 `--ink-3` 由 `#8A857C` 改 `#6E695F`；淺色 `--brass` 由 `#A0742C` 改 `#8A6420`。原規格值對比約 3.3:1 與 3.6:1。深色模式不變（`--ink-3` 由 `#8B877E` 微調為 `#9A958B`）。
+- 原型的示意文字有未查證內容（如「11 套」「2010 訪問」），styleguide 不使用。數字用 `00` 占位。
+- 限制：WorldMap、TestStructure、WorksBrowser、Quiz、GlossaryTerm、PhotoGallery、StoryCard 留到 M5–M8。導覽連結（life/works/learn/macau/memories）頁面尚未建立。
 
 ### 2026-11-20 M2
 

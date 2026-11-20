@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hero from '../../components/Hero.astro';
+import StatRow from '../../components/StatRow.astro';
+import ContributionCard from '../../components/ContributionCard.astro';
+import Timeline from '../../components/Timeline.astro';
+import TimelineItem from '../../components/TimelineItem.astro';
+import QuoteBlock from '../../components/QuoteBlock.astro';
+import TopicTile from '../../components/TopicTile.astro';
+import Callout from '../../components/Callout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import SourceBadge from '../../components/SourceBadge.astro';
+import { LOCALES, site, type Lang } from '../../../site.config';
+import { url } from '../../i18n/url';
+
+export function getStaticPaths() { return LOCALES.map((lang) => ({ params: { lang } })); }
+const lang = Astro.params.lang as Lang;
+const zh = lang === 'zh-hant';
+// 樣式展示用的版面文字：只示範元件，不陳述教授的事實。事實一律來自 facts.yaml。
+const L = (z: string, e: string) => (zh ? z : e);
+---
+<Base lang={lang} title="Styleguide" path="styleguide/" noindex>
+  <Hero
+    eyebrow={`${site.person.born} — ${site.person.died}`}
+    name={site.person.name}
+    roles={L('元件展示 · 示意文字', 'Component showcase · placeholder copy')}
+    lead={L('這一頁只展示版面與元件。文字是示意，不陳述任何事實。', 'This page shows layout and components only. The text is placeholder and states no facts.')}
+    portraitCaption={L('肖像位置 · 照片待授權', 'Portrait · photo pending permission')}
+    mono="TDO"
+  >
+    <Fragment slot="cta">
+      <a class="btn primary" href="#cards">{L('主要按鈕', 'Primary button')} →</a>
+      <a class="btn" href="#timeline">{L('次要按鈕', 'Secondary button')}</a>
+    </Fragment>
+  </Hero>
+
+  <StatRow lang={lang} label={L('數字列', 'Key figures')} stats={[
+    { value: '00', label: L('數字範例 A', 'Sample figure A'), sourceIds: ['S2'] },
+    { value: '00', label: L('數字範例 B', 'Sample figure B'), sourceIds: ['S3'] },
+    { value: '00', label: L('數字範例 C', 'Sample figure C') },
+    { value: '00', label: L('數字範例 D', 'Sample figure D') },
+  ]} />
+
+  <section class="block" id="cards">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><div class="eyebrow">{L('卡片', 'Cards')}</div><h2>{L('區塊標題 h2', 'Section heading h2')}</h2></div>
+        <p>{L('區塊說明文字，用次要文字色。', 'Section description in secondary ink.')}</p>
+      </div>
+      <div class="cards">
+        {['01', '02', '03'].map((n) => <ContributionCard no={n} title={L('卡片標題', 'Card title')} summary={L('卡片摘要，兩到三行。', 'Card summary in two or three lines.')} href="#cards" more={L('了解更多', 'Explore')} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="block band" id="timeline">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><div class="eyebrow">{L('年表', 'Timeline')}</div><h2>{L('年表元件', 'Timeline component')}</h2></div>
+        <p>{L('點擊來源編號查看出處；點分類按鈕篩選。', 'Select a source number for the reference. Use the chips to filter.')}</p>
+      </div>
+      <Timeline lang={lang} filterLabel={L('篩選', 'Filter')} filters={[{ key: 'career', label: L('任教', 'Career') }, { key: 'award', label: L('榮譽', 'Honors') }]}>
+        <TimelineItem lang={lang} year="0000" kind="career" kindLabel={L('任教', 'Career')} title={L('年表項目範例', 'Timeline item sample')} text={L('說明文字。', 'Description text.')} sourceIds={['S2', 'S3']} />
+        <TimelineItem lang={lang} year="0000" kind="award" kindLabel={L('榮譽', 'Honors')} title={L('另一個項目', 'Another item')} sourceIds={['S8']} />
+        <TimelineItem lang={lang} year="0000" kind="career" kindLabel={L('任教', 'Career')} title={L('尚未核對原文的來源', 'A source not yet checked')} sourceIds={['S15']} />
+      </Timeline>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <QuoteBlock cite={L('— 引言出處（示意）', '— Quote attribution (placeholder)')}>{L('引言區塊，示意文字。', 'Quote block, placeholder text.')}</QuoteBlock>
+    </div>
+  </section>
+
+  <section class="block" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head rv"><div><div class="eyebrow">{L('其他元件', 'Other components')}</div><h2>{L('標籤、提示、導覽', 'Tiles, callouts, breadcrumbs')}</h2></div></div>
+      <div class="learn">
+        {['T1', 'T2', 'T3', 'T4', 'T5'].map((k) => <TopicTile k={k} title={L('單元標題', 'Unit title')} href="#cards" />)}
+      </div>
+      <div style="display:grid;gap:20px;margin-top:40px">
+        <Breadcrumb label={L('麵包屑', 'Breadcrumb')} items={[{ label: L('首頁', 'Home'), href: url(lang) }, { label: L('學習中心', 'Learn'), href: url(lang, 'learn/') }, { label: L('目前頁面', 'Current page') }]} />
+        <Callout title={L('聲明', 'Notice')}>{L('提示框範例：用於聲明或說明來源之間的差異。', 'Callout sample: for notices or to explain differences between sources.')}</Callout>
+        <Callout title={L('來源說明', 'Source note')} tone="note">{L('另一種色調。', 'The second tone.')}</Callout>
+        <p class="small">{L('來源標籤', 'Source badge')}: <SourceBadge id="S12" lang={lang} /></p>
+      </div>
+    </div>
+  </section>
+</Base>

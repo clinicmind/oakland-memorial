@@ -1,0 +1,12 @@
+---
+import { LOCALES, HTML_LANG, type Lang } from '../../site.config';
+import { ui } from '../i18n/ui';
+import { url } from '../i18n/url';
+interface Props { lang: Lang; path?: string }
+const { lang, path = '' } = Astro.props;
+---
+<div class="lang" role="group" aria-label="Language / 語言">
+  {LOCALES.map((l) => (
+    <a href={url(l, path)} lang={HTML_LANG[l]} hreflang={HTML_LANG[l]} aria-current={l === lang ? 'true' : undefined}>{ui.langName[l]}</a>
+  ))}
+</div>

@@ -1,0 +1,18 @@
+---
+import { ui } from '../i18n/ui';
+import type { Lang } from '../../site.config';
+interface Props { lang: Lang; filters: { key: string; label: string }[]; filterLabel: string }
+const { lang, filters, filterLabel } = Astro.props;
+---
+<div class="chips" role="group" aria-label={filterLabel}>
+  <button class="chip" type="button" data-f="all" aria-pressed="true">{ui.all[lang]}</button>
+  {filters.map((f) => <button class="chip" type="button" data-f={f.key} aria-pressed="false">{f.label}</button>)}
+</div>
+<ol class="tl"><slot /></ol>
+<script>
+  const chips = document.querySelectorAll<HTMLButtonElement>('.chip');
+  chips.forEach((c) => c.addEventListener('click', () => {
+    chips.forEach((x) => x.setAttribute('aria-pressed', String(x === c)));
+    document.querySelectorAll<HTMLElement>('.tl li').forEach((li) => { li.hidden = c.dataset.f !== 'all' && li.dataset.c !== c.dataset.f; });
+  }));
+</script>

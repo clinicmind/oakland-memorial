@@ -1,0 +1,26 @@
+---
+import { ui } from '../i18n/ui';
+import { url } from '../i18n/url';
+import type { Lang } from '../../site.config';
+interface Props { lang: Lang; items: { key: keyof typeof ui.nav; path: string }[] }
+const { lang, items } = Astro.props;
+---
+<button type="button" class="menu-btn" aria-expanded="false" aria-controls="mobile-nav">{ui.menu[lang]}</button>
+<div id="mobile-nav" class="mobile-nav" data-open="false" role="dialog" aria-modal="true" aria-label={ui.menu[lang]}>
+  <button type="button" class="btn close">{ui.close[lang]}</button>
+  {items.map((i) => <a href={url(lang, i.path)}>{ui.nav[i.key][lang]}</a>)}
+</div>
+<script>
+  const btn = document.querySelector<HTMLButtonElement>('.menu-btn')!;
+  const panel = document.getElementById('mobile-nav')!;
+  const set = (open: boolean) => {
+    panel.dataset.open = String(open);
+    btn.setAttribute('aria-expanded', String(open));
+    document.body.classList.toggle('nav-locked', open);
+    (open ? panel.querySelector<HTMLElement>('.close') : btn)?.focus();
+  };
+  btn.addEventListener('click', () => set(true));
+  panel.querySelector('.close')!.addEventListener('click', () => set(false));
+  panel.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => set(false)));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && panel.dataset.open === 'true') set(false); });
+</script>

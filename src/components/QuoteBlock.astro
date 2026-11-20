@@ -1,0 +1,7 @@
+---
+interface Props { cite: string }
+---
+<figure class="quote rv">
+  <blockquote><slot /></blockquote>
+  <figcaption><cite>{Astro.props.cite}</cite></figcaption>
+</figure>

@@ -1,0 +1,14 @@
+---
+import SourceBadge from './SourceBadge.astro';
+import type { Lang } from '../../site.config';
+interface Props { year: string | number; title: string; text?: string; kind: string; kindLabel: string; sourceIds: string[]; lang: Lang }
+const { year, title, text, kind, kindLabel, sourceIds, lang } = Astro.props;
+---
+<li class="rv" data-c={kind}>
+  <div class="yr">{year}</div>
+  <div class="body">
+    <h3>{title}</h3>
+    {text && <p>{text}</p>}
+    <div class="meta"><span class="tag">{kindLabel}</span>{sourceIds.map((id) => <SourceBadge id={id} lang={lang} />)}</div>
+  </div>
+</li>
