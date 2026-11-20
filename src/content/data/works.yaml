@@ -21,7 +21,7 @@
   doi: 10.1002/1520-6807(196910)6:4<359::aid-pits2310060407>3.0.co;2-s
   url: https://doi.org/10.1002/1520-6807(196910)6:4<359::aid-pits2310060407>3.0.co;2-s
   topics:
-  - other
+  - assessment-general
   sourceIds:
   - S19
 - id: W003
@@ -473,6 +473,7 @@
   url: https://doi.org/10.1002/j.1556-6676.1985.tb00689.x
   topics:
   - adaptive-behavior
+  - assessment-general
   sourceIds:
   - S19
 - id: W036
@@ -499,7 +500,7 @@
   doi: 10.1177/0143034385061001
   url: https://doi.org/10.1177/0143034385061001
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W038
@@ -566,7 +567,6 @@
   doi: 10.1037/h0090497
   url: https://doi.org/10.1037/h0090497
   topics:
-  - ethics-professional
   - assessment-general
   sourceIds:
   - S19
@@ -624,7 +624,7 @@
   doi: 10.1177/0143034388093007
   url: https://doi.org/10.1177/0143034388093007
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W047
@@ -695,7 +695,7 @@
   doi: 10.1080/00207594.1989.10600045
   url: https://doi.org/10.1080/00207594.1989.10600045
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W052
@@ -722,7 +722,6 @@
   doi: 10.1177/0143034389104009
   url: https://doi.org/10.1177/0143034389104009
   topics:
-  - international
   - assessment-general
   sourceIds:
   - S19
@@ -849,7 +848,7 @@
   doi: 10.1177/0143034391123014
   url: https://doi.org/10.1177/0143034391123014
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W063
@@ -863,7 +862,6 @@
   doi: 10.1080/00207599108246857
   url: https://doi.org/10.1080/00207599108246857
   topics:
-  - international
   - assessment-general
   sourceIds:
   - S19
@@ -910,7 +908,7 @@
   doi: 10.1177/001440299105800304
   url: https://doi.org/10.1177/001440299105800304
   topics:
-  - other
+  - international
   sourceIds:
   - S19
 - id: W067
@@ -967,7 +965,7 @@
   doi: 10.1177/0143034392134008
   url: https://doi.org/10.1177/0143034392134008
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W071
@@ -1142,7 +1140,7 @@
   doi: 10.1177/0143034395161003
   url: https://doi.org/10.1177/0143034395161003
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W083
@@ -1169,7 +1167,7 @@
   doi: 10.1080/02796015.1995.12085747
   url: https://doi.org/10.1080/02796015.1995.12085747
   topics:
-  - other
+  - ethics-professional
   sourceIds:
   - S19
 - id: W085
@@ -1213,6 +1211,7 @@
   url: https://doi.org/10.1590/s1413-85571996000100002
   topics:
   - international
+  - ethics-professional
   - assessment-general
   sourceIds:
   - S19
@@ -1257,7 +1256,7 @@
   doi: 10.1177/0143034397181003
   url: https://doi.org/10.1177/0143034397181003
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W091
@@ -1333,6 +1332,7 @@
   url: https://doi.org/10.1177/002246699703100307
   topics:
   - international
+  - ethics-professional
   sourceIds:
   - S19
 - id: W096
@@ -1345,6 +1345,7 @@
   doi: 10.1027/1015-5759.13.1.2
   url: https://doi.org/10.1027/1015-5759.13.1.2
   topics:
+  - ethics-professional
   - assessment-general
   sourceIds:
   - S19
@@ -1434,7 +1435,7 @@
   doi: 10.1177/0143034300213007
   url: https://doi.org/10.1177/0143034300213007
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W103
@@ -1572,7 +1573,7 @@
   doi: 10.1177/0143034301223001
   url: https://doi.org/10.1177/0143034301223001
   topics:
-  - international
+  - other
   sourceIds:
   - S19
 - id: W112
@@ -1598,7 +1599,6 @@
   doi: 10.15388/psichol.2002..8959
   url: https://doi.org/10.15388/psichol.2002..8959
   topics:
-  - test-adaptation
   - international
   - assessment-general
   sourceIds:
@@ -1645,6 +1645,7 @@
   url: https://doi.org/10.1111/j.1464-0597.2004.00165.x
   topics:
   - international
+  - ethics-professional
   - assessment-general
   sourceIds:
   - S19
@@ -1776,6 +1777,7 @@
   url: https://doi.org/10.1002/9780470712993.ch
   topics:
   - international
+  - ethics-professional
   - assessment-general
   sourceIds:
   - S19
@@ -1864,7 +1866,7 @@
   doi: 10.1016/b978-012088763-7/50009-7
   url: https://doi.org/10.1016/b978-012088763-7/50009-7
   topics:
-  - assessment-general
+  - other
   sourceIds:
   - S19
 - id: W132
@@ -2018,7 +2020,6 @@
   url: https://doi.org/10.1177/0143034307075684
   topics:
   - temperament-styles
-  - international
   sourceIds:
   - S19
 - id: W142
@@ -2383,7 +2384,6 @@
   url: https://doi.org/10.1007/978-1-387-87542-2_4
   topics:
   - adaptive-behavior
-  - assessment-general
   sourceIds:
   - S19
 - id: W167
@@ -2501,7 +2501,7 @@
   doi: 10.1016/b978-0-12-374177-6.10010-8
   url: https://doi.org/10.1016/b978-0-12-374177-6.10010-8
   topics:
-  - assessment-general
+  - other
   sourceIds:
   - S19
 - id: W175
@@ -2549,7 +2549,6 @@
   url: https://doi.org/10.1177/0143034310377302
   topics:
   - temperament-styles
-  - international
   sourceIds:
   - S19
 - id: W178
@@ -2578,6 +2577,7 @@
   url: https://doi.org/10.1080/15377903.2011.565267
   topics:
   - adaptive-behavior
+  - ethics-professional
   - assessment-general
   sourceIds:
   - S19
@@ -2620,6 +2620,7 @@
   doi: 10.1002/9781444395150.ch14
   url: https://doi.org/10.1002/9781444395150.ch14
   topics:
+  - ethics-professional
   - assessment-general
   sourceIds:
   - S19
@@ -2655,7 +2656,6 @@
   url: https://doi.org/10.1177/0143034311420358
   topics:
   - temperament-styles
-  - international
   sourceIds:
   - S19
 - id: W185
@@ -3243,7 +3243,6 @@
   doi: 10.1080/21683603.2015.1101406
   url: https://doi.org/10.1080/21683603.2015.1101406
   topics:
-  - international
   - assessment-general
   sourceIds:
   - S19
@@ -3260,7 +3259,6 @@
   url: https://doi.org/10.1007/978-1-4899-7996-4_3
   topics:
   - adaptive-behavior
-  - assessment-general
   sourceIds:
   - S19
 - id: W224
@@ -3274,7 +3272,6 @@
   url: https://doi.org/10.1093/med:psych/9780199356942.003.0022
   topics:
   - test-adaptation
-  - international
   - assessment-general
   sourceIds:
   - S19
@@ -3336,6 +3333,7 @@
   topics:
   - temperament-styles
   - test-adaptation
+  - international
   sourceIds:
   - S19
 - id: W229
@@ -3414,3 +3412,33 @@
   - adaptive-behavior
   sourceIds:
   - S17
+- id: B001
+  type: book
+  year: 1995
+  authors:
+  - Oakland, Thomas
+  - Hambleton, Ronald K.
+  title: International Perspectives on Academic Assessment
+  venue: Springer Netherlands
+  doi: 10.1007/978-94-011-0639-9
+  url: https://doi.org/10.1007/978-94-011-0639-9
+  topics:
+  - international
+  - assessment-general
+  sourceIds:
+  - S19
+- id: B002
+  type: book
+  year: 2010
+  authors:
+  - Weiss, Lawrence G.
+  - Oakland, Thomas
+  - Aylward, Glen P.
+  title: Bayley-III Clinical Use and Interpretation
+  venue: Elsevier
+  doi: 10.1016/c2009-0-01670-5
+  url: https://doi.org/10.1016/c2009-0-01670-5
+  topics:
+  - assessment-general
+  sourceIds:
+  - S19

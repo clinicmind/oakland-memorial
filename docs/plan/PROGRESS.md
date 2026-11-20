@@ -26,6 +26,8 @@
 
 ## 下一個任務
 
+0. **暫停視覺／版面工作**（M4 元件樣式、M5 頁面）。使用者不接受 M4 設計（經 Opus 規劃 session 轉達：「太普通，美感不夠」）。等新的 DESIGN_SPEC v2。期間只做純資料工作。
+
 1. M3：確認 P4；push 後看 CI 與 deploy 是否通過。
 
 
@@ -51,6 +53,8 @@
 - 排除：33 筆 PsycEXTRA dataset／posted-content（通訊、會議報告，書目性質不明）。不確定的 2 筆放 `docs/plan/works-uncertain.yaml`，不上線。2 筆因 429 沒重查（已排除）。
 - 限制：Crossref 召回不完整，清單不是窮盡的。11 套測驗只找到 2 套（SSQ、ABAS-3）；ABAS-II（2003）只有書目引用（F31a）。Pearson 頁說 5 套、訃聞說 11 套（F18b），不寫數字。
 - 書籍（Open Library 找到約 10 本，如 1974 *Assessing minority group children*、2010 *Bayley-III clinical use and interpretation*）年份和出版者未逐本核對，**未列入** `works.yaml`。M6 前可用 Crossref／目錄再核。
+- 書籍核對（Crossref）：加入 B001 *International Perspectives on Academic Assessment*（Springer, 1995）與 B002 *Bayley-III Clinical Use and Interpretation*（Elsevier, 2010）。其餘 Open Library 的書（*Assessing minority group children* 1974、*Psychological and educational assessment of minority children* 1977、*International perspectives on psychology in the schools*、Mpofu & Oakland 2010 等）Crossref 只找到書評、再版或年份不一致，**仍未列入**。
+- 主題標籤已改以標題為主（期刊名 *School Psychology International* 不再觸發 international）。
 - 2015 年後的條目是逝世後出版或登錄較晚，M6 顯示時要標註。
 - 標題裡有 HTML 實體已解碼。主題標籤用關鍵字自動標，M6 前抽查。
 
