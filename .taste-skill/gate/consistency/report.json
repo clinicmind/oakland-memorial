@@ -1,7 +1,7 @@
 {
  "page": "/home/user/oakland-memorial/dist/zh-hant/index.html",
  "url": "http://127.0.0.1:5200/zh-hant/index.html",
- "at": "2026-11-20T18:02:43.634Z",
+ "at": "2026-11-20T23:26:30.596Z",
  "out": "/home/user/oakland-memorial/.taste-skill/gate/consistency",
  "widths": [
   {
@@ -28,7 +28,7 @@
      "text": "他共同編製的 ABAS-3，描述一個人如何處理 日常生活：從出生到 89 歲，涵蓋概念、社會與實",
      "msg": "starts \"color\" (0.2 s) the moment it is scrolled into view (an IntersectionObserver) on span.mo-w:nth-of-type(1) (inside a dealt moment's section, [data-moment]: an enter moment is expected on every kind; its still is judged under reduced motion)",
      "stop": 7,
-     "crop": "1440-08-scroll-reveal.jpg",
+     "crop": "1440-06-scroll-reveal.jpg",
      "fix": "show it at rest: no fade, rise or unmask when it is scrolled into view"
     },
     {
@@ -38,7 +38,7 @@
      "text": "任教與求學的四所大學 他求學、任教與訪問的地方。 閱讀完整年表 01 / 04 Indiana ",
      "stop": 14,
      "msg": "held on screen for 3 screens of scroll (position: sticky) while the page moves on (inside a dealt moment's section, [data-moment]: expected on every kind, two moments at most, house rule; its still is judged under reduced motion)",
-     "crop": "1440-10-pinned.jpg",
+     "crop": "1440-08-pinned.jpg",
      "fix": "let the section scroll with the page"
     },
     {
@@ -48,7 +48,7 @@
      "text": "",
      "stop": 1,
      "msg": "101px between these sections, -47% against the median 189px",
-     "crop": "1440-06-section-gaps.jpg",
+     "crop": "1440-04-section-gaps.jpg",
      "fix": "use one gap between sections (all within 25% of each other)"
     },
     {
@@ -58,28 +58,8 @@
      "text": "",
      "stop": 12,
      "msg": "uneven space at the edge of a band: 72px outside its edge, 117px inside it (the space on either side of a change of ground reads as one gap only when the two match)",
-     "crop": "1440-09-section-gaps.jpg",
+     "crop": "1440-07-section-gaps.jpg",
      "fix": "use one gap between sections (all within 25% of each other)"
-    },
-    {
-     "check": "links",
-     "sev": "WARN",
-     "sel": "header.nav.nav--centre > div.wrap.nav__bar > div.nav__actions > a.nav__link:nth-of-type(2)",
-     "text": "分享回憶",
-     "msg": "\"分享回憶\" goes to #contact, in the footer",
-     "stop": 0,
-     "crop": "1440-02-links.jpg",
-     "fix": "point every link at a real section, page or file"
-    },
-    {
-     "check": "links",
-     "sev": "WARN",
-     "sel": "div.hero-text > div.hero__text > div.btn-row > a.btn.btn--primary",
-     "text": "分享回憶",
-     "msg": "\"分享回憶\" goes to #contact, in the footer",
-     "stop": 0,
-     "crop": "1440-03-links.jpg",
-     "fix": "point every link at a real section, page or file"
     },
     {
      "check": "photo-credit",
@@ -96,8 +76,8 @@
      "sel": "header.nav.nav--centre",
      "text": "",
      "stop": 1,
-     "msg": "the nav stays on screen with 6 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
-     "crop": "1440-07-nav-current.jpg",
+     "msg": "the nav stays on screen with 5 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
+     "crop": "1440-05-nav-current.jpg",
      "fix": "mark the link of the section on screen (a colour, a weight or a line under it) as the visitor scrolls"
     },
     {
@@ -107,7 +87,7 @@
      "text": "閱讀他的生平",
      "stop": 0,
      "msg": "the button \"閱讀他的生平\" (#e4e7e9) stands only 1.18:1 off the ground around it: it reads as part of the ground, or as switched off",
-     "crop": "1440-04-button-contrast.jpg",
+     "crop": "1440-02-button-contrast.jpg",
      "fix": "give the button a fill that stands at least 1.5:1 off what is around it, or an outline in the ink"
     },
     {
@@ -117,7 +97,7 @@
      "text": "Thomas D. Oakland 學校心理學家（1939-2015）。他共同編",
      "msg": "4 flat grounds across the page (#1b1b1b section, #f7f9fa section x5, #ecf0f2 section x2, #1f3038 footer): three at most (the base, a surface, an inverse)",
      "stop": 0,
-     "crop": "1440-05-grounds.jpg",
+     "crop": "1440-03-grounds.jpg",
      "fix": "three flat grounds at most (the base, one surface, one inverse): lay the other bands on one of them"
     },
     {
@@ -134,7 +114,7 @@
      "sev": "WARN",
      "sel": "html",
      "text": "zh-Hant",
-     "msg": "<html lang=\"zh-Hant\">, but the words read as en (15 common en words against 0 zh ones in 184)",
+     "msg": "<html lang=\"zh-Hant\">, but the words read as en (15 common en words against 0 zh ones in 186)",
      "stop": null,
      "fix": "set <html lang> to the language the page is written in, from the brief (\"de\" for a German page)"
     },
@@ -154,7 +134,7 @@
      "text": "分享回憶",
      "stop": 17,
      "msg": "\"分享回憶\" shows 2 times on the first screen at 1440px (nav, hero): the nav's button and the hero's; nothing else on the screen may repeat it",
-     "crop": "1440-11-action-repeat.jpg",
+     "crop": "1440-09-action-repeat.jpg",
      "fix": "show the action once a screen besides the nav's button: the hero's, the close's or the phone bar's, never all at once"
     }
    ],
@@ -184,7 +164,7 @@
      "text": "任教與求學的四所大學 他求學、任教與訪問的地方。 閱讀完整年表 01 / 04 Indiana ",
      "stop": 16,
      "msg": "held on screen for 3 screens of scroll (position: sticky) while the page moves on (inside a dealt moment's section, [data-moment]: expected on every kind, two moments at most, house rule; its still is judged under reduced motion)",
-     "crop": "390-09-pinned.jpg",
+     "crop": "390-06-pinned.jpg",
      "fix": "let the section scroll with the page"
     },
     {
@@ -210,42 +190,12 @@
     {
      "check": "section-gaps",
      "sev": "WARN",
-     "sel": "section#macau / section#memories",
-     "text": "",
-     "stop": 13,
-     "msg": "213px between these sections, +50% against the median 142px",
-     "crop": "390-06-section-gaps.jpg",
-     "fix": "use one gap between sections (all within 25% of each other)"
-    },
-    {
-     "check": "section-gaps",
-     "sev": "WARN",
      "sel": "section#memories / footer#contact",
      "text": "",
      "stop": 14,
-     "msg": "240px between these sections, +48% against the median 163px of gaps at a change of ground",
-     "crop": "390-07-section-gaps.jpg",
+     "msg": "223px between these sections, +43% against the median 156px of gaps at a change of ground",
+     "crop": "390-05-section-gaps.jpg",
      "fix": "use one gap between sections (all within 25% of each other)"
-    },
-    {
-     "check": "section-gaps",
-     "sev": "WARN",
-     "sel": "section#memories / footer#contact",
-     "text": "",
-     "stop": 14,
-     "msg": "uneven space at the edge of a band: 146px outside its edge, 94px inside it (the space on either side of a change of ground reads as one gap only when the two match)",
-     "crop": "390-08-section-gaps.jpg",
-     "fix": "use one gap between sections (all within 25% of each other)"
-    },
-    {
-     "check": "proximity",
-     "sev": "WARN",
-     "sel": "section#macau > div.wrap.grid > figure.pl-photo.pl-photo--end",
-     "text": "2011 年訪問澳門大學 2011 年 1 月至 5 月，澳門大學心理學系邀請他擔任訪問教授，為",
-     "msg": "stacked at this width, the visual starts 15px under the text and buttons above it (\"2011 年訪問澳門大學 2011 年 1 月至 5 月，澳\"): it reads glued to them",
-     "fix": "give the stacked split the section's own gap between text and visual (40px or more on a phone)",
-     "stop": 12,
-     "crop": "390-05-proximity.jpg"
     },
     {
      "check": "button-contrast",
@@ -296,7 +246,7 @@
  },
  "counts": {
   "FAIL": 1,
-  "WARN": 23
+  "WARN": 18
  },
  "checks": {
   "assets": "PASS",
@@ -364,9 +314,9 @@
   "body-size": "PASS",
   "busy-ground": "PASS",
   "section-gaps": "WARN",
-  "proximity": "WARN",
+  "proximity": "PASS",
   "hole": "PASS",
-  "links": "WARN",
+  "links": "PASS",
   "forms": "not checked",
   "photo-upscale": "PASS",
   "photo-set": "PASS",

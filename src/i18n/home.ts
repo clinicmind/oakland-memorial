@@ -15,8 +15,8 @@ export interface HomeCopy {
   macau: { h2: string; p: string; quote: string; alt: string; signAlt: string };
   memories: { alt: string; h2: string; p: string };
   close: { h2: string; p: string };
-  footer: { lede: string; made: string; credits: string; colA: string; colB: string; links: { life: string; honors: string; places: string; works: string; learn: string; memorial: string; sources: string; search: string } };
-  more: { life: string; work: string; writing: string };
+  footer: { lede: string; made: string; credits: string; colA: string; colB: string; links: { life: string; honors: string; places: string; works: string; macau: string; legacy: string; learn: string; memorial: string; sources: string; search: string } };
+  more: { life: string; work: string; writing: string; macau: string; legacy: string };
 }
 
 export const factIds = ['F1','F5','F6','F8','F9','F10','F11','F16','F17','F19','F20','F28','F30','F32'];
@@ -102,9 +102,9 @@ export const copy: Record<Lang, HomeCopy> = {
       made: 'Made by ClinicMind, clinical psychologist',
       credits: 'Photographs via Wikimedia Commons',
       colA: 'Story', colB: 'Reference',
-      links: { life: 'Life and timeline', honors: 'Honors', places: 'Places', works: 'Works', learn: 'Learning units', memorial: 'Memorial notes', sources: 'Sources', search: 'Search' },
+      links: { life: 'Life and timeline', honors: 'Honors', places: 'Places', works: 'Works', macau: 'The Macau years', legacy: 'Carrying on his work', learn: 'Learning units', memorial: 'Memorial notes', sources: 'Sources', search: 'Search' },
     },
-    more: { life: 'Read the full timeline', work: 'See the tests', writing: 'See all works' },
+    more: { life: 'Read the full timeline', work: 'See the tests', writing: 'See all works', macau: 'Read the Macau story', legacy: 'See how his work continues' },
   },
   'zh-hant': {
     title: 'Thomas D. Oakland（1939-2015）：學校心理學家',
@@ -186,8 +186,8 @@ export const copy: Record<Lang, HomeCopy> = {
       made: '臨床心語（ClinicMind），臨床心理師 製作',
       credits: '照片來自 Wikimedia Commons',
       colA: '故事', colB: '參考',
-      links: { life: '生平與年表', honors: '榮譽', places: '足跡', works: '著作', learn: '學習單元', memorial: '追思紀念', sources: '資料來源', search: '搜尋' },
+      links: { life: '生平與年表', honors: '榮譽', places: '足跡', works: '著作', macau: '澳門歲月', legacy: '傳承', learn: '學習單元', memorial: '追思紀念', sources: '資料來源', search: '搜尋' },
     },
-    more: { life: '閱讀完整年表', work: '查看測驗', writing: '查看全部著作' },
+    more: { life: '閱讀完整年表', work: '查看測驗', writing: '查看全部著作', macau: '閱讀澳門的故事', legacy: '看他的工作如何延續' },
   },
 };

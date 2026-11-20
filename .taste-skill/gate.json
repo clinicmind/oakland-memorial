@@ -1,12 +1,12 @@
 {
- "start": "2026-11-20T18:02:43.129Z",
+ "start": "2026-11-20T23:26:29.990Z",
  "round": 0,
  "idle": 0,
  "errors": 0,
  "status": "pass",
  "history": [
   {
-   "at": "2026-11-20T18:04:53.796Z",
+   "at": "2026-11-20T23:28:43.466Z",
    "mode": "manual",
    "status": "pass",
    "fails": 0,
@@ -24,11 +24,11 @@
   "category": "紀念與學習網站 學校心理學家",
   "primary": "分享回憶",
   "rounds": 3,
-  "start": "2026-11-20T18:02:43.129Z",
+  "start": "2026-11-20T23:26:29.990Z",
   "by": "gate.mjs --start"
  },
  "manual": true,
- "fp": "b491554339f907a1",
+ "fp": "c7ce3402e6db92f1",
  "page": "dist/zh-hant/index.html",
  "found": {
   "fails": [
@@ -68,7 +68,7 @@
    {
     "check": "neighbour",
     "where": "#writing section.section.ground-surface \"學校心理學精選著作從目錄中挑出的四項。 查看全部著作 Inter\"",
-    "msg": "framed, 54px of #macau section.section \"2011 年訪問澳門大學2011 年 1 月至 5 月，澳門大學\" shows",
+    "msg": "framed, 63px of #macau section.section \"2011 年訪問澳門大學2011 年 1 月至 5 月，澳門大學\" shows",
     "fix": "keep the next section's heading and picture out of this screen",
     "widths": [
      390
@@ -144,26 +144,6 @@
     "from": "consistency"
    },
    {
-    "check": "links",
-    "where": "header.nav.nav--centre > div.wrap.nav__bar > div.nav__actions > a.nav__link:nth-of-type(2) \"分享回憶\"",
-    "msg": "\"分享回憶\" goes to #contact, in the footer",
-    "fix": "point every link at a real section, page or file",
-    "widths": [
-     1440
-    ],
-    "from": "consistency"
-   },
-   {
-    "check": "links",
-    "where": "div.hero-text > div.hero__text > div.btn-row > a.btn.btn--primary \"分享回憶\"",
-    "msg": "\"分享回憶\" goes to #contact, in the footer",
-    "fix": "point every link at a real section, page or file",
-    "widths": [
-     1440
-    ],
-    "from": "consistency"
-   },
-   {
     "check": "photo-credit",
     "where": "(the page text)",
     "msg": "1 library source (wikimedia): the page credits wikimedia; confirm each shows the client's own product, place or people",
@@ -176,7 +156,7 @@
    {
     "check": "nav-current",
     "where": "header.nav.nav--centre",
-    "msg": "the nav stays on screen with 6 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
+    "msg": "the nav stays on screen with 5 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
     "fix": "mark the link of the section on screen (a colour, a weight or a line under it) as the visitor scrolls",
     "widths": [
      1440
@@ -217,7 +197,7 @@
    {
     "check": "lang",
     "where": "html \"zh-Hant\"",
-    "msg": "<html lang=\"zh-Hant\">, but the words read as en (15 common en words against 0 zh ones in 184)",
+    "msg": "<html lang=\"zh-Hant\">, but the words read as en (15 common en words against 0 zh ones in 186)",
     "fix": "set <html lang> to the language the page is written in, from the brief (\"de\" for a German page)",
     "widths": [
      1440
@@ -255,26 +235,6 @@
     "from": "consistency"
    },
    {
-    "check": "section-gaps",
-    "where": "section#macau / section#memories",
-    "msg": "213px between these sections, +50% against the median 142px",
-    "fix": "use one gap between sections (all within 25% of each other)",
-    "widths": [
-     390
-    ],
-    "from": "consistency"
-   },
-   {
-    "check": "proximity",
-    "where": "section#macau > div.wrap.grid > figure.pl-photo.pl-photo--end \"2011 年訪問澳門大學 2011 年 1 月至 5 月，澳門大學心理學系邀請他\"",
-    "msg": "stacked at this width, the visual starts 15px under the text and buttons above it (\"2011 年訪問澳門大學 2011 年 1 月至 5 月，澳\"): it reads glued to them",
-    "fix": "give the stacked split the section's own gap between text and visual (40px or more on a phone)",
-    "widths": [
-     390
-    ],
-    "from": "consistency"
-   },
-   {
     "check": "copy-stat-strip",
     "msg": "stat strip x1",
     "fix": "a strip only of figures the brief gives (a price, hours, a count); otherwise put each number in the sentence it proves, or leave it out (references/copy-tells.md)",
@@ -286,8 +246,8 @@
   ],
   "crashed": [],
   "seconds": {
-   "consistency": 127,
-   "layout": 3
+   "consistency": 129,
+   "layout": 4
   }
  },
  "open": [],
@@ -330,7 +290,7 @@
   {
    "check": "neighbour",
    "where": "#writing section.section.ground-surface \"學校心理學精選著作從目錄中挑出的四項。 查看全部著作 Inter\"",
-   "msg": "framed, 54px of #macau section.section \"2011 年訪問澳門大學2011 年 1 月至 5 月，澳門大學\" shows",
+   "msg": "framed, 63px of #macau section.section \"2011 年訪問澳門大學2011 年 1 月至 5 月，澳門大學\" shows",
    "fix": "keep the next section's heading and picture out of this screen",
    "widths": [
     390
@@ -362,6 +322,6 @@
    "reason": "Stress test fills the h1 to 32 characters; the real zh-hant h1 is 17 characters and the hero fits the first screen at 390."
   }
  ],
- "warnCount": 18,
- "at": "2026-11-20T18:04:53.797Z"
+ "warnCount": 14,
+ "at": "2026-11-20T23:28:43.466Z"
 }

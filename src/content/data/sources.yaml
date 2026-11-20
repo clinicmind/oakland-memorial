@@ -80,3 +80,7 @@
   url: "https://api.crossref.org/works"
   accessedOn: "2026-11-20"
   note: "Used to verify every bibliographic entry in the works list."
+- id: UM
+  title: "Stated by the site organiser (ClinicMind, clinical psychologist); approved on 2026-11-20"
+  url: null
+  accessedOn: null

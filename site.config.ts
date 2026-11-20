@@ -24,3 +24,6 @@ export const site = {
 
 // 預覽模式：true 時全站 noindex（MASTER_PLAN 6.4）。使用者同意公開後才改成 false。
 export const PREVIEW = true;
+
+// 追思投稿表單（Tally）。使用者建立表單後，把網址填在這裡。null 時，按鈕連到說明頁。
+export const MEMORY_FORM_URL: string | null = null;

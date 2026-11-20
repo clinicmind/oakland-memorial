@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { copy, factIds } from '../../i18n/home';
-import { LOCALES, HTML_LANG, site, type Lang } from '../../../site.config';
+import { LOCALES, HTML_LANG, MEMORY_FORM_URL, site, type Lang } from '../../../site.config';
 import { url } from '../../i18n/url';
 import dims from '../../i18n/photos.json';
 import SiteNav from '../../components/SiteNav.astro';
@@ -10,6 +10,7 @@ import SiteFooter from '../../components/SiteFooter.astro';
 export function getStaticPaths() { return LOCALES.map((lang) => ({ params: { lang } })); }
 const lang = Astro.params.lang as Lang;
 const c = copy[lang];
+const share = MEMORY_FORM_URL ?? url(lang, 'memories/');
 const other: Lang = lang === 'en' ? 'zh-hant' : 'en';
 const img = (n: string) => `${import.meta.env.BASE_URL}assets/img/${n}`.replace(/\/{2,}/g, '/');
 // 照片：ID 對應 public/assets/img/credits.json。hero 是過渡用的替代照片，等使用者提供照片後換掉。
@@ -47,7 +48,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
           <h1 id="hero-h">{c.hero.h1}</h1>
           <p class="hero__lead">{c.hero.lead}</p>
           <div class="btn-row">
-            <a class="btn btn--primary" href="#contact">{c.share}</a>
+            <a class="btn btn--primary" href={share}>{c.share}</a>
             <a class="btn btn--secondary" href="#life">{c.readLife}</a>
           </div>
         </div>
@@ -124,7 +125,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
       <div class="wrap grid grid--middle">
         <div class="span-6">
           <div class="section-head"><h2 id="macau-h">{c.macau.h2}</h2><p>{c.macau.p}</p></div>
-          <p class="t-lead">{c.macau.quote}</p>
+          <p class="t-lead">{c.macau.quote} <a class="link" href={url(lang, 'macau/')}>{c.more.macau}</a></p>
         </div>
         <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img {...pa(P.macauSign, '(min-width: 1024px) 75vw, 170vw')} alt={c.macau.signAlt} data-source="commons" data-subject="landmark" loading="lazy" /></figure>
       </div>
@@ -133,7 +134,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
     <section class="section" id="memories" style="--h: 1" aria-labelledby="memories-h">
       <div class="wrap grid grid--middle">
         <div class="span-6">
-          <div class="section-head"><h2 id="memories-h">{c.memories.h2}</h2><p>{c.memories.p}</p></div>
+          <div class="section-head"><h2 id="memories-h">{c.memories.h2}</h2><p>{c.memories.p} <a class="link" href={url(lang, 'legacy/')}>{c.more.legacy}</a></p></div>
         </div>
         <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: .8"><img {...pa(P.memories, '(min-width: 1024px) 75vw, 170vw')} alt={c.memories.alt} data-source="commons" data-subject="stand-in" loading="lazy" /></figure>
       </div>

@@ -317,3 +317,84 @@
   checkedOn: "2026-11-20"
   quote: "S12: \"...Psychology Association in several roles, including its presidency from 1995 to 1997.\""
   note: "ITC and IFCE terms: no source. S12 is the only source for these years."
+- id: U1
+  claim:
+    en: "In the 2010-2011 academic year he taught Cognitive Assessment in the Master of Clinical Psychology program at the University of Macau."
+    zh-hant: "2010-2011 學年，他在澳門大學臨床心理學碩士課程教授認知評估。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U2
+  claim:
+    en: "He was close to his students and gave them ideas for their futures."
+    zh-hant: "他和學生有私交，為大家的未來規劃提供想法。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U3
+  claim:
+    en: "He respected everyone and worked to build a better world."
+    zh-hant: "他尊重每一個人，努力建造一個更好的世界。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U4
+  claim:
+    en: "He taught that the work must always be done professionally."
+    zh-hant: "他教導做事一定要專業。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U5
+  claim:
+    en: "As his student, the author was allowed to audit school psychology doctoral courses at the University of South Florida and meet its psychology faculty and students."
+    zh-hant: "因為是他的學生，作者獲准到 University of South Florida 旁聽學校心理學博士班課程，並和心理學系師生交流。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U6
+  claim:
+    en: "His influence led the author to found a therapists' association and to become a clinical supervisor."
+    zh-hant: "他的影響讓作者創立治療師公會，並成為臨床督導。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U7
+  claim:
+    en: "After his death, former students travelled to the United States to attend his funeral and helped his family sort through his belongings."
+    zh-hant: "他離世後，幾位舊學生到美國出席喪禮，並和家屬一起整理遺物。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U8
+  claim:
+    en: "Books and a mug from his study remain on the author's bookshelf."
+    zh-hant: "作者的書架上仍保留從他書房帶回來的書和杯子。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."
+- id: U9
+  claim:
+    en: "His death led the author to research criminal psychology, serve people rebuilding their lives after prison and train police officers in criminal psychology."
+    zh-hant: "他的離世促使作者投入犯罪心理學研究、為更生人士提供服務，並為警務人員提供犯罪心理學培訓。"
+  sourceIds: ["UM"]
+  status: U
+  checkedOn: null
+  approvedByUser: true
+  note: "Stated by the site organiser; text approved by the user on 2026-11-20 (Q13)."

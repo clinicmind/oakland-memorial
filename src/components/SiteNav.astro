@@ -1,12 +1,13 @@
 ---
 import { copy } from '../i18n/home';
-import { HTML_LANG, site, type Lang } from '../../site.config';
+import { HTML_LANG, MEMORY_FORM_URL, site, type Lang } from '../../site.config';
 import { url } from '../i18n/url';
 interface Props { lang: Lang; home?: boolean; path?: string }
 const { lang, home = false, path = '' } = Astro.props;
 const c = copy[lang];
 const other: Lang = lang === 'en' ? 'zh-hant' : 'en';
 const at = (id: string) => (home ? `#${id}` : `${url(lang)}#${id}`);
+const share = MEMORY_FORM_URL ?? url(lang, 'memories/');
 const top = home ? '#top' : url(lang);
 const items = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn], ['writing', c.nav.writing], ['memories', c.nav.memories]] as const;
 ---
@@ -19,7 +20,7 @@ const items = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn
       </nav>
       <div class="nav__actions">
         <a class="nav__link" href={url(other, path)} lang={HTML_LANG[other]} hreflang={HTML_LANG[other]}>{c.otherLang.label}</a>
-        <a class="nav__link" href={at('contact')}>{c.share}</a>
+        <a class="nav__link" href={share}>{c.share}</a>
       </div>
       <button class="nav__toggle" type="button" aria-expanded="false" aria-label={c.menu}>
         <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>

@@ -1,11 +1,12 @@
 ---
 import { copy } from '../i18n/home';
-import { site, type Lang } from '../../site.config';
+import { MEMORY_FORM_URL, site, type Lang } from '../../site.config';
 import { url } from '../i18n/url';
 interface Props { lang: Lang; home?: boolean }
 const { lang, home = false } = Astro.props;
 const c = copy[lang];
 const at = (id: string) => (home ? `#${id}` : `${url(lang)}#${id}`);
+const share = MEMORY_FORM_URL ?? url(lang, 'memories/');
 const top = home ? '#top' : url(lang);
 const nav = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn], ['writing', c.nav.writing], ['macau', c.nav.macau], ['memories', c.nav.memories]] as const;
 const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg>`;
@@ -14,7 +15,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
     <div class="wrap">
       <div class="closing__cta close--type">
         <div class="section-head"><h2 id="close-h">{c.close.h2}</h2><p>{c.close.p}</p></div>
-        <a class="btn btn--primary btn--xl btn--wide" href={at('memories')}>{c.share}<Fragment set:html={arrow} /></a>
+        <a class="btn btn--primary btn--xl btn--wide" href={share}>{c.share}<Fragment set:html={arrow} /></a>
       </div>
       <div class="closing__links">
         <div class="grid">
@@ -27,10 +28,12 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
             <li><a href={url(lang, 'honors/')}>{c.footer.links.honors}</a></li>
             <li><a href={url(lang, 'places/')}>{c.footer.links.places}</a></li>
             <li><a href={url(lang, 'works/')}>{c.footer.links.works}</a></li>
+            <li><a href={url(lang, 'macau/')}>{c.footer.links.macau}</a></li>
           </ul></div>
           <div class="span-3 footer__col"><h3>{c.footer.colB}</h3><ul>
+            <li><a href={url(lang, 'legacy/')}>{c.footer.links.legacy}</a></li>
             <li><a href={at('learn')}>{c.footer.links.learn}</a></li>
-            <li><a href={at('memories')}>{c.footer.links.memorial}</a></li>
+            <li><a href={url(lang, 'memories/')}>{c.footer.links.memorial}</a></li>
             <li><a href={url(lang, 'sources/')}>{c.footer.links.sources}</a></li>
             <li><a href={url(lang, 'search/')}>{c.footer.links.search}</a></li>
           </ul></div>
