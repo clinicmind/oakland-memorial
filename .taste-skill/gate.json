@@ -1,12 +1,12 @@
 {
- "start": "2026-11-20T17:56:45.898Z",
+ "start": "2026-11-20T18:02:43.129Z",
  "round": 0,
  "idle": 0,
  "errors": 0,
  "status": "pass",
  "history": [
   {
-   "at": "2026-11-20T17:58:55.916Z",
+   "at": "2026-11-20T18:04:53.796Z",
    "mode": "manual",
    "status": "pass",
    "fails": 0,
@@ -24,11 +24,11 @@
   "category": "紀念與學習網站 學校心理學家",
   "primary": "分享回憶",
   "rounds": 3,
-  "start": "2026-11-20T17:56:45.898Z",
+  "start": "2026-11-20T18:02:43.129Z",
   "by": "gate.mjs --start"
  },
  "manual": true,
- "fp": "d6aa4803e9f42111",
+ "fp": "b491554339f907a1",
  "page": "dist/zh-hant/index.html",
  "found": {
   "fails": [
@@ -286,7 +286,7 @@
   ],
   "crashed": [],
   "seconds": {
-   "consistency": 126,
+   "consistency": 127,
    "layout": 3
   }
  },
@@ -363,5 +363,5 @@
   }
  ],
  "warnCount": 18,
- "at": "2026-11-20T17:58:55.916Z"
+ "at": "2026-11-20T18:04:53.797Z"
 }

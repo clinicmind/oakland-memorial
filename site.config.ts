@@ -21,3 +21,6 @@ export const site = {
   // 教授沒有中文名字。內容不可出現的中文譯名樣式（供 check-content 使用）。
   forbiddenNames: ['奧克蘭', '歐克蘭', '奥克兰', '欧克兰', '奧克蘭德'],
 } as const;
+
+// 預覽模式：true 時全站 noindex（MASTER_PLAN 6.4）。使用者同意公開後才改成 false。
+export const PREVIEW = true;

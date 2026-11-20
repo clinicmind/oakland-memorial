@@ -12,31 +12,47 @@
 | M2 | 著作目錄 | ✅ 完成（有限制） | Sonnet | 2026-11-20 |
 | M3 | 專案骨架＋檢查腳本 | 🔄 程式完成；待 P4 與 CI 實跑 | Sonnet | |
 | M4 | 設計系統 v2（taste-skill）＋首頁 | ✅ 完成（gate PASS：英文、中文） | Sonnet | 2026-11-20 |
-| M5 | 首頁＋生平區 | ⬜ | Sonnet | |
-| M6 | 學術貢獻區 | ⬜ | Sonnet | |
+| M5 | 首頁＋生平區 | ✅ 完成（有限制：足跡用清單，沒有 SVG 地圖） | Sonnet | 2026-11-20 |
+| M6 | 學術貢獻區 | ✅ 完成（測驗 2 套） | Sonnet | 2026-11-20 |
 | M7 | 學習中心 | ⬜ | Opus 內容／Sonnet 頁面 | |
 | M8 | 澳門歲月、傳承、追思牆 | ⬜ | Sonnet＋使用者 | |
 | M9 | 翻譯審校 | ⬜ | Opus | |
 | M10 | 上線前檢查、預覽部署 | ⬜ | Sonnet | |
 | M11 | 聯絡家屬提醒、公開、模板化 | ⬜ | Sonnet＋使用者 | |
 
-進度：4/12 ▓▓▓▓░░░░░░░░ 33%（M0–M2、M4；M3 部署已通過）
+進度：7/12 ▓▓▓▓▓▓▓░░░░░ 58%（M0–M6）
 
 預計：約 11–13 個工作 session；使用者及時回覆時約 1.5–2 週完成預覽版。
 
 ## 下一個任務
 
-
-1. M3：確認 P4；push 後看 CI 與 deploy 是否通過。
-
+1. **M7 學習中心**：Sonnet 先做版面與元件（單元頁、Quiz、GlossaryTerm、詞彙表）。內容（T1–T5、測驗題、詞彙定義）**建議轉 Opus**。
+2. **M8**：需要使用者的資料（Q13、照片、投稿管道）。見下方。
+3. **M9 翻譯審校**：建議轉 Opus。
+4. **M10 剩餘項目**：Lighthouse 手機分數、外部連結檢查、`@astrojs/sitemap`（內容穩定後做）。
+5. **M11**：提醒使用者聯絡家屬或 UF（Playbook M11 原文），再取消 `PREVIEW`。
 
 ## 待使用者回答
+
+- 投稿管道：「Share a memory」要連到哪裡（Google Forms 或 Tally）。目前連到頁內 #memories。
+- 替代照片換成真照片：hero（書和杯子，或有授權的肖像）、其他。
 
 - Q13 `MACAU_STORY.md` 草稿是否同意（M8 前）
 - P4 Repo Settings → Pages → Source 選 GitHub Actions（M3 部署前）
 - 照片（M8 前）
 
 ## 紀錄
+
+### 2026-11-20 M5／M6／M10（部分）
+
+- M5：`/[lang]/life/`（敘事＋年表，鍵盤可篩選）、`honors/`、`places/`、`sources/`（含來源不一致說明）、`credits/`。每個事實句後面有來源標籤，連到來源頁錨點。
+- M6：`works/`（測驗、書籍、可搜尋與篩選的全部著作；來自 Crossref，標示 2015 年後出版）、`tests/abas-3/`（含三領域圖解）、`tests/ssq/`。沒有任何題目、計分或常模。Pagefind 全站搜尋（`search/`），中英文關鍵字都有結果。
+- M10（先做的部分）：全站 `noindex`＋`robots.txt` Disallow（`site.config.ts` 的 `PREVIEW`）、canonical、hreflang（zh-Hant、en、x-default）、內部連結檢查（`npm run check:links`，已進 CI）。檢查抓到並修正一個 bug：帶錨點的連結多一個斜線，來源標籤點不到。
+- 驗證：`scripts/e2e.cjs`（preview 上全頁 axe、無橫向捲動、無 console 錯誤、`lang` 正確；年表鍵盤篩選、著作篩選、搜尋）全部通過。首頁 gate 英文與中文再次 PASS（4 個 waiver）。
+- 新的 waiver：`neighbour #writing`（手機上該區塊的長度不是整數個螢幕）。
+- 限制：足跡頁是清單，沒有世界地圖；子頁沒有跑 consistency（那是首頁的一區一畫面規則；規格明說子頁用單欄閱讀）；Lighthouse 還沒跑；外部連結還沒檢查。
+- 規格差異：子頁不用 `main > section`（kit 會把它撐成固定螢幕高度並裁切長內容），改用 `div.doc-block`。
+
 
 ### 2026-11-20 M4 v2（taste-skill 設計）
 

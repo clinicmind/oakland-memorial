@@ -2,7 +2,7 @@
 import '@fontsource-variable/albert-sans';
 import '@fontsource/noto-sans-tc/400.css';
 import '@fontsource/noto-sans-tc/500.css';
-import { HTML_LANG, LOCALES, site, type Lang } from '../../site.config';
+import { DEFAULT_LANG, HTML_LANG, LOCALES, PREVIEW, type Lang } from '../../site.config';
 import { url } from '../i18n/url';
 
 interface Props {
@@ -36,8 +36,11 @@ const zh = lang === 'zh-hant';
     <meta name="theme-color" content="#f7f9fa" />
     <meta name="site-kind" content="other" />
     <meta name="page-type" content="service" />
-    {noindex && <meta name="robots" content="noindex, nofollow" />}
-    {LOCALES.map((l) => <link rel="alternate" hreflang={HTML_LANG[l]} href={url(l, path)} />)}
+    {/* 預覽期間全站 noindex。M11 使用者同意公開後，把 PREVIEW 改成 false。 */}
+    {(PREVIEW || noindex) && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={new URL(url(lang, path), Astro.site).href} />
+    <link rel="alternate" hreflang="x-default" href={new URL(url(DEFAULT_LANG, path), Astro.site).href} />
+    {LOCALES.map((l) => <link rel="alternate" hreflang={HTML_LANG[l]} href={new URL(url(l, path), Astro.site).href} />)}
     <link rel="stylesheet" href={a('system.css')} />
     <link rel="stylesheet" href={a('ui/cards.css')} />
     <link rel="stylesheet" href={a('motion/motion.css')} />
