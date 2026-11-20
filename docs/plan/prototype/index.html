@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thomas D. Oakland (1939–2015) — 視覺原型 Visual Prototype</title>
+<!--
+  視覺原型（VISUAL REFERENCE ONLY）
+  - 用途：鎖定版面、色彩、字體層級、元件樣式、互動手感。
+  - 這裡的文字是示意文字。正式文案必須來自 facts.yaml，並通過查證。
+  - 正式站用 Astro 重做。字體改用 Fontsource 自行託管（見 DESIGN_SPEC.md）。
+-->
+<style>
+  :root {
+    --paper: #FAF8F3;
+    --surface: #FFFFFF;
+    --sunken: #F2EEE6;
+    --ink: #1B1A17;
+    --ink-2: #55514A;
+    --ink-3: #8A857C;
+    --line: #E4DED2;
+    --accent: #1E4D4A;
+    --accent-ink: #F3F7F5;
+    --accent-soft: #E3EDEA;
+    --brass: #A0742C;
+    --radius: 14px;
+    --radius-lg: 22px;
+    --shadow: 0 1px 2px rgba(27,26,23,.04), 0 8px 28px rgba(27,26,23,.06);
+    --serif: "Newsreader", "Source Serif 4", "Noto Serif TC", "Songti TC", Georgia, serif;
+    --sans: "Inter", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+    --wrap: 1120px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #131412; --surface: #1B1C1A; --sunken: #171816;
+      --ink: #EFECE5; --ink-2: #B9B4AA; --ink-3: #8B877E; --line: #2B2C29;
+      --accent: #7FBFB6; --accent-ink: #0F1F1D; --accent-soft: #1C2A28; --brass: #D2A55B;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 28px rgba(0,0,0,.35);
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.7 var(--sans); -webkit-font-smoothing: antialiased; }
+  html[data-lang="zh"] body { line-height: 1.85; letter-spacing: .01em; }
+  html[data-lang="zh"] [lang="en"], html[data-lang="en"] [lang="zh-Hant"] { display: none !important; }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
+  .skip { position: absolute; left: -999px; } .skip:focus { left: 16px; top: 16px; background: var(--surface); padding: 8px 12px; z-index: 99; }
+
+  /* Banner */
+  .proto { background: var(--brass); color: #fff; font-size: 13px; text-align: center; padding: 6px 12px; letter-spacing: .02em; }
+
+  /* Nav */
+  header.nav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--paper) 86%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+  .nav .wrap { display: flex; align-items: center; gap: 28px; height: 64px; }
+  .brand { font-family: var(--serif); font-size: 19px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+  .brand small { color: var(--ink-3); font: 500 12px var(--sans); letter-spacing: .14em; text-transform: uppercase; margin-right: 10px; }
+  .nav nav { display: flex; gap: 22px; margin-left: auto; font-size: 15px; }
+  .nav nav a { text-decoration: none; color: var(--ink-2); padding: 6px 0; border-bottom: 1.5px solid transparent; transition: color .2s, border-color .2s; }
+  .nav nav a:hover { color: var(--ink); border-color: var(--accent); }
+  .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); }
+  .lang button { border: 0; background: none; color: var(--ink-2); font: 500 13px var(--sans); padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+  .lang button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+  @media (max-width: 860px) { .nav nav { display: none; } .lang { margin-left: auto; flex-shrink: 0; } .nav .wrap { gap: 12px; padding: 0 16px; } .brand { font-size: 17px; overflow: hidden; text-overflow: ellipsis; min-width: 0; } }
+  @media (max-width: 480px) { .brand small { display: none; } }
+
+  /* Hero */
+  .hero { padding: 88px 0 72px; }
+  .hero .wrap { display: grid; grid-template-columns: 1.25fr .75fr; gap: 64px; align-items: center; }
+  .eyebrow { font: 500 13px var(--sans); letter-spacing: .18em; text-transform: uppercase; color: var(--brass); display: flex; align-items: center; gap: 12px; }
+  .eyebrow::before { content: ""; width: 36px; height: 1px; background: currentColor; }
+  h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(44px, 7vw, 84px); line-height: 1.02; letter-spacing: -.02em; margin: 22px 0 18px; }
+  .roles { font-size: 18px; color: var(--ink-2); margin: 0 0 22px; }
+  .lead { font-family: var(--serif); font-size: clamp(20px, 2.2vw, 24px); line-height: 1.55; max-width: 34em; margin: 0 0 34px; }
+  html[data-lang="zh"] .lead { line-height: 1.8; }
+  .cta { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font: 500 15px var(--sans); padding: 13px 22px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); transition: transform .2s, box-shadow .2s, background .2s; }
+  .btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+  .portrait { aspect-ratio: 4 / 5; border-radius: var(--radius-lg); background: linear-gradient(160deg, var(--accent-soft), var(--sunken)); border: 1px solid var(--line); display: grid; place-items: center; position: relative; overflow: hidden; box-shadow: var(--shadow); }
+  .portrait .mono { font-family: var(--serif); font-size: 96px; color: var(--accent); opacity: .35; letter-spacing: -.04em; }
+  .portrait figcaption { position: absolute; left: 16px; bottom: 14px; font-size: 12px; color: var(--ink-3); }
+  figure { margin: 0; }
+  @media (max-width: 860px) { .hero { padding: 48px 0; } .hero .wrap { grid-template-columns: 1fr; gap: 36px; } .portrait { max-width: 320px; } }
+
+  /* Stats */
+  .stats { border-block: 1px solid var(--line); }
+  .stats .wrap { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .stat { padding: 30px 24px; border-left: 1px solid var(--line); }
+  .stat:first-child { border-left: 0; padding-left: 0; }
+  .stat b { display: block; font: 400 44px/1 var(--serif); letter-spacing: -.02em; font-variant-numeric: lining-nums; }
+  .stat span { font-size: 14px; color: var(--ink-2); }
+  @media (max-width: 700px) { .stats .wrap { grid-template-columns: repeat(2, 1fr); } .stat { padding: 22px 16px; } .stat:nth-child(3) { border-left: 0; padding-left: 0; } .stat:nth-child(n+3) { border-top: 1px solid var(--line); } }
+
+  /* Sections */
+  section { padding: 96px 0; }
+  .sec-head { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; margin-bottom: 48px; align-items: end; }
+  h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(30px, 4vw, 44px); line-height: 1.12; letter-spacing: -.015em; margin: 14px 0 0; }
+  .sec-head p { color: var(--ink-2); margin: 0; max-width: 38em; }
+  @media (max-width: 860px) { section { padding: 64px 0; } .sec-head { grid-template-columns: 1fr; gap: 16px; margin-bottom: 32px; } }
+
+  /* Cards */
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 30px 28px 26px; display: flex; flex-direction: column; text-decoration: none; transition: transform .25s, box-shadow .25s, border-color .25s; }
+  .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+  .card .no { font: 400 15px var(--serif); color: var(--brass); }
+  .card h3 { font: 500 23px/1.25 var(--serif); margin: 18px 0 10px; }
+  .card p { color: var(--ink-2); font-size: 15.5px; margin: 0 0 22px; }
+  .card .more { margin-top: auto; font: 500 14px var(--sans); color: var(--accent); }
+  @media (max-width: 860px) { .cards { grid-template-columns: 1fr; } }
+
+  /* Timeline */
+  .band { background: var(--sunken); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 36px; }
+  .chip { border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); font: 500 14px var(--sans); padding: 8px 16px; border-radius: 999px; cursor: pointer; transition: all .2s; }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .tl { list-style: none; margin: 0; padding: 0; position: relative; }
+  .tl::before { content: ""; position: absolute; left: 119px; top: 8px; bottom: 8px; width: 1px; background: var(--line); }
+  .tl li { display: grid; grid-template-columns: 96px 1fr; gap: 48px; padding: 18px 0; position: relative; }
+  .tl li::before { content: ""; position: absolute; left: 114px; top: 30px; width: 11px; height: 11px; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent); }
+  .tl li[hidden] { display: none; }
+  .tl .yr { font: 400 26px/1.4 var(--serif); text-align: right; font-variant-numeric: lining-nums; }
+  .tl .body { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px; }
+  .tl h3 { font: 500 18px/1.4 var(--sans); margin: 0 0 4px; }
+  .tl p { margin: 0; color: var(--ink-2); font-size: 15.5px; }
+  .meta { display: flex; gap: 8px; align-items: center; margin-top: 10px; font-size: 12.5px; color: var(--ink-3); }
+  .tag { background: var(--accent-soft); color: var(--accent); padding: 2px 9px; border-radius: 999px; font-weight: 500; }
+  .src { border: 1px solid var(--line); padding: 1px 8px; border-radius: 6px; text-decoration: none; font-variant-numeric: tabular-nums; }
+  .src:hover { border-color: var(--accent); color: var(--accent); }
+  @media (max-width: 700px) { .tl::before { left: 5px; } .tl li { grid-template-columns: 1fr; gap: 6px; padding-left: 28px; } .tl li::before { left: 0; top: 28px; } .tl .yr { text-align: left; font-size: 22px; } }
+
+  /* Quote */
+  .quote { background: var(--accent); color: var(--accent-ink); border-radius: var(--radius-lg); padding: clamp(36px, 6vw, 72px); position: relative; overflow: hidden; }
+  .quote::before { content: "“"; position: absolute; top: -40px; right: 24px; font: 400 260px/1 var(--serif); opacity: .12; }
+  .quote blockquote { margin: 0; font: 400 clamp(22px, 3vw, 34px)/1.5 var(--serif); max-width: 24em; }
+  .quote cite { display: block; margin-top: 26px; font: 500 14px var(--sans); font-style: normal; opacity: .8; letter-spacing: .04em; }
+
+  /* Learn */
+  .learn { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .tile { border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 20px; min-height: 168px; display: flex; flex-direction: column; justify-content: space-between; text-decoration: none; background: var(--surface); transition: background .25s, color .25s, transform .25s; }
+  .tile:hover { background: var(--ink); color: var(--paper); transform: translateY(-3px); }
+  .tile .k { font: 500 12px var(--sans); letter-spacing: .14em; color: var(--ink-3); }
+  .tile h3 { font: 500 19px/1.3 var(--serif); margin: 0; }
+  @media (max-width: 980px) { .learn { grid-template-columns: repeat(2, 1fr); } }
+
+  /* Footer */
+  footer { border-top: 1px solid var(--line); padding: 48px 0 64px; color: var(--ink-2); font-size: 14.5px; }
+  footer .wrap { display: flex; gap: 32px; justify-content: space-between; flex-wrap: wrap; }
+  footer p { margin: 0; max-width: 40em; }
+
+  /* Reveal */
+  .rv { opacity: 0; transform: translateY(14px); transition: opacity .7s ease, transform .7s ease; }
+  .rv.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { .rv { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } .btn, .card, .tile { transition: none; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="proto"><span lang="zh-Hant">視覺原型 · 文字只作示意，尚未完成查證</span><span lang="en">Visual prototype · Copy is illustrative and not yet verified</span></div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#"><small>In Memoriam</small>Thomas D. Oakland</a>
+    <nav aria-label="Primary">
+      <a href="#life"><span lang="zh-Hant">生平</span><span lang="en">Life</span></a>
+      <a href="#works"><span lang="zh-Hant">學術貢獻</span><span lang="en">Works</span></a>
+      <a href="#learn"><span lang="zh-Hant">學習中心</span><span lang="en">Learn</span></a>
+      <a href="#macau"><span lang="zh-Hant">澳門歲月</span><span lang="en">Macau</span></a>
+      <a href="#memories"><span lang="zh-Hant">追思</span><span lang="en">Memories</span></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="zh" aria-pressed="true">繁中</button>
+      <button type="button" data-set="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">1939 — 2015</div>
+        <h1>Thomas D. Oakland</h1>
+        <p class="roles"><span lang="zh-Hant">學校心理學家 · 測驗編製者 · 老師</span><span lang="en">School psychologist · Test author · Teacher</span></p>
+        <p class="lead">
+          <span lang="zh-Hant">他用一生研究怎樣公平地理解每一個孩子，也把這門專業帶到世界各地的教室。</span>
+          <span lang="en">He spent his life studying how to understand every child fairly, and he carried that work into classrooms around the world.</span>
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#life"><span lang="zh-Hant">閱讀他的生平</span><span lang="en">Read his story</span> →</a>
+          <a class="btn" href="#learn"><span lang="zh-Hant">從他的研究學習</span><span lang="en">Learn from his work</span></a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <span class="mono" aria-hidden="true">TDO</span>
+        <figcaption><span lang="zh-Hant">肖像位置 · 照片待授權</span><span lang="en">Portrait · photo pending permission</span></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="stats" aria-label="Key figures">
+    <div class="wrap">
+      <div class="stat"><b>27</b><span><span lang="zh-Hant">年任教於 UT Austin</span><span lang="en">years at UT Austin</span></span></div>
+      <div class="stat"><b>40+</b><span><span lang="zh-Hant">個國家留下足跡</span><span lang="en">countries worked in</span></span></div>
+      <div class="stat"><b>200+</b><span><span lang="zh-Hant">篇論文與章節</span><span lang="en">articles and chapters</span></span></div>
+      <div class="stat"><b>11</b><span><span lang="zh-Hant">套心理測驗</span><span lang="en">psychological tests</span></span></div>
+    </div>
+  </div>
+
+  <section id="works">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><div class="eyebrow"><span lang="zh-Hant">學術貢獻</span><span lang="en">Works</span></div>
+          <h2><span lang="zh-Hant">三項主要貢獻</span><span lang="en">Three lasting contributions</span></h2></div>
+        <p><span lang="zh-Hant">每一項都附有導讀、原始著作和延伸閱讀。</span><span lang="en">Each comes with a guided introduction, primary sources, and further reading.</span></p>
+      </div>
+      <div class="cards">
+        <a class="card rv" href="#"><span class="no">01</span><h3><span lang="zh-Hant">適應行為評估</span><span lang="en">Adaptive behavior assessment</span></h3><p><span lang="zh-Hant">與 Patti Harrison 合著 ABAS，從概念、社會、實用三個領域了解一個人的日常能力。</span><span lang="en">With Patti Harrison he wrote the ABAS, which describes daily skills in conceptual, social, and practical domains.</span></p><span class="more"><span lang="zh-Hant">了解更多</span><span lang="en">Explore</span> →</span></a>
+        <a class="card rv" href="#"><span class="no">02</span><h3><span lang="zh-Hant">國際學校心理學</span><span lang="en">International school psychology</span></h3><p><span lang="zh-Hant">他協助多個國家建立學校心理學專業，並記錄各地的發展。</span><span lang="en">He helped many countries build the profession and documented how it grew.</span></p><span class="more"><span lang="zh-Hant">了解更多</span><span lang="en">Explore</span> →</span></a>
+        <a class="card rv" href="#"><span class="no">03</span><h3><span lang="zh-Hant">公平的測驗使用</span><span lang="en">Fair use of tests</span></h3><p><span lang="zh-Hant">他關注測驗在不同語言和文化中的公平性與專業倫理。</span><span lang="en">He worked on fairness and ethics when tests cross languages and cultures.</span></p><span class="more"><span lang="zh-Hant">了解更多</span><span lang="en">Explore</span> →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="life" class="band">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><div class="eyebrow"><span lang="zh-Hant">生平</span><span lang="en">Life</span></div>
+          <h2><span lang="zh-Hant">年表</span><span lang="en">Timeline</span></h2></div>
+        <p><span lang="zh-Hant">每一項事件都標明來源編號。點擊編號可以查看出處。</span><span lang="en">Every entry carries a source number. Select it to see the reference.</span></p>
+      </div>
+      <div class="chips rv" role="group" aria-label="Filter">
+        <button class="chip" data-f="all" aria-pressed="true"><span lang="zh-Hant">全部</span><span lang="en">All</span></button>
+        <button class="chip" data-f="edu" aria-pressed="false"><span lang="zh-Hant">求學</span><span lang="en">Education</span></button>
+        <button class="chip" data-f="career" aria-pressed="false"><span lang="zh-Hant">任教</span><span lang="en">Career</span></button>
+        <button class="chip" data-f="honor" aria-pressed="false"><span lang="zh-Hant">榮譽</span><span lang="en">Honors</span></button>
+        <button class="chip" data-f="intl" aria-pressed="false"><span lang="zh-Hant">國際</span><span lang="en">International</span></button>
+      </div>
+      <ol class="tl">
+        <li class="rv" data-c="edu"><div class="yr">1939</div><div class="body"><h3><span lang="zh-Hant">生於 Wisconsin 州 Kenosha</span><span lang="en">Born in Kenosha, Wisconsin</span></h3><p><span lang="zh-Hant">11 月 23 日。</span><span lang="en">November 23.</span></p><div class="meta"><span class="tag"><span lang="zh-Hant">求學</span><span lang="en">Education</span></span><a class="src" href="#">S1</a><a class="src" href="#">S2</a></div></div></li>
+        <li class="rv" data-c="edu"><div class="yr">1967</div><div class="body"><h3><span lang="zh-Hant">取得 Indiana University 博士學位</span><span lang="en">PhD, Indiana University</span></h3><p><span lang="zh-Hant">主修教育心理學。</span><span lang="en">Educational psychology.</span></p><div class="meta"><span class="tag"><span lang="zh-Hant">求學</span><span lang="en">Education</span></span><a class="src" href="#">S1</a><a class="src" href="#">S8</a></div></div></li>
+        <li class="rv" data-c="career"><div class="yr">1995</div><div class="body"><h3><span lang="zh-Hant">加入 University of Florida</span><span lang="en">Joins the University of Florida</span></h3><p><span lang="zh-Hant">任學校心理學教授。</span><span lang="en">Professor of school psychology.</span></p><div class="meta"><span class="tag"><span lang="zh-Hant">任教</span><span lang="en">Career</span></span><a class="src" href="#">S3</a></div></div></li>
+        <li class="rv" data-c="honor"><div class="yr">2003</div><div class="body"><h3><span lang="zh-Hant">Indiana University 傑出校友獎</span><span lang="en">Distinguished Alumni Award, Indiana University</span></h3><div class="meta"><span class="tag"><span lang="zh-Hant">榮譽</span><span lang="en">Honors</span></span><a class="src" href="#">S8</a></div></div></li>
+        <li class="rv" data-c="intl"><div class="yr">2010</div><div class="body"><h3><span lang="zh-Hant">訪問澳門大學心理學系</span><span lang="en">Visiting scholar, University of Macau</span></h3><p><span lang="zh-Hant">為期一個學期。</span><span lang="en">One semester.</span></p><div class="meta"><span class="tag"><span lang="zh-Hant">國際</span><span lang="en">International</span></span><a class="src" href="#">S4</a></div></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="memories">
+    <div class="wrap">
+      <figure class="quote rv">
+        <blockquote><span lang="zh-Hant">他讓我知道，做事一定要專業。</span><span lang="en">He taught me that the work must always be done professionally.</span></blockquote>
+        <cite><span lang="zh-Hant">— 一位澳門的學生</span><span lang="en">— A student in Macau</span></cite>
+      </figure>
+    </div>
+  </section>
+
+  <section id="learn" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <div><div class="eyebrow"><span lang="zh-Hant">學習中心</span><span lang="en">Learn</span></div>
+          <h2><span lang="zh-Hant">從他的研究學習</span><span lang="en">Learn from his work</span></h2></div>
+        <p><span lang="zh-Hant">五個主題單元。每個單元有圖解、自我檢核和延伸閱讀。</span><span lang="en">Five topic units, each with diagrams, a self-check, and further reading.</span></p>
+      </div>
+      <div class="learn">
+        <a class="tile rv" href="#"><span class="k">T1</span><h3><span lang="zh-Hant">適應行為</span><span lang="en">Adaptive behavior</span></h3></a>
+        <a class="tile rv" href="#"><span class="k">T2</span><h3><span lang="zh-Hant">氣質與學習風格</span><span lang="en">Temperament and learning styles</span></h3></a>
+        <a class="tile rv" href="#"><span class="k">T3</span><h3><span lang="zh-Hant">測驗的跨文化改編</span><span lang="en">Adapting tests across cultures</span></h3></a>
+        <a class="tile rv" href="#"><span class="k">T4</span><h3><span lang="zh-Hant">國際學校心理學</span><span lang="en">International school psychology</span></h3></a>
+        <a class="tile rv" href="#"><span class="k">T5</span><h3><span lang="zh-Hant">專業倫理</span><span lang="en">Professional ethics</span></h3></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><span lang="zh-Hant">本站所有事實都有來源。發現錯誤請告訴我們。</span><span lang="en">Every fact on this site is sourced. Please tell us if you find an error.</span></p>
+    <p><a href="#"><span lang="zh-Hant">資料來源</span><span lang="en">Sources</span></a> · <a href="#"><span lang="zh-Hant">關於本站</span><span lang="en">About</span></a> · <a href="#"><span lang="zh-Hant">回報錯誤</span><span lang="en">Report an error</span></a></p>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => {
+    const l = b.dataset.set;
+    root.dataset.lang = l; root.lang = l === 'zh' ? 'zh-Hant' : 'en';
+    document.querySelectorAll('.lang button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  }));
+  const chips = document.querySelectorAll('.chip');
+  chips.forEach(c => c.addEventListener('click', () => {
+    chips.forEach(x => x.setAttribute('aria-pressed', x === c));
+    document.querySelectorAll('.tl li').forEach(li => li.hidden = c.dataset.f !== 'all' && li.dataset.c !== c.dataset.f);
+  }));
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
