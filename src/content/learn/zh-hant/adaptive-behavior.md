@@ -17,7 +17,7 @@ sourceIds: ["S12", "S13", "S16", "S17"]
 
 心理學家在診斷智能障礙時，會使用適應行為的資料。一個廣被使用的定義指出：智能障礙是智力功能與適應行為兩方面都有顯著限制，而且在 22 歲之前出現 [N-T1-1]。
 
-一篇領域回顧再補充了幾個理由。文章指出，適應行為有助於理解智能障礙、進行診斷，以及為個人訂定教育與復康（habilitation）目標 [N-T1-2]。
+一篇領域回顧再補充了幾個理由。文章指出，適應行為有助於理解智能障礙、進行診斷，以及為個人訂定教育與能力培養（habilitation）目標 [N-T1-2]。
 
 所以，只看智商分數，並不能看到全貌。適應行為顯示一個人在真實情境中如何生活。
 
@@ -50,7 +50,7 @@ AAIDD 的定義頁這樣描述三個領域 [N-T1-1]：
 
 另外有兩個概念值得了解。
 
-- **評定方式。** 資料由熟悉當事人的人提供。對兒童，可以是家長或老師。對成人，可以是家人、照顧者、督導，也可以是本人 [N-T1-4]。
+- **評定方式。** 資料由熟悉當事人的人提供。對兒童，可以是家長或老師。對成人，可以是家人或其他重要他人、照顧者、督導，也可以是本人 [N-T1-4]。
 - **跨文化移用。** 在一種文化編製的量表，用到另一種文化之前，可能需要謹慎的翻譯與改編 [N-T1-3]。
 
 ## 實務應用
@@ -59,7 +59,7 @@ AAIDD 的定義頁這樣描述三個領域 [N-T1-1]：
 
 1. 擬定治療計劃與訓練目標。
 2. 記錄並追蹤進展。
-3. 判定是否符合服務資格，例如傷殘福利。
+3. 判定是否符合服務資格，例如身心障礙相關福利。
 4. 評估能否獨立生活與工作。
 
 ABAS-3 使用熟悉當事人者的評定，所以家人與老師直接參與其中。他們描述當事人每天做些什麼 [N-T1-4]。
@@ -107,7 +107,7 @@ ABAS-3 使用熟悉當事人者的評定，所以家人與老師直接參與其�
    A. 只有醫生。
    B. 只有法庭。
    C. 只有雇主。
-   D. 重要他人、照顧者、督導，或當事人本人。
+   D. 家人或其他重要他人、照顧者、督導，或當事人本人。
 
    **Answer:** D。ABAS-3 的資料列出這些人可以作為成人的資料提供者。
 
@@ -115,7 +115,7 @@ ABAS-3 使用熟悉當事人者的評定，所以家人與老師直接參與其�
 
 - Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013). Cross-national assessment of adaptive behavior in three countries. *Journal of Psychoeducational Assessment, 31*(5), 435-447. https://doi.org/10.1177/0734282912469492
 - Oakland, T., & Daley, M. (2013). Adaptive behavior: Its history, concepts, assessment, and applications. In *APA handbook of testing and assessment in psychology: Vol. 3. Testing and assessment in school psychology and education* (pp. 183-212). American Psychological Association. https://doi.org/10.1037/14049-009
-- Kane, H., & Oakland, T. D. (2014). The differentiation of adaptive behaviours: Evidence from high and low performers. *Educational Psychology, 35*(6), 675-688. https://doi.org/10.1080/01443410.2014.893558
+- Kane, H., & Oakland, T. D. (2015). The differentiation of adaptive behaviours: Evidence from high and low performers. *Educational Psychology, 35*(6), 675-688. https://doi.org/10.1080/01443410.2014.893558
 - Tassé, M. J., Schalock, R. L., Balboni, G., Bersani, H., Borthwick-Duffy, S. A., Spreat, S., Thissen, D., Widaman, K. F., & Zhang, D. (2012). The construct of adaptive behavior: Its conceptualization, measurement, and use in the field of intellectual disability. *American Journal on Intellectual and Developmental Disabilities, 117*(4), 291-303. https://doi.org/10.1352/1944-7558-117.4.291
 - Harrison, P. L., & Oakland, T. (2015). *Adaptive Behavior Assessment System, Third Edition*. Western Psychological Services.
 

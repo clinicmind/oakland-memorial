@@ -50,7 +50,7 @@ The AAIDD definition page describes the three domains as follows [N-T1-1]:
 
 Two more ideas help.
 
-- **Rating format.** Others who know the person provide the information. For children, this can be parents or teachers. For adults, it can be family, care providers, supervisors, or the person himself or herself [N-T1-4].
+- **Rating format.** Others who know the person provide the information. For children, this can be parents or teachers. For adults, it can be family members or other significant others, care providers, supervisors, or the person himself or herself [N-T1-4].
 - **Cultural transport.** A test built in one culture may need careful translation and adaptation before use in another [N-T1-3].
 
 ## In practice
@@ -107,7 +107,7 @@ Because the ABAS-3 uses ratings from people who know the person, families and te
    A. Only a physician.
    B. Only a court.
    C. Only the person's employer.
-   D. Significant others, care providers, supervisors, or the person himself or herself.
+   D. Family members or other significant others, care providers, supervisors, or the person himself or herself.
 
    **Answer:** D. The ABAS-3 source lists these people as possible informants for adults.
 
@@ -115,7 +115,7 @@ Because the ABAS-3 uses ratings from people who know the person, families and te
 
 - Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013). Cross-national assessment of adaptive behavior in three countries. *Journal of Psychoeducational Assessment, 31*(5), 435-447. https://doi.org/10.1177/0734282912469492
 - Oakland, T., & Daley, M. (2013). Adaptive behavior: Its history, concepts, assessment, and applications. In *APA handbook of testing and assessment in psychology: Vol. 3. Testing and assessment in school psychology and education* (pp. 183-212). American Psychological Association. https://doi.org/10.1037/14049-009
-- Kane, H., & Oakland, T. D. (2014). The differentiation of adaptive behaviours: Evidence from high and low performers. *Educational Psychology, 35*(6), 675-688. https://doi.org/10.1080/01443410.2014.893558
+- Kane, H., & Oakland, T. D. (2015). The differentiation of adaptive behaviours: Evidence from high and low performers. *Educational Psychology, 35*(6), 675-688. https://doi.org/10.1080/01443410.2014.893558
 - Tassé, M. J., Schalock, R. L., Balboni, G., Bersani, H., Borthwick-Duffy, S. A., Spreat, S., Thissen, D., Widaman, K. F., & Zhang, D. (2012). The construct of adaptive behavior: Its conceptualization, measurement, and use in the field of intellectual disability. *American Journal on Intellectual and Developmental Disabilities, 117*(4), 291-303. https://doi.org/10.1352/1944-7558-117.4.291
 - Harrison, P. L., & Oakland, T. (2015). *Adaptive Behavior Assessment System, Third Edition*. Western Psychological Services.
 
