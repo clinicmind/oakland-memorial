@@ -84,3 +84,300 @@
   title: "Stated by the site organiser (ClinicMind, clinical psychologist); approved on 2026-11-20"
   url: null
   accessedOn: null
+- id: N-T1-1
+  title: "AAIDD: Defining Criteria for Intellectual Disability (Wayback Machine copy of aaidd.org/intellectual-disability/definition, captured 2025-01-02)"
+  url: "https://web.archive.org/web/20250102032345/https://www.aaidd.org/intellectual-disability/definition"
+  accessedOn: "2026-11-23"
+  quote: "Intellectual disability is a condition characterized by significant limitations in both intellectual functioning and adaptive behavior that originates before the age of 22. [...] Adaptive behavior is the collection of conceptual, social, and practical skills that are learned and performed by people in their everyday lives."
+  note: "The live aaidd.org page returned HTTP 403 to automated clients; the archived copy was read instead. The two sentences are separated by the intellectual-functioning paragraph."
+- id: N-T1-2
+  title: "Tasse, M. J., et al. (2012). The construct of adaptive behavior: Its conceptualization, measurement, and use in the field of intellectual disability. American Journal on Intellectual and Developmental Disabilities, 117(4), 291-303. Crossref abstract"
+  url: "https://api.crossref.org/works/10.1352/1944-7558-117.4.291"
+  accessedOn: "2026-11-23"
+  quote: "An understanding of the construct of adaptive behavior and its measurement is critical to clinicians and practitioners in the field because of its role in understanding the phenomenon of intellectual disability, diagnosing a person with intellectual disability, providing a framework for person-referenced education and habilitation goals, and focusing on an essential dimension of human functioning."
+- id: N-T1-3
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013). Cross-national assessment of adaptive behavior in three countries. Journal of Psychoeducational Assessment, 31(5), 435-447. Crossref abstract"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessedOn: "2026-11-23"
+  quote: "This present article describes the Romanian and Taiwan adaptation process of the U.S.-developed Adaptive Behavior Assessment System, Second Edition (ABAS-II) Parent Form for ages 5 to 21. Data from more than 3,000 parents who completed the ABAS-II are examined across these three test versions, focusing on score differences, internal consistency, intercorrelations, and factor structure equivalence."
+  note: "Verbatim; the Crossref text writes 'U.S.-developed' with an en dash, shown here with a hyphen. Two more abstract sentences used: 'Measures that assess adaptive behaviors typically have been built in Western cultures and developed in light of behaviors common to them.' and 'Data from the three versions display considerable similarity.'"
+- id: N-T1-4
+  title: "Texas Autism Network: ABAS-3 page (same page as existing source S17; extra passages used)"
+  url: "https://www.txautism.net/evaluations/adaptive-behavior-assessment-system-third-edition"
+  accessedOn: "2026-11-23"
+  quote: "The ABAS-3 can be used to develop treatment plans and training goals, document and monitor progress over time, determine eligibility for services such as Social Security disability benefits, and evaluate ability to live and work independently. Information on children may be provided by parents and/or teachers; information on adults may be provided by significant others, care providers, supervisors, and/or the client himself/herself."
+- id: N-T1-5
+  title: "APA Division 16, The School Psychologist, Fall 2015 (same document as existing source S12; extra passage used)"
+  url: "https://apadivision16.org/wp-content/uploads/2015/11/TSP-Fall-2015.pdf"
+  accessedOn: "2026-11-23"
+  quote: "He developed tests in the areas of student styles, test session behavior, and adaptive behavior."
+- id: N-T2-1
+  title: "Buros Center for Testing: Student Styles Questionnaire review entry"
+  url: "https://marketplace.unl.edu/buros/test-reviews/alphabetical-list/student-styles-questionnairetm.html"
+  accessedOn: "2026-11-23"
+  quote: "Designed to detect individual differences students display in their preferences, temperaments, and personal styles."
+- id: N-T2-2
+  title: "Oakland, T., & Joyce, D. (2004). Temperament-based learning styles and school-based applications. Canadian Journal of School Psychology, 19(1-2), 59-74 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/082957350401900103"
+  accessedOn: "2026-11-23"
+  quote: "Four temperament qualities and their origins are described together with the influence of temperament styles on teaching and learning styles. Teachers are encouraged to provide opportunities for students to utilize their strengths, to overcome weaknesses, to encourage positive behaviors, to promote an understanding of themselves and others, and to identify vocational interests."
+- id: N-T2-3
+  title: "Calluen, C., & Oakland, T. (2014). If you do not know the child's temperament you do not know the child. Estudos de Psicologia (Campinas), 31(1), 3-14 (Crossref abstract), eight styles"
+  url: "https://api.crossref.org/works/10.1590/0103-166x2014000100001"
+  accessedOn: "2026-11-23"
+  quote: "This paper focuses on Oakland and colleagues' approach to temperament in children ages 8-17 in terms of the eight basic styles that are grouped into four bipolar traits: extroverted or introverted, practical or imaginative, thinking or feeling, and organized or flexible styles."
+- id: N-T2-4
+  title: "Benson, N., Oakland, T., & Shermis, M. (2008). Cross-national invariance of children's temperament. Journal of Psychoeducational Assessment, 27(1), 3-16 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/0734282908318563"
+  accessedOn: "2026-11-23"
+  quote: "Development of the SSQ was based on Jung's theory of temperament as augmented by Myers and Briggs. A four bipolar dimension model provided an excellent fit for Australian, Chinese, Costa Rican, Philippine, United States, and Zimbabwean samples and modest fit for Gaza (Palestinian) and Nigerian samples."
+- id: N-T2-5
+  title: "Oakland, T., Joyce, D. D., Horton, C., & Glutting, J. (2000). Temperament-based learning styles of identified gifted and nongifted students. Gifted Child Quarterly, 44(3), 183-189 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/001698620004400304"
+  accessedOn: "2026-11-23"
+  quote: "Students identified as gifted and nongifted students did not differ significantly on extroverted-introverted, organlzed-flexible, and thinking-feeling styles. Students identified as gifted displayed a stronger preference for imagnative styles, while nongifted children displayed a stronger preference for practical styles."
+- id: N-T2-6
+  title: "Stafford, M. E., & Oakland, T. D. (1996). Validity of temperament constructs using the Student Styles Questionnaire. Journal of Psychoeducational Assessment, 14(2), 109-120 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/073428299601400202"
+  accessedOn: "2026-11-23"
+  quote: "The SSQ is a temperament measure for students aged 8 through 17. Comparative construct validity results indicate that a high degree of factor similarity exists across racial-ethnic groups; factor similarity is less strong when Hispanic Americans living in New York and Texas are compared."
+- id: N-T2-7
+  title: "Oakland, T., & colleague (2006). Temperament styles of children from the People's Republic of China and the United States. School Psychology International, 27(2), 192-208 (Crossref abstract; Crossref spells the second author 'Lub, Li')"
+  url: "https://api.crossref.org/works/10.1177/0143034306064545"
+  accessedOn: "2026-11-23"
+  quote: "Compared to US children, Chinese children are more likely to prefer practical, thinking and organized styles; these differences were found within boys and girls from the two countries. Temperament preferences displayed by Chinese and US children may reflect qualities important to values prominent in either a collectivist or individualist society."
+- id: N-T2-8
+  title: "Calluen, C., & Oakland, T. (2014). If you do not know the child's temperament you do not know the child (Crossref abstract), definition of temperament"
+  url: "https://api.crossref.org/works/10.1590/0103-166x2014000100001"
+  accessedOn: "2026-11-23"
+  quote: "Current scholarship generally characterizes temperament as stylistic and relatively stable traits that subsume intrinsic tendencies to act and react in somewhat predictable ways to people, events, and other stimuli. An understanding of children's temperament preferences aids our understanding of the origins of behaviors as well as normal attitudes children display at home, school, and elsewhere."
+- id: N-T3-1
+  title: "International Test Commission: Guidelines page"
+  url: "https://www.intestcom.org/page/16"
+  accessedOn: "2026-11-23"
+  quote: "The ITC guidelines bear directly on furthering the goals of the ITC."
+- id: N-T3-2
+  title: "International Test Commission (2017). The ITC Guidelines for Translating and Adapting Tests (Second edition), version 2.4, translation versus adaptation"
+  url: "https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf"
+  accessedOn: "2026-11-23"
+  quote: "Test translation is only a part of the adaptation process, but can be, on its own, a very simplistic approach to transporting a test from one language to another with no regard for educational or psychological equivalence."
+- id: N-T3-3
+  title: "Oakland, T. (2004). Use of educational and psychological tests internationally. Applied Psychology, 53(2), 157-172 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1111/j.1464-0597.2004.00166.x"
+  accessedOn: "2026-11-23"
+  quote: "The history of test development and use, external and internal conditions that impact test development and use, test use internationally, together with standards and guidelines for test development and use are summarised. Regional and international organisations providing leadership in test development and use as well as leadership efforts by the International Test Commission and others are discussed."
+- id: N-T3-4
+  title: "Oakland, T., & Lane, H. B. (2004). Language, reading, and readability formulas: Implications for developing and adapting tests. International Journal of Testing, 4(3), 239-252 (abstract via OpenAlex)"
+  url: "https://api.openalex.org/works/doi:10.1207/s15327574ijt0403_3"
+  accessedOn: "2026-11-23"
+  quote: "Strengths and limitations associated with the use of readability formulas are discussed. Their use should be confined to paragraphs and longer passages, not items."
+- id: N-T3-5
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013). Cross-national assessment of adaptive behavior in three countries. Journal of Psychoeducational Assessment, 31(5), 435-447 (Crossref abstract), background"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessedOn: "2026-11-23"
+  quote: "Measures that assess adaptive behaviors typically have been built in Western cultures and developed in light of behaviors common to them. Nevertheless, these measures are used elsewhere despite a paucity of data that examine their cross-national transportability."
+- id: N-T3-6
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013), Crossref abstract, results"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessedOn: "2026-11-23"
+  quote: "Scale reliabilities are high and comparable for all the three versions. Correlation patterns are sufficiently similar between the three versions."
+- id: N-T3-7
+  title: "Oakland, T. (2016). A brief history of the International Test Commission. In The ITC International Handbook of Testing and Assessment (pp. 29-34). Oxford University Press (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1093/med:psych/9780199356942.003.0003"
+  accessedOn: "2026-11-23"
+  quote: "Now the ITC's primary goal is to assist in the exchange of information on test development and test use among its members and affiliate organizations, as well as with non-member societies, organizations, and individuals who desire to improve test-related practices."
+- id: N-T3-8
+  title: "Oakland, T., Poortinga, Y. H., Schlegel, J., & Hambleton, R. K. (2001). International Test Commission: Its history, current status, and future directions. International Journal of Testing, 1(1), 3-32 (abstract via OpenAlex)"
+  url: "https://api.openalex.org/works/doi:10.1207/s15327574ijt0101_2"
+  accessedOn: "2026-11-23"
+  quote: "The history of the International Test Commission (ITC) is described beginning with its conception by Jean Cardinet in the mid-1960s, its birth in 1976, through the year 2000."
+- id: N-T3-9
+  title: "Oakland, T. (2016). Testing and assessment of immigrants and second-language learners. In The ITC International Handbook of Testing and Assessment (pp. 318-332). Oxford University Press (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1093/med:psych/9780199356942.003.0022"
+  accessedOn: "2026-11-23"
+  quote: "This review considers five topics that may impact the assessment of examinees whose cultural and linguistic qualities differ from the local or host culture: qualities associated with culture and language, personal qualities that are assessed, psychometric properties of tests, interpersonal relationships between the examinee and the assessment specialist, and ethical issues."
+- id: N-T3-10
+  title: "Oakland, T. (2010). Cross-cultural and cross-national assessment. In The Corsini Encyclopedia of Psychology (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1002/9780470479216.corpsy0242"
+  accessedOn: "2026-11-23"
+  quote: "Cross-cultural assessment refers to the practice of acquiring test data on persons who differ culturally."
+- id: N-T3-11
+  title: "Oakland, T., Douglas, S., & Kane, H. (2016). Top ten standardized tests used internationally with children and youth by school psychologists in 64 countries. Journal of Psychoeducational Assessment, 34(2), 166-176 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/0734282915595303"
+  accessedOn: "2026-11-23"
+  quote: "Data were acquired from 64 countries through an international survey, with one respondent from each country."
+- id: N-T3-12
+  title: "International Test Commission (2017). The ITC Guidelines for Translating and Adapting Tests (Second edition), version 2.4, pre-condition decisions"
+  url: "https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf"
+  accessedOn: "2026-11-23"
+  quote: "The first section named \"Pre-Condition\" highlights the fact that decisions have to be made before the translation/adaptation process ever begins."
+- id: N-T3-13
+  title: "International Test Commission (2017). The ITC Guidelines for Translating and Adapting Tests (Second edition), version 2.4, definition of adaptation"
+  url: "https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf"
+  accessedOn: "2026-11-23"
+  quote: "Test adaptation refers to all of the activities including: deciding whether or not a test in a second language and culture could measure the same construct in the first language; selecting translators; choosing a design for evaluating the work of test translators (e.g., forward and backward translations); choosing any necessary accommodations; modifying the test format; conducting the translation; checking the equivalence of the test in the second language and culture and conducting other necessary validity studies."
+- id: N-T2-9
+  title: "Stafford, M. E., & Oakland, T. D. (1996), Crossref abstract, item-level differences"
+  url: "https://api.crossref.org/works/10.1177/073428299601400202"
+  accessedOn: "2026-11-23"
+  quote: "Differential item functioning studies reveal similar response patterns for Hispanic Americans when compared to both African Americans and Anglo Americans; however, differences occur on 25% of items when African and Anglo Americans are compared."
+- id: N-T3-14
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013), Crossref abstract, scope and steps"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessedOn: "2026-11-23"
+  quote: "This present article describes the Romanian and Taiwan adaptation process of the U.S.-developed Adaptive Behavior Assessment System, Second Edition (ABAS-II) Parent Form for ages 5 to 21. Steps taken to help ensure a valid translation and cultural adaptation process are described."
+- id: N-T3-15
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013), Crossref abstract, data and comparisons"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessedOn: "2026-11-23"
+  quote: "Data from more than 3,000 parents who completed the ABAS-II are examined across these three test versions, focusing on score differences, internal consistency, intercorrelations, and factor structure equivalence. Data from the three versions display considerable similarity."
+- id: N-T4-1
+  title: "ISPA, About ISPA (International School Psychology Association)"
+  url: "https://ispaweb.org/about-ispa/"
+  accessedOn: "2026-11-23"
+  quote: "In the early 1970s a group of school psychologists from different parts of the world, under the leadership of the late Calvin D. Catterall, came together to form an International School Psychology Committee in order to promote worldwide cooperation amongst school and educational psychologists. The number of psychologists committed to this aim grew steadily until in 1982 the International School Psychology Association was founded with Anders Poulsen as its first President."
+- id: N-T4-2
+  title: "Crossref record and abstract: Oakland & Cunningham (1992), A Survey of School Psychology in Developed and Developing Countries"
+  url: "https://api.crossref.org/works/10.1177/0143034392132001"
+  accessedOn: "2026-11-23"
+  quote: "School psychology is a growing profession. Similar conceptions of the roles and functions of school psychologists are held throughout the world."
+- id: N-T4-3
+  title: "Crossref record and abstract: Oakland (1992), Formulating Priorities for International School Psychology toward the Turn of the Twentieth Century"
+  url: "https://api.crossref.org/works/10.1177/0143034392132008"
+  accessedOn: "2026-11-23"
+  quote: "The major themes discussed in this article include the need to strike a balance between professional uniformity and diversity, to maintain a strong research commitment, to develop and maintain strong professional associations at national and international levels, to create an international institute on school psychology, to conduct subsequent international studies on school psychology and to design them so as to overcome possible limitations in the current study."
+- id: N-T4-4
+  title: "OpenAlex abstract of Oakland & Hatzichristou (2014), Professional Preparation in School Psychology"
+  url: "https://api.openalex.org/works/doi:10.1080/21683603.2014.934638"
+  accessedOn: "2026-11-23"
+  quote: "Stronger leadership from national, regional, and international associations of psychology and school psychology is needed to counterbalance the effects of external control that pose threats to the specialty."
+- id: N-T4-5
+  title: "OpenAlex abstract of Oakland (2014), An Epilogue: Issues and Implications for Incorporating Multicultural Issues in ISPA's Professional Preparation Guidelines"
+  url: "https://api.openalex.org/works/doi:10.1080/21683603.2014.934614"
+  accessedOn: "2026-11-23"
+  quote: "The purpose of this article is to identify five issues that need to be considered, along with others, should a review process be initiated."
+- id: N-T5-1
+  title: "Crossref record and abstract: Oakland & Hu (1991), Professionals Who Administer Tests With Children and Youth: An International Survey"
+  url: "https://api.crossref.org/works/10.1177/073428299100900201"
+  accessedOn: "2026-11-23"
+  quote: "Those most likely to employ tests include school or educational psychologists, teachers, counselors, and clinical and general psychologists. Most professionals learn tests through coursework."
+- id: N-T5-2
+  title: "Crossref record and abstract: Oakland, Goldman & Bischoff (1997), Code of Ethics of the International School Psychology Association"
+  url: "https://api.crossref.org/works/10.1177/0143034397184001"
+  accessedOn: "2026-11-23"
+  quote: "This code of ethics was prepared by the International School Psychology Association's (ISPA's) Standards and Practices Committee and approved by ISPA's General Assembly in August 1990. This statement addresses issues important to professional responsibilities, confidentiality, professional growth, professional limitations, professional relationships, assessment and research."
+- id: N-T5-3
+  title: "OpenAlex abstract of Leach & Oakland (2007), Ethics Standards Impacting Test Development and Use"
+  url: "https://api.openalex.org/works/doi:10.1080/15305050709336859"
+  accessedOn: "2026-11-23"
+  quote: "Codes from approximately one third of the countries surveyed do not address test use. Standards that require psychologists to explain results, use tests properly, and limit their use by unqualified persons are most frequently found."
+- id: N-T5-4
+  title: "OpenAlex abstract of Leach & Oakland (2010), Displaying Ethical Behaviors by Psychologists When Standards Are Unclear"
+  url: "https://api.openalex.org/works/doi:10.1080/10508421003798893"
+  accessedOn: "2026-11-23"
+  quote: "These include knowledge of the host country's prevailing moral values, its laws and administrative policies, and ethics codes as well as policies approved by international agencies and associations. Eight guidelines are provided for psychologists working in host countries that lack ethics codes."
+- id: N-T5-5
+  title: "Crossref record and abstract: Oakland (1997), Test Use Among School Psychologists: Past, Current, and Emerging Practices"
+  url: "https://api.crossref.org/works/10.1027/1015-5759.13.1.2"
+  accessedOn: "2026-11-23"
+  quote: "Current test use with children and youth, principally by school or educational psychologists, is reviewed. Emphasis is placed on conditions within Europe when possible."
+- id: N-G-1
+  title: "APA Dictionary of Psychology: adaptive behavior"
+  url: "https://dictionary.apa.org/adaptive-behavior"
+  accessedOn: null
+  quote: "the level of everyday performance of tasks that is required for a person to fulfill typical roles in society, including maintaining independence and meeting cultural expectations regarding personal and social responsibility."
+- id: N-G-2
+  title: "AAIDD: Defining Criteria for Intellectual Disability"
+  url: "https://www.aaidd.org/intellectual-disability/definition"
+  accessedOn: null
+  quote: "Intellectual disability is a condition characterized by significant limitations in both intellectual functioning and adaptive behavior that originates before the age of 22. Adaptive behavior is the collection of conceptual, social, and practical skills that are learned and performed by people in their everyday lives."
+- id: N-G-3
+  title: "APA Dictionary of Psychology: reliability"
+  url: "https://dictionary.apa.org/reliability"
+  accessedOn: null
+  quote: "the trustworthiness or consistency of a measure, that is, the degree to which a test or other measurement instrument is free of random error, yielding the same results across multiple applications to the same sample."
+- id: N-G-4
+  title: "APA Dictionary of Psychology: validity"
+  url: "https://dictionary.apa.org/validity"
+  accessedOn: null
+  quote: "the degree to which empirical evidence and theoretical rationales support the adequacy and appropriateness of conclusions drawn from some form of assessment."
+- id: N-G-5
+  title: "APA Dictionary of Psychology: norm"
+  url: "https://dictionary.apa.org/norm"
+  accessedOn: null
+  quote: "a standard or range of values that represents the typical performance of a group or of an individual (of a certain age, for example) against which comparisons can be made."
+- id: N-G-6
+  title: "APA Dictionary of Psychology: norm-referenced test"
+  url: "https://dictionary.apa.org/norm-referenced-test"
+  accessedOn: null
+  quote: "any assessment in which scores are interpreted by comparison with a norm, generally the average score obtained by members of a specified group."
+- id: N-G-7
+  title: "APA Dictionary of Psychology: standardized test"
+  url: "https://dictionary.apa.org/standardized-test"
+  accessedOn: null
+  quote: "an assessment instrument whose validity and reliability have been established by thorough empirical investigation and analysis."
+- id: N-G-8
+  title: "International Test Commission: Guidelines (published guidelines page)"
+  url: "https://www.intestcom.org/page/16"
+  accessedOn: null
+  quote: "The ITC guidelines bear directly on furthering the goals of the ITC. Seven projects have produced guidelines that have gained wide international acceptance."
+- id: N-G-9
+  title: "APA Dictionary of Psychology: cultural bias"
+  url: "https://dictionary.apa.org/cultural-bias"
+  accessedOn: null
+  quote: "the tendency to interpret and judge phenomena in terms of the distinctive values, beliefs, and other characteristics of the society or community to which one belongs."
+- id: N-G-10
+  title: "APA Dictionary of Psychology: temperament"
+  url: "https://dictionary.apa.org/temperament"
+  accessedOn: null
+  quote: "the basic foundation of personality, usually assumed to be biologically determined and present early in life, including such characteristics as energy level, emotional responsiveness, demeanor, mood, response tempo, behavioral inhibition, and willingness to explore."
+- id: N-G-11
+  title: "APA Dictionary of Psychology: learning style"
+  url: "https://dictionary.apa.org/learning-style"
+  accessedOn: null
+  quote: "see cognitive style."
+- id: N-G-12
+  title: "APA Dictionary of Psychology: school psychology"
+  url: "https://dictionary.apa.org/school-psychology"
+  accessedOn: null
+  quote: "a field of psychology concerned with the psychoeducational problems and other issues arising in primary and secondary schools."
+- id: N-G-13
+  title: "NASP: What Is a School Psychologist?"
+  url: "https://www.nasponline.org/about-school-psychology/who-are-school-psychologists"
+  accessedOn: null
+  quote: "School psychologists are trained professionals who help children and youth succeed in school, at home, and throughout life. They apply expertise in mental health, learning, and behavior to support academic success, promote positive relationships, and strengthen school communities."
+- id: N-G-14
+  title: "APA Dictionary of Psychology: psychological assessment"
+  url: "https://dictionary.apa.org/psychological-assessment"
+  accessedOn: null
+  quote: "the gathering and integration of data to evaluate a person's behavior, abilities, and other characteristics, particularly for the purposes of making a diagnosis or treatment recommendation."
+- id: N-G-15
+  title: "APA Dictionary of Psychology: cognitive assessment"
+  url: "https://dictionary.apa.org/cognitive-assessment"
+  accessedOn: null
+  quote: "evaluation of such skills as learning, memory, judgment, and reasoning."
+- id: N-G-16
+  title: "APA Dictionary of Psychology: intellectual disability"
+  url: "https://dictionary.apa.org/intellectual-disability"
+  accessedOn: null
+  quote: "a developmental disability characterized by mild to profound limitations in cognitive function (e.g., learning, problem solving, reasoning, planning) and in adaptive behavior, impairing one's ability to acquire skills typical for one's age group as a child or necessary for one's later independent functioning as an adult."
+- id: N-G-17
+  title: "APA Dictionary of Psychology: professional ethics"
+  url: "https://dictionary.apa.org/professional-ethics"
+  accessedOn: null
+  quote: "rules of acceptable conduct that members of a given profession are expected to follow."
+- id: N-G-18
+  title: "APA Dictionary of Psychology: informed consent"
+  url: "https://dictionary.apa.org/informed-consent"
+  accessedOn: null
+  quote: "a person's voluntary agreement to participate in a procedure on the basis of their understanding of its nature, its potential benefits and possible risks, and available alternatives."
+- id: N-G-19
+  title: "ISPA: Mission Statement"
+  url: "https://ispaweb.org/about-ispa/mission-statement/"
+  accessedOn: null
+  quote: "The International School Psychology Association (ISPA) was officially founded in 1982, but can trace its roots to 1972, when a group of school psychologists from several countries formed the International School Psychology Committee. ISPA is a Non-Governmental Organization officially affiliated to UNESCO."
+- id: N-G-20
+  title: "APA Dictionary of Psychology: supervision"
+  url: "https://dictionary.apa.org/supervision"
+  accessedOn: null
+  quote: "critical evaluation and guidance provided by a qualified and experienced person (the supervisor) to another individual (the trainee) during the learning of a task or process."

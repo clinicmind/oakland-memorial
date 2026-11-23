@@ -14,11 +14,13 @@
     const status = document.createElement('p');
     status.className = 'quiz-status'; status.setAttribute('role', 'status'); status.setAttribute('aria-live', 'polite');
     details.before(status);
+    options[0].parentElement?.setAttribute('role', 'radiogroup');
     options.forEach((li) => {
-      li.classList.add('quiz-option'); li.tabIndex = 0; li.setAttribute('role', 'button');
+      li.classList.add('quiz-option'); li.tabIndex = 0; li.setAttribute('role', 'radio'); li.setAttribute('aria-checked', 'false');
       const pick = () => {
         const letter = (li.textContent ?? '').trim()[0];
-        options.forEach((o) => o.removeAttribute('data-state'));
+        options.forEach((o) => { o.removeAttribute('data-state'); o.setAttribute('aria-checked', 'false'); });
+        li.setAttribute('aria-checked', 'true');
         li.dataset.state = letter === right ? 'correct' : 'wrong';
         if (letter !== right) options.find((o) => (o.textContent ?? '').trim()[0] === right)?.setAttribute('data-state', 'correct');
         status.textContent = letter === right ? t.right : `${t.wrong} ${right}.`;

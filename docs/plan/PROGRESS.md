@@ -14,23 +14,22 @@
 | M4 | 設計系統 v2（taste-skill）＋首頁 | ✅ 完成（gate PASS：英文、中文） | Sonnet | 2026-11-20 |
 | M5 | 首頁＋生平區 | ✅ 完成（有限制：足跡用清單，沒有 SVG 地圖） | Sonnet | 2026-11-20 |
 | M6 | 學術貢獻區 | ✅ 完成（測驗 2 套） | Sonnet | 2026-11-20 |
-| M7 | 學習中心 | 🔄 內容完成（Opus 審閱並合併）；版面完成；待 Sonnet 整合：引用 id、mermaid 與測驗實測、gate／截圖 | Opus 內容／Sonnet 頁面 | |
+| M7 | 學習中心 | ✅ 完成（內容 Opus；版面與整合 Sonnet） | Opus 內容／Sonnet 頁面 | 2026-11-23 |
 | M8 | 澳門歲月、傳承、追思牆 | 🔄 頁面完成；待 Tally 網址與真照片 | Sonnet＋使用者 | |
 | M9 | 翻譯審校 | 🔄 已合併 27 項修正＋Opus 決定；1 項待使用者（訪問學者／訪問教授）；learn 與 glossary 待複審 | Opus | |
-| M10 | 上線前檢查、預覽部署 | ⬜ | Sonnet | |
+| M10 | 上線前檢查、預覽部署 | 🔄 大部分完成；剩 sitemap 於公開時啟用 robots、Lighthouse 首頁效能 | Sonnet | |
 | M11 | 聯絡家屬提醒、公開、模板化 | ⬜ | Sonnet＋使用者 | |
 
-進度：7/12 ▓▓▓▓▓▓▓░░░░░ 58%（M0–M6）
+進度：8/12 ▓▓▓▓▓▓▓▓░░░░ 67%（M0–M7）
 
 預計：約 11–13 個工作 session；使用者及時回覆時約 1.5–2 週完成預覽版。
 
 ## 下一個任務
 
-1. **M7 學習中心**：Sonnet 先做版面與元件（單元頁、Quiz、GlossaryTerm、詞彙表）。內容（T1–T5、測驗題、詞彙定義）**建議轉 Opus**。
-2. **M8**：需要使用者的資料（Q13、照片、投稿管道）。見下方。
-3. **M9 翻譯審校**：建議轉 Opus。
-4. **M10 剩餘項目**：Lighthouse 手機分數、外部連結檢查、`@astrojs/sitemap`（內容穩定後做）。
-5. **M11**：提醒使用者聯絡家屬或 UF（Playbook M11 原文），再取消 `PREVIEW`。
+1. **M9**：1 項待使用者決定（訪問學者／訪問教授，見 `M9-translation-review.md`）；learn 與 glossary 的中英複審由 Opus 做。
+2. **M8**：Tally 網址與真照片（見下）。
+3. **M10 收尾**：公開時啟用 sitemap 的 robots 行、重測 Lighthouse（換真照片後）。
+4. **M11**：提醒使用者聯絡家屬或 UF；使用者同意後把 `PREVIEW` 改 false、設 Template repository、更新 README。
 
 ## 待使用者回答
 
@@ -42,6 +41,14 @@
 - 照片（M8 前）
 
 ## 紀錄
+
+### 2026-11-23 M7 整合
+
+- 合併 Opus 的 M7 內容與 M9 審校後，整合：59 個 `N-T*` 來源併入 `sources.yaml`（保留原 id，附 `quote`），文內 `[N-T1-1]` 由 `rehype-cite` 轉成指向來源頁的標籤；來源頁改為自然排序並顯示引句。
+- 檢查：5 個單元 × 2 語言都是 7 個 H2、含 mermaid 圖與 4–5 題自我檢核。mermaid 全部畫成靜態 SVG。測驗改用 `radiogroup`／`radio` 語意（axe 通過）。
+- 首頁的「學習單元」每列連到單元頁；footer 加詞彙表連結。首頁 gate 英文、中文 PASS（waiver 仍是 4 個）。端對端測試（含 learn、glossary、全頁 axe）全部通過。
+- 還沒看：教學內容的版面實際閱讀感（我只檢查結構與無障礙）。M9 說的「learn 與 glossary 待複審」由 Opus 處理。
+
 
 ### 2026-11-23 M7 版面、M10 剩餘
 

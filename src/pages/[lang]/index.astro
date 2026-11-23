@@ -21,6 +21,7 @@ const pa = (name: string, sizes: string) => {
   const set = [...steps.map((w) => `${img(`${base}-${w}.webp`)} ${w}w`), `${img(name)} ${d.w}w`].join(', ');
   return { src: img(name), srcset: set, sizes, width: d.w, height: d.h };
 };
+const unitSlugs = ['adaptive-behavior', 'temperament-styles', 'test-adaptation', 'international-school-psychology', 'professional-ethics'];
 const P = {
   hero: 'photo-f158008636.webp',
   indiana: 'photo-f19598734.webp',
@@ -98,8 +99,8 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
         <div class="span-6">
           <div class="section-head"><h2 id="learn-h">{c.learn.h2}</h2><p>{c.learn.lead}</p></div>
           <ul class="rows">
-            {c.learn.items.map((it) => (
-              <li><span class="rows__name">{it.name}</span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
+            {c.learn.items.map((it, i) => (
+              <li><span class="rows__name"><a href={url(lang, `learn/${unitSlugs[i]}/`)}>{it.name}</a></span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
             ))}
           </ul>
         </div>

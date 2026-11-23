@@ -1,12 +1,12 @@
 {
- "start": "2026-11-20T23:26:29.990Z",
+ "start": "2026-11-23T07:56:16.333Z",
  "round": 0,
  "idle": 0,
  "errors": 0,
  "status": "pass",
  "history": [
   {
-   "at": "2026-11-20T23:28:43.466Z",
+   "at": "2026-11-23T07:58:33.056Z",
    "mode": "manual",
    "status": "pass",
    "fails": 0,
@@ -24,11 +24,11 @@
   "category": "紀念與學習網站 學校心理學家",
   "primary": "分享回憶",
   "rounds": 3,
-  "start": "2026-11-20T23:26:29.990Z",
+  "start": "2026-11-23T07:56:16.333Z",
   "by": "gate.mjs --start"
  },
  "manual": true,
- "fp": "c7ce3402e6db92f1",
+ "fp": "648df48c312b2d63",
  "page": "dist/zh-hant/index.html",
  "found": {
   "fails": [
@@ -225,6 +225,17 @@
     "from": "consistency"
    },
    {
+    "check": "tap-size",
+    "where": "ul.rows > li:nth-of-type(1) > span.rows__name > a \"適應行為\"",
+    "msg": "a 64x19px tap target (and 1 more like it on this screen): under the 44px a phone needs",
+    "fix": "make every link and control outside running text 44px tall on a phone: display: inline-flex; align-items: center; min-height: 44px (a footer list then needs no gap), a 44px small button, or a transparent ::before laid past the box",
+    "widths": [
+     390,
+     320
+    ],
+    "from": "consistency"
+   },
+   {
     "check": "no-visual",
     "where": "section#work \"學校心理學：測驗與手冊\"",
     "msg": "pictures, effects and mocks cover 25% of this section; a feature section needs a visual (about 25% or more)",
@@ -246,7 +257,7 @@
   ],
   "crashed": [],
   "seconds": {
-   "consistency": 129,
+   "consistency": 132,
    "layout": 4
   }
  },
@@ -322,6 +333,6 @@
    "reason": "Stress test fills the h1 to 32 characters; the real zh-hant h1 is 17 characters and the hero fits the first screen at 390."
   }
  ],
- "warnCount": 14,
- "at": "2026-11-20T23:28:43.466Z"
+ "warnCount": 15,
+ "at": "2026-11-23T07:58:33.056Z"
 }

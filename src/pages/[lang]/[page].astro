@@ -18,7 +18,7 @@ const entry = await getEntry('pages', `${lang}/${slug}`);
 if (!entry) throw new Error(`Missing pages/${lang}/${slug}.md`);
 const { Content } = await render(entry);
 const facts = new Map((await getCollection('facts')).map((f) => [f.id, f.data]));
-const sources = (await getCollection('sources')).sort((a, b) => Number(a.id.slice(1)) - Number(b.id.slice(1)));
+const sources = (await getCollection('sources')).sort((a, b) => a.id.localeCompare(b.id, 'en', { numeric: true }));
 const timeline = (await getCollection('timeline')).sort((a, b) => a.data.year - b.data.year || (a.data.month ?? 0) - (b.data.month ?? 0));
 const longform = ['macau', 'legacy', 'memories'].includes(slug);
 const kinds = [...new Set(timeline.map((x) => x.data.kind))];
@@ -69,6 +69,7 @@ const kinds = [...new Set(timeline.map((x) => x.data.kind))];
                 <td>
                   <span lang="en">{s.data.title}</span><br />
                   {s.data.url ? <a href={s.data.url} rel="noopener" target="_blank" lang="en">{s.data.url}</a> : null}
+                  {s.data.quote ? <span class="t-small" style="display:block" lang="en">“{s.data.quote}”</span> : null}
                   {s.data.note ? <span class="t-small" style="display:block" lang="en">{s.data.note}</span> : null}
                 </td>
                 <td>{s.data.accessedOn ?? t.unopened}</td>

@@ -1,7 +1,7 @@
 {
  "page": "/home/user/oakland-memorial/dist/zh-hant/index.html",
  "url": "http://127.0.0.1:5200/zh-hant/index.html",
- "at": "2026-11-20T23:26:30.596Z",
+ "at": "2026-11-23T07:56:17.017Z",
  "out": "/home/user/oakland-memorial/.taste-skill/gate/consistency",
  "widths": [
   {
@@ -148,6 +148,16 @@
    "errors": [],
    "findings": [
     {
+     "check": "tap-size",
+     "sev": "WARN",
+     "sel": "ul.rows > li:nth-of-type(1) > span.rows__name > a",
+     "text": "適應行為",
+     "msg": "a 64x19px tap target (and 1 more like it on this screen): under the 44px a phone needs",
+     "stop": 8,
+     "crop": "390-05-tap-size.jpg",
+     "fix": "make every link and control outside running text 44px tall on a phone: display: inline-flex; align-items: center; min-height: 44px (a footer list then needs no gap), a 44px small button, or a transparent ::before laid past the box"
+    },
+    {
      "check": "scroll-reveal",
      "sev": "WARN",
      "sel": "section#idea > div.wrap > p.mo-wh__text",
@@ -164,7 +174,7 @@
      "text": "任教與求學的四所大學 他求學、任教與訪問的地方。 閱讀完整年表 01 / 04 Indiana ",
      "stop": 16,
      "msg": "held on screen for 3 screens of scroll (position: sticky) while the page moves on (inside a dealt moment's section, [data-moment]: expected on every kind, two moments at most, house rule; its still is judged under reduced motion)",
-     "crop": "390-06-pinned.jpg",
+     "crop": "390-07-pinned.jpg",
      "fix": "let the section scroll with the page"
     },
     {
@@ -194,7 +204,7 @@
      "text": "",
      "stop": 14,
      "msg": "223px between these sections, +43% against the median 156px of gaps at a change of ground",
-     "crop": "390-05-section-gaps.jpg",
+     "crop": "390-06-section-gaps.jpg",
      "fix": "use one gap between sections (all within 25% of each other)"
     },
     {
@@ -242,11 +252,22 @@
   "width": 320,
   "height": 640,
   "errors": [],
-  "findings": []
+  "findings": [
+   {
+    "check": "tap-size",
+    "sev": "WARN",
+    "sel": "ul.rows > li:nth-of-type(1) > span.rows__name > a",
+    "text": "適應行為",
+    "msg": "a 64x19px tap target (and 4 more like it on this screen): under the 44px a phone needs",
+    "crop": "narrow-320-01-tap-size.jpg",
+    "width": 320,
+    "fix": "make every link and control outside running text 44px tall on a phone: display: inline-flex; align-items: center; min-height: 44px (a footer list then needs no gap), a 44px small button, or a transparent ::before laid past the box"
+   }
+  ]
  },
  "counts": {
   "FAIL": 1,
-  "WARN": 18
+  "WARN": 20
  },
  "checks": {
   "assets": "PASS",
@@ -267,7 +288,7 @@
   "hover-spill": "not checked",
   "overlap-text": "PASS",
   "collide": "PASS",
-  "tap-size": "PASS",
+  "tap-size": "WARN",
   "row-gap": "PASS",
   "cut-text": "PASS",
   "fold-cut": "PASS",

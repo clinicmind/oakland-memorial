@@ -24,6 +24,7 @@ const sources = defineCollection({
     url: z.string().nullable(),
     kind: z.string().optional(),
     accessedOn: z.string().nullable().optional(),
+    quote: z.string().optional(),
     note: z.string().optional(),
   }),
 });
