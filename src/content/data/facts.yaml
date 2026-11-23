@@ -68,7 +68,7 @@
   quote: "S3: \"professor of school psychology at the UF College of Education from 1995 until his retirement in 2010\""
 - id: F9
   claim:
-    en: "He retired from the University of Florida and holds the title Professor Emeritus."
+    en: "He retired from the University of Florida and held the title Professor Emeritus."
     zh-hant: "他從 University of Florida 退休，並獲頒榮休教授（Professor Emeritus）頭銜。"
   sourceIds: ["S3", "S2", "S12"]
   status: V
@@ -94,7 +94,7 @@
 - id: F12
   claim:
     en: "He served as president of the International Foundation for Children's Education."
-    zh-hant: "他曾擔任國際兒童教育基金會（International Foundation for Children's Education）會長。"
+    zh-hant: "他曾擔任 International Foundation for Children's Education 會長。"
   sourceIds: ["S3"]
   status: V
   checkedOn: "2026-11-20"
@@ -216,7 +216,7 @@
 - id: F25
   claim:
     en: "He received the APA Award for Distinguished Contributions to the International Advancement of Psychology in 2003."
-    zh-hant: "2003 年獲 APA 國際心理學進展傑出貢獻獎（Award for Distinguished Contributions to the International Advancement of Psychology）。"
+    zh-hant: "2003 年獲 APA 頒發 Award for Distinguished Contributions to the International Advancement of Psychology。"
   sourceIds: ["S1", "S12"]
   status: V
   checkedOn: "2026-11-20"
