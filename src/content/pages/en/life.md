@@ -13,7 +13,7 @@ groups:
   - title: "Macau"
     factIds: [F16]
   - title: "Tests and books"
-    factIds: [F18a, F19, F20, F30, F32, F28]
+    factIds: [F19, F20, F30, F32, F28]
   - title: "His death"
     factIds: [F29]
 ---

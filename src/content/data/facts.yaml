@@ -61,14 +61,14 @@
 - id: F8
   claim:
     en: "From 1995 he taught school psychology at the University of Florida."
-    zh-hant: "1995 年起他在 University of Florida 任教，專長為學校心理學。"
+    zh-hant: "1995 年起，他在 University of Florida 教授學校心理學。"
   sourceIds: ["S3", "S12"]
   status: V
   checkedOn: "2026-11-20"
   quote: "S3: \"professor of school psychology at the UF College of Education from 1995 until his retirement in 2010\""
 - id: F9
   claim:
-    en: "He retired from the University of Florida and holds the title Professor Emeritus."
+    en: "He retired from the University of Florida and held the title Professor Emeritus."
     zh-hant: "他從 University of Florida 退休，並獲頒榮休教授（Professor Emeritus）頭銜。"
   sourceIds: ["S3", "S2", "S12"]
   status: V
@@ -94,7 +94,7 @@
 - id: F12
   claim:
     en: "He served as president of the International Foundation for Children's Education."
-    zh-hant: "他曾擔任國際兒童教育基金會（International Foundation for Children's Education）會長。"
+    zh-hant: "他曾擔任 International Foundation for Children's Education 會長。"
   sourceIds: ["S3"]
   status: V
   checkedOn: "2026-11-20"
@@ -103,7 +103,7 @@
 - id: F13
   claim:
     en: "He was a Fulbright Scholar at the University of Brasilia."
-    zh-hant: "他曾是 Fulbright 學者，任職於巴西的 University of Brasília。"
+    zh-hant: "他曾是 Fulbright 學者，任職於巴西的 University of Brasilia。"
   sourceIds: ["S2", "S3"]
   status: V
   checkedOn: "2026-11-20"
@@ -120,7 +120,7 @@
 - id: F15
   claim:
     en: "He taught at the Iberoamerican University in San Jose, Costa Rica."
-    zh-hant: "他曾任教於哥斯大黎加 San José 的 Iberoamerican University。"
+    zh-hant: "他曾任教於哥斯大黎加 San Jose 的 Iberoamerican University。"
   sourceIds: ["S2"]
   status: V
   checkedOn: "2026-11-20"
@@ -128,7 +128,7 @@
 - id: F16
   claim:
     en: "From January to May 2011 he was a Visiting Professor at the University of Macau Department of Psychology for one semester."
-    zh-hant: "2011 年 1 月至 5 月，他以 Visiting Professor 身分在澳門大學心理學系訪問一個學期。"
+    zh-hant: "2011 年 1 月至 5 月，他在澳門大學心理學系擔任訪問教授，為期一個學期。"
   sourceIds: ["S4"]
   status: V
   checkedOn: "2026-11-20"
@@ -164,7 +164,7 @@
 - id: F19
   claim:
     en: "The Adaptive Behavior Assessment System, Third Edition (ABAS-3, 2015) is by Harrison and Oakland and published by Western Psychological Services."
-    zh-hant: "《適應行為評量系統第三版》（ABAS-3，2015）由 Harrison 與 Oakland 編製，Western Psychological Services 出版。"
+    zh-hant: "Adaptive Behavior Assessment System 第三版（ABAS-3，2015）由 Harrison 與 Oakland 編製，Western Psychological Services 出版。"
   sourceIds: ["S17"]
   status: V
   checkedOn: "2026-11-20"
@@ -216,7 +216,7 @@
 - id: F25
   claim:
     en: "He received the APA Award for Distinguished Contributions to the International Advancement of Psychology in 2003."
-    zh-hant: "2003 年獲 APA 國際心理學進展傑出貢獻獎（Award for Distinguished Contributions to the International Advancement of Psychology）。"
+    zh-hant: "2003 年獲 APA 頒發 Award for Distinguished Contributions to the International Advancement of Psychology。"
   sourceIds: ["S1", "S12"]
   status: V
   checkedOn: "2026-11-20"
@@ -242,7 +242,7 @@
 - id: F28
   claim:
     en: "Oakland, Iliescu, Chen & Chen (2013), 'Cross-national assessment of adaptive behavior in three countries', Journal of Psychoeducational Assessment, advance online publication, doi:10.1177/0734282912469492."
-    zh-hant: "Oakland、Iliescu、Chen 與 Chen（2013）發表〈三個國家適應行為的跨國評量〉，載於 Journal of Psychoeducational Assessment（線上先行出版）。"
+    zh-hant: "Oakland、Iliescu、Chen 與 Chen（2013）發表〈三個國家適應行為的跨國評估〉，載於 Journal of Psychoeducational Assessment（線上先行出版）。"
   sourceIds: ["S13"]
   status: V
   checkedOn: "2026-11-20"
@@ -250,8 +250,8 @@
   note: "Volume and pages not in S13. Get them from Crossref (M2)."
 - id: F29
   claim:
-    en: "He died tragically at his home in Gainesville on 4 March 2015 (see the UF College of Education statement)."
-    zh-hant: "他於 2015 年 3 月 4 日在家中不幸離世。網站只用這一句，並連到 UF 官方聲明。"
+    en: "He died tragically at his home in Gainesville, Florida, on 4 March 2015."
+    zh-hant: "他於 2015 年 3 月 4 日在 Florida 州 Gainesville 家中不幸離世。"
   sourceIds: ["S3"]
   status: V
   checkedOn: "2026-11-20"

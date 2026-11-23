@@ -1,0 +1,51 @@
+# New sources opened for M7 units T4 and T5. Not merged into sources.yaml (Opus review decides).
+- id: N-T4-1
+  title: "ISPA, About ISPA (International School Psychology Association)"
+  url: "https://ispaweb.org/about-ispa/"
+  accessed: "2026-11-23"
+  quote: "In the early 1970s a group of school psychologists from different parts of the world, under the leadership of the late Calvin D. Catterall, came together to form an International School Psychology Committee in order to promote worldwide cooperation amongst school and educational psychologists. The number of psychologists committed to this aim grew steadily until in 1982 the International School Psychology Association was founded with Anders Poulsen as its first President."
+- id: N-T4-2
+  title: "Crossref record and abstract: Oakland & Cunningham (1992), A Survey of School Psychology in Developed and Developing Countries"
+  url: "https://api.crossref.org/works/10.1177/0143034392132001"
+  accessed: "2026-11-23"
+  quote: "School psychology is a growing profession. Similar conceptions of the roles and functions of school psychologists are held throughout the world."
+- id: N-T4-3
+  title: "Crossref record and abstract: Oakland (1992), Formulating Priorities for International School Psychology toward the Turn of the Twentieth Century"
+  url: "https://api.crossref.org/works/10.1177/0143034392132008"
+  accessed: "2026-11-23"
+  quote: "The major themes discussed in this article include the need to strike a balance between professional uniformity and diversity, to maintain a strong research commitment, to develop and maintain strong professional associations at national and international levels, to create an international institute on school psychology, to conduct subsequent international studies on school psychology and to design them so as to overcome possible limitations in the current study."
+- id: N-T4-4
+  title: "OpenAlex abstract of Oakland & Hatzichristou (2014), Professional Preparation in School Psychology"
+  url: "https://api.openalex.org/works/doi:10.1080/21683603.2014.934638"
+  accessed: "2026-11-23"
+  quote: "Stronger leadership from national, regional, and international associations of psychology and school psychology is needed to counterbalance the effects of external control that pose threats to the specialty."
+- id: N-T4-5
+  title: "OpenAlex abstract of Oakland (2014), An Epilogue: Issues and Implications for Incorporating Multicultural Issues in ISPA's Professional Preparation Guidelines"
+  url: "https://api.openalex.org/works/doi:10.1080/21683603.2014.934614"
+  accessed: "2026-11-23"
+  quote: "The purpose of this article is to identify five issues that need to be considered, along with others, should a review process be initiated."
+- id: N-T5-1
+  title: "Crossref record and abstract: Oakland & Hu (1991), Professionals Who Administer Tests With Children and Youth: An International Survey"
+  url: "https://api.crossref.org/works/10.1177/073428299100900201"
+  accessed: "2026-11-23"
+  quote: "Those most likely to employ tests include school or educational psychologists, teachers, counselors, and clinical and general psychologists. Most professionals learn tests through coursework."
+- id: N-T5-2
+  title: "Crossref record and abstract: Oakland, Goldman & Bischoff (1997), Code of Ethics of the International School Psychology Association"
+  url: "https://api.crossref.org/works/10.1177/0143034397184001"
+  accessed: "2026-11-23"
+  quote: "This code of ethics was prepared by the International School Psychology Association's (ISPA's) Standards and Practices Committee and approved by ISPA's General Assembly in August 1990. This statement addresses issues important to professional responsibilities, confidentiality, professional growth, professional limitations, professional relationships, assessment and research."
+- id: N-T5-3
+  title: "OpenAlex abstract of Leach & Oakland (2007), Ethics Standards Impacting Test Development and Use"
+  url: "https://api.openalex.org/works/doi:10.1080/15305050709336859"
+  accessed: "2026-11-23"
+  quote: "Codes from approximately one third of the countries surveyed do not address test use. Standards that require psychologists to explain results, use tests properly, and limit their use by unqualified persons are most frequently found."
+- id: N-T5-4
+  title: "OpenAlex abstract of Leach & Oakland (2010), Displaying Ethical Behaviors by Psychologists When Standards Are Unclear"
+  url: "https://api.openalex.org/works/doi:10.1080/10508421003798893"
+  accessed: "2026-11-23"
+  quote: "These include knowledge of the host country's prevailing moral values, its laws and administrative policies, and ethics codes as well as policies approved by international agencies and associations. Eight guidelines are provided for psychologists working in host countries that lack ethics codes."
+- id: N-T5-5
+  title: "Crossref record and abstract: Oakland (1997), Test Use Among School Psychologists: Past, Current, and Emerging Practices"
+  url: "https://api.crossref.org/works/10.1027/1015-5759.13.1.2"
+  accessed: "2026-11-23"
+  quote: "Current test use with children and youth, principally by school or educational psychologists, is reviewed. Emphasis is placed on conditions within Europe when possible."

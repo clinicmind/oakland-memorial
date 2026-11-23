@@ -24,7 +24,7 @@ const diagram = slug === 'abas-3'
 <Page lang={lang} title={entry.data.title} description={entry.data.description ?? ''} path={`tests/${slug}/`}>
   <div class="doc-block page-head">
     <div class="wrap"><div class="prose">
-      <Breadcrumb label={lang === 'en' ? 'Breadcrumb' : '麵包屑'} items={[{ label: t.title, href: url(lang, 'works/') }, { label: entry.data.title }]} />
+      <Breadcrumb label={lang === 'en' ? 'Breadcrumb' : '頁面路徑'} items={[{ label: t.title, href: url(lang, 'works/') }, { label: entry.data.title }]} />
       <h1 class="t-h2" style="margin-top:24px">{entry.data.title}</h1>
       <div class="t-lead"><Content /></div>
     </div></div>

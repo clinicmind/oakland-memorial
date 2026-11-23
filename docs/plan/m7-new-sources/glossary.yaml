@@ -1,0 +1,101 @@
+# M7 glossary sources. Not merged into sources.yaml. Opus review needed.
+- id: N-G-1
+  title: "APA Dictionary of Psychology: adaptive behavior"
+  url: "https://dictionary.apa.org/adaptive-behavior"
+  accessedOn: "2026-11-23"
+  quote: "the level of everyday performance of tasks that is required for a person to fulfill typical roles in society, including maintaining independence and meeting cultural expectations regarding personal and social responsibility."
+- id: N-G-2
+  title: "AAIDD: Defining Criteria for Intellectual Disability"
+  url: "https://www.aaidd.org/intellectual-disability/definition"
+  accessedOn: "2026-11-23"
+  quote: "Intellectual disability is a condition characterized by significant limitations in both intellectual functioning and adaptive behavior that originates before the age of 22. Adaptive behavior is the collection of conceptual, social, and practical skills that are learned and performed by people in their everyday lives."
+- id: N-G-3
+  title: "APA Dictionary of Psychology: reliability"
+  url: "https://dictionary.apa.org/reliability"
+  accessedOn: "2026-11-23"
+  quote: "the trustworthiness or consistency of a measure, that is, the degree to which a test or other measurement instrument is free of random error, yielding the same results across multiple applications to the same sample."
+- id: N-G-4
+  title: "APA Dictionary of Psychology: validity"
+  url: "https://dictionary.apa.org/validity"
+  accessedOn: "2026-11-23"
+  quote: "the degree to which empirical evidence and theoretical rationales support the adequacy and appropriateness of conclusions drawn from some form of assessment."
+- id: N-G-5
+  title: "APA Dictionary of Psychology: norm"
+  url: "https://dictionary.apa.org/norm"
+  accessedOn: "2026-11-23"
+  quote: "a standard or range of values that represents the typical performance of a group or of an individual (of a certain age, for example) against which comparisons can be made."
+- id: N-G-6
+  title: "APA Dictionary of Psychology: norm-referenced test"
+  url: "https://dictionary.apa.org/norm-referenced-test"
+  accessedOn: "2026-11-23"
+  quote: "any assessment in which scores are interpreted by comparison with a norm, generally the average score obtained by members of a specified group."
+- id: N-G-7
+  title: "APA Dictionary of Psychology: standardized test"
+  url: "https://dictionary.apa.org/standardized-test"
+  accessedOn: "2026-11-23"
+  quote: "an assessment instrument whose validity and reliability have been established by thorough empirical investigation and analysis."
+- id: N-G-8
+  title: "International Test Commission: Guidelines (published guidelines page)"
+  url: "https://www.intestcom.org/page/16"
+  accessedOn: "2026-11-23"
+  quote: "The ITC guidelines bear directly on furthering the goals of the ITC. Seven projects have produced guidelines that have gained wide international acceptance."
+- id: N-G-9
+  title: "APA Dictionary of Psychology: cultural bias"
+  url: "https://dictionary.apa.org/cultural-bias"
+  accessedOn: "2026-11-23"
+  quote: "the tendency to interpret and judge phenomena in terms of the distinctive values, beliefs, and other characteristics of the society or community to which one belongs."
+- id: N-G-10
+  title: "APA Dictionary of Psychology: temperament"
+  url: "https://dictionary.apa.org/temperament"
+  accessedOn: "2026-11-23"
+  quote: "the basic foundation of personality, usually assumed to be biologically determined and present early in life, including such characteristics as energy level, emotional responsiveness, demeanor, mood, response tempo, behavioral inhibition, and willingness to explore."
+- id: N-G-11
+  title: "APA Dictionary of Psychology: learning style"
+  url: "https://dictionary.apa.org/learning-style"
+  accessedOn: "2026-11-23"
+  quote: "see cognitive style."
+- id: N-G-12
+  title: "APA Dictionary of Psychology: school psychology"
+  url: "https://dictionary.apa.org/school-psychology"
+  accessedOn: "2026-11-23"
+  quote: "a field of psychology concerned with the psychoeducational problems and other issues arising in primary and secondary schools."
+- id: N-G-13
+  title: "NASP: What Is a School Psychologist?"
+  url: "https://www.nasponline.org/about-school-psychology/who-are-school-psychologists"
+  accessedOn: "2026-11-23"
+  quote: "School psychologists are trained professionals who help children and youth succeed in school, at home, and throughout life. They apply expertise in mental health, learning, and behavior to support academic success, promote positive relationships, and strengthen school communities."
+- id: N-G-14
+  title: "APA Dictionary of Psychology: psychological assessment"
+  url: "https://dictionary.apa.org/psychological-assessment"
+  accessedOn: "2026-11-23"
+  quote: "the gathering and integration of data to evaluate a person's behavior, abilities, and other characteristics, particularly for the purposes of making a diagnosis or treatment recommendation."
+- id: N-G-15
+  title: "APA Dictionary of Psychology: cognitive assessment"
+  url: "https://dictionary.apa.org/cognitive-assessment"
+  accessedOn: "2026-11-23"
+  quote: "evaluation of such skills as learning, memory, judgment, and reasoning."
+- id: N-G-16
+  title: "APA Dictionary of Psychology: intellectual disability"
+  url: "https://dictionary.apa.org/intellectual-disability"
+  accessedOn: "2026-11-23"
+  quote: "a developmental disability characterized by mild to profound limitations in cognitive function (e.g., learning, problem solving, reasoning, planning) and in adaptive behavior, impairing one's ability to acquire skills typical for one's age group as a child or necessary for one's later independent functioning as an adult."
+- id: N-G-17
+  title: "APA Dictionary of Psychology: professional ethics"
+  url: "https://dictionary.apa.org/professional-ethics"
+  accessedOn: "2026-11-23"
+  quote: "rules of acceptable conduct that members of a given profession are expected to follow."
+- id: N-G-18
+  title: "APA Dictionary of Psychology: informed consent"
+  url: "https://dictionary.apa.org/informed-consent"
+  accessedOn: "2026-11-23"
+  quote: "a person's voluntary agreement to participate in a procedure on the basis of their understanding of its nature, its potential benefits and possible risks, and available alternatives."
+- id: N-G-19
+  title: "ISPA: Mission Statement"
+  url: "https://ispaweb.org/about-ispa/mission-statement/"
+  accessedOn: "2026-11-23"
+  quote: "The International School Psychology Association (ISPA) was officially founded in 1982, but can trace its roots to 1972, when a group of school psychologists from several countries formed the International School Psychology Committee. ISPA is a Non-Governmental Organization officially affiliated to UNESCO."
+- id: N-G-20
+  title: "APA Dictionary of Psychology: supervision"
+  url: "https://dictionary.apa.org/supervision"
+  accessedOn: "2026-11-23"
+  quote: "critical evaluation and guidance provided by a qualified and experienced person (the supervisor) to another individual (the trainee) during the learning of a task or process."

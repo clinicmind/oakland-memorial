@@ -13,7 +13,7 @@ groups:
   - title: "澳門"
     factIds: [F16]
   - title: "測驗與書籍"
-    factIds: [F18a, F19, F20, F30, F32, F28]
+    factIds: [F19, F20, F30, F32, F28]
   - title: "離世"
     factIds: [F29]
 ---

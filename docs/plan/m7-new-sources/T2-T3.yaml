@@ -1,0 +1,123 @@
+# New sources for M7 units T2 (temperament) and T3 (test adaptation). Draft for Opus review.
+# All opened on 2026-11-23. Abstract quotes come from the Crossref record (api.crossref.org) unless noted.
+# Quotes are verbatim and consecutive (one or two sentences). Original spelling kept (for example "organlzed").
+- id: N-T2-1
+  title: "Buros Center for Testing: Student Styles Questionnaire review entry"
+  url: "https://marketplace.unl.edu/buros/test-reviews/alphabetical-list/student-styles-questionnairetm.html"
+  accessed: "2026-11-23"
+  quote: "Designed to detect individual differences students display in their preferences, temperaments, and personal styles."
+- id: N-T2-2
+  title: "Oakland, T., & Joyce, D. (2004). Temperament-based learning styles and school-based applications. Canadian Journal of School Psychology, 19(1-2), 59-74 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/082957350401900103"
+  accessed: "2026-11-23"
+  quote: "Four temperament qualities and their origins are described together with the influence of temperament styles on teaching and learning styles. Teachers are encouraged to provide opportunities for students to utilize their strengths, to overcome weaknesses, to encourage positive behaviors, to promote an understanding of themselves and others, and to identify vocational interests."
+- id: N-T2-3
+  title: "Calluen, C., & Oakland, T. (2014). If you do not know the child's temperament you do not know the child. Estudos de Psicologia (Campinas), 31(1), 3-14 (Crossref abstract), eight styles"
+  url: "https://api.crossref.org/works/10.1590/0103-166x2014000100001"
+  accessed: "2026-11-23"
+  quote: "This paper focuses on Oakland and colleagues' approach to temperament in children ages 8-17 in terms of the eight basic styles that are grouped into four bipolar traits: extroverted or introverted, practical or imaginative, thinking or feeling, and organized or flexible styles."
+- id: N-T2-4
+  title: "Benson, N., Oakland, T., & Shermis, M. (2008). Cross-national invariance of children's temperament. Journal of Psychoeducational Assessment, 27(1), 3-16 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/0734282908318563"
+  accessed: "2026-11-23"
+  quote: "Development of the SSQ was based on Jung's theory of temperament as augmented by Myers and Briggs. A four bipolar dimension model provided an excellent fit for Australian, Chinese, Costa Rican, Philippine, United States, and Zimbabwean samples and modest fit for Gaza (Palestinian) and Nigerian samples."
+- id: N-T2-5
+  title: "Oakland, T., Joyce, D. D., Horton, C., & Glutting, J. (2000). Temperament-based learning styles of identified gifted and nongifted students. Gifted Child Quarterly, 44(3), 183-189 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/001698620004400304"
+  accessed: "2026-11-23"
+  quote: "Students identified as gifted and nongifted students did not differ significantly on extroverted-introverted, organlzed-flexible, and thinking-feeling styles. Students identified as gifted displayed a stronger preference for imagnative styles, while nongifted children displayed a stronger preference for practical styles."
+- id: N-T2-6
+  title: "Stafford, M. E., & Oakland, T. D. (1996). Validity of temperament constructs using the Student Styles Questionnaire. Journal of Psychoeducational Assessment, 14(2), 109-120 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/073428299601400202"
+  accessed: "2026-11-23"
+  quote: "The SSQ is a temperament measure for students aged 8 through 17. Comparative construct validity results indicate that a high degree of factor similarity exists across racial-ethnic groups; factor similarity is less strong when Hispanic Americans living in New York and Texas are compared."
+- id: N-T2-7
+  title: "Oakland, T., & colleague (2006). Temperament styles of children from the People's Republic of China and the United States. School Psychology International, 27(2), 192-208 (Crossref abstract; Crossref spells the second author 'Lub, Li')"
+  url: "https://api.crossref.org/works/10.1177/0143034306064545"
+  accessed: "2026-11-23"
+  quote: "Compared to US children, Chinese children are more likely to prefer practical, thinking and organized styles; these differences were found within boys and girls from the two countries. Temperament preferences displayed by Chinese and US children may reflect qualities important to values prominent in either a collectivist or individualist society."
+- id: N-T2-8
+  title: "Calluen, C., & Oakland, T. (2014). If you do not know the child's temperament you do not know the child (Crossref abstract), definition of temperament"
+  url: "https://api.crossref.org/works/10.1590/0103-166x2014000100001"
+  accessed: "2026-11-23"
+  quote: "Current scholarship generally characterizes temperament as stylistic and relatively stable traits that subsume intrinsic tendencies to act and react in somewhat predictable ways to people, events, and other stimuli. An understanding of children's temperament preferences aids our understanding of the origins of behaviors as well as normal attitudes children display at home, school, and elsewhere."
+- id: N-T3-1
+  title: "International Test Commission: Guidelines page"
+  url: "https://www.intestcom.org/page/16"
+  accessed: "2026-11-23"
+  quote: "The ITC guidelines bear directly on furthering the goals of the ITC."
+- id: N-T3-2
+  title: "International Test Commission (2017). The ITC Guidelines for Translating and Adapting Tests (Second edition), version 2.4, translation versus adaptation"
+  url: "https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf"
+  accessed: "2026-11-23"
+  quote: "Test translation is only a part of the adaptation process, but can be, on its own, a very simplistic approach to transporting a test from one language to another with no regard for educational or psychological equivalence."
+- id: N-T3-3
+  title: "Oakland, T. (2004). Use of educational and psychological tests internationally. Applied Psychology, 53(2), 157-172 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1111/j.1464-0597.2004.00166.x"
+  accessed: "2026-11-23"
+  quote: "The history of test development and use, external and internal conditions that impact test development and use, test use internationally, together with standards and guidelines for test development and use are summarised. Regional and international organisations providing leadership in test development and use as well as leadership efforts by the International Test Commission and others are discussed."
+- id: N-T3-4
+  title: "Oakland, T., & Lane, H. B. (2004). Language, reading, and readability formulas: Implications for developing and adapting tests. International Journal of Testing, 4(3), 239-252 (abstract via OpenAlex)"
+  url: "https://api.openalex.org/works/doi:10.1207/s15327574ijt0403_3"
+  accessed: "2026-11-23"
+  quote: "Strengths and limitations associated with the use of readability formulas are discussed. Their use should be confined to paragraphs and longer passages, not items."
+- id: N-T3-5
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013). Cross-national assessment of adaptive behavior in three countries. Journal of Psychoeducational Assessment, 31(5), 435-447 (Crossref abstract), background"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessed: "2026-11-23"
+  quote: "Measures that assess adaptive behaviors typically have been built in Western cultures and developed in light of behaviors common to them. Nevertheless, these measures are used elsewhere despite a paucity of data that examine their cross-national transportability."
+- id: N-T3-6
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013), Crossref abstract, results"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessed: "2026-11-23"
+  quote: "Scale reliabilities are high and comparable for all the three versions. Correlation patterns are sufficiently similar between the three versions."
+- id: N-T3-7
+  title: "Oakland, T. (2016). A brief history of the International Test Commission. In The ITC International Handbook of Testing and Assessment (pp. 29-34). Oxford University Press (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1093/med:psych/9780199356942.003.0003"
+  accessed: "2026-11-23"
+  quote: "Now the ITC's primary goal is to assist in the exchange of information on test development and test use among its members and affiliate organizations, as well as with non-member societies, organizations, and individuals who desire to improve test-related practices."
+- id: N-T3-8
+  title: "Oakland, T., Poortinga, Y. H., Schlegel, J., & Hambleton, R. K. (2001). International Test Commission: Its history, current status, and future directions. International Journal of Testing, 1(1), 3-32 (abstract via OpenAlex)"
+  url: "https://api.openalex.org/works/doi:10.1207/s15327574ijt0101_2"
+  accessed: "2026-11-23"
+  quote: "The history of the International Test Commission (ITC) is described beginning with its conception by Jean Cardinet in the mid-1960s, its birth in 1976, through the year 2000."
+- id: N-T3-9
+  title: "Oakland, T. (2016). Testing and assessment of immigrants and second-language learners. In The ITC International Handbook of Testing and Assessment (pp. 318-332). Oxford University Press (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1093/med:psych/9780199356942.003.0022"
+  accessed: "2026-11-23"
+  quote: "This review considers five topics that may impact the assessment of examinees whose cultural and linguistic qualities differ from the local or host culture: qualities associated with culture and language, personal qualities that are assessed, psychometric properties of tests, interpersonal relationships between the examinee and the assessment specialist, and ethical issues."
+- id: N-T3-10
+  title: "Oakland, T. (2010). Cross-cultural and cross-national assessment. In The Corsini Encyclopedia of Psychology (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1002/9780470479216.corpsy0242"
+  accessed: "2026-11-23"
+  quote: "Cross-cultural assessment refers to the practice of acquiring test data on persons who differ culturally."
+- id: N-T3-11
+  title: "Oakland, T., Douglas, S., & Kane, H. (2016). Top ten standardized tests used internationally with children and youth by school psychologists in 64 countries. Journal of Psychoeducational Assessment, 34(2), 166-176 (Crossref abstract)"
+  url: "https://api.crossref.org/works/10.1177/0734282915595303"
+  accessed: "2026-11-23"
+  quote: "Data were acquired from 64 countries through an international survey, with one respondent from each country."
+- id: N-T3-12
+  title: "International Test Commission (2017). The ITC Guidelines for Translating and Adapting Tests (Second edition), version 2.4, pre-condition decisions"
+  url: "https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf"
+  accessed: "2026-11-23"
+  quote: "The first section named \"Pre-Condition\" highlights the fact that decisions have to be made before the translation/adaptation process ever begins."
+- id: N-T3-13
+  title: "International Test Commission (2017). The ITC Guidelines for Translating and Adapting Tests (Second edition), version 2.4, definition of adaptation"
+  url: "https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf"
+  accessed: "2026-11-23"
+  quote: "Test adaptation refers to all of the activities including: deciding whether or not a test in a second language and culture could measure the same construct in the first language; selecting translators; choosing a design for evaluating the work of test translators (e.g., forward and backward translations); choosing any necessary accommodations; modifying the test format; conducting the translation; checking the equivalence of the test in the second language and culture and conducting other necessary validity studies."
+- id: N-T2-9
+  title: "Stafford, M. E., & Oakland, T. D. (1996), Crossref abstract, item-level differences"
+  url: "https://api.crossref.org/works/10.1177/073428299601400202"
+  accessed: "2026-11-23"
+  quote: "Differential item functioning studies reveal similar response patterns for Hispanic Americans when compared to both African Americans and Anglo Americans; however, differences occur on 25% of items when African and Anglo Americans are compared."
+- id: N-T3-14
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013), Crossref abstract, scope and steps"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessed: "2026-11-23"
+  quote: "This present article describes the Romanian and Taiwan adaptation process of the U.S.-developed Adaptive Behavior Assessment System, Second Edition (ABAS-II) Parent Form for ages 5 to 21. Steps taken to help ensure a valid translation and cultural adaptation process are described."
+- id: N-T3-15
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013), Crossref abstract, data and comparisons"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessed: "2026-11-23"
+  quote: "Data from more than 3,000 parents who completed the ABAS-II are examined across these three test versions, focusing on score differences, internal consistency, intercorrelations, and factor structure equivalence. Data from the three versions display considerable similarity."

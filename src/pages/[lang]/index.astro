@@ -62,7 +62,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
           {c.life.chapters.map((ch, i) => (
             <li class="mo-ph__ch">
               <figure class="mo-ph__pic"><img {...pa(chapterImgs[i], `(min-width: 1024px) 100vw, ${Math.ceil((dims as Record<string, { w: number; h: number }>)[chapterImgs[i]].w / (dims as Record<string, { w: number; h: number }>)[chapterImgs[i]].h * 165)}vw`)} alt={ch.alt} data-source="commons" data-subject="landmark" loading="lazy" /></figure>
-              <h3>{ch.h}</h3>
+              <h3 lang="en">{ch.h}</h3>
               <p>{ch.p}</p>
             </li>
           ))}
@@ -113,7 +113,7 @@ const arrow = `<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path
           <div class="section-head"><h2 id="writing-h">{c.writing.h2}</h2><p>{c.writing.lead} <a class="link" href={url(lang, 'works/#browser')}>{c.more.writing}</a></p></div>
           <ul class="rows">
             {c.writing.items.map((it) => (
-              <li><span class="rows__name"><a class="link" href={it.href} rel="noopener" target="_blank">{it.name}</a></span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
+              <li><span class="rows__name"><a class="link" href={it.href} rel="noopener" target="_blank" lang="en">{it.name}</a></span><p>{it.text}</p><span class="rows__value">{it.value}</span></li>
             ))}
           </ul>
         </div>
