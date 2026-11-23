@@ -20,6 +20,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npx playwright install --with-deps chromium # mermaid 圖在建置時轉成 SVG
       - run: npm run check
       - uses: withastro/action@v3
   deploy:

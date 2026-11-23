@@ -4,11 +4,11 @@ import SiteNav from '../components/SiteNav.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import '../styles/pages.css';
 import { site, type Lang } from '../../site.config';
-interface Props { lang: Lang; title: string; description: string; path: string }
-const { lang, title, description, path } = Astro.props;
+interface Props { lang: Lang; title: string; description: string; path: string; noindex?: boolean; ignoreSearch?: boolean }
+const { lang, title, description, path, noindex = false, ignoreSearch = false } = Astro.props;
 ---
-<Base lang={lang} title={`${title} | ${site.person.name}`} description={description} path={path}>
+<Base lang={lang} title={`${title} | ${site.person.name}`} description={description} path={path} noindex={noindex}>
   <SiteNav lang={lang} path={path} />
-  <main id="main"><slot /></main>
+  <main id="main" data-pagefind-ignore={ignoreSearch ? '' : undefined}><slot /></main>
   <SiteFooter lang={lang} />
 </Base>

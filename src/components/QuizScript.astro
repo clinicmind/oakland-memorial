@@ -1,0 +1,31 @@
+---
+// 把「自我檢核」變成可作答的小測驗：選項可點擊或用鍵盤（Enter／空白鍵）選擇，答對答錯立刻標示並展開解釋。
+// 不儲存任何資料。沒有 JS 時，答案收在 <details> 裡，點開即可看。
+---
+<script>
+  const labels = { en: { right: 'Correct.', wrong: 'Not quite. The answer is' }, zh: { right: '答對了。', wrong: '不太對，答案是' } } as const;
+  const zh = document.documentElement.lang.startsWith('zh');
+  const t = zh ? labels.zh : labels.en;
+  document.querySelectorAll<HTMLElement>('.unit li:has(> details.quiz-answer)').forEach((q) => {
+    const details = q.querySelector<HTMLDetailsElement>(':scope > details.quiz-answer')!;
+    const right = details.dataset.answer;
+    const options = [...q.querySelectorAll<HTMLElement>('ul > li')].filter((li) => /^[A-D][\.\)．、]/.test((li.textContent ?? '').trim()));
+    if (!options.length) return;
+    const status = document.createElement('p');
+    status.className = 'quiz-status'; status.setAttribute('role', 'status'); status.setAttribute('aria-live', 'polite');
+    details.before(status);
+    options.forEach((li) => {
+      li.classList.add('quiz-option'); li.tabIndex = 0; li.setAttribute('role', 'button');
+      const pick = () => {
+        const letter = (li.textContent ?? '').trim()[0];
+        options.forEach((o) => o.removeAttribute('data-state'));
+        li.dataset.state = letter === right ? 'correct' : 'wrong';
+        if (letter !== right) options.find((o) => (o.textContent ?? '').trim()[0] === right)?.setAttribute('data-state', 'correct');
+        status.textContent = letter === right ? t.right : `${t.wrong} ${right}.`;
+        details.open = true;
+      };
+      li.addEventListener('click', pick);
+      li.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(); } });
+    });
+  });
+</script>

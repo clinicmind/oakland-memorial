@@ -71,6 +71,8 @@ const longform = () =>
 const md = (base: string) => glob({ pattern: '**/*.md', base });
 
 export const collections = {
+  // 版面測試用的示意單元（noindex）。不是真內容。
+  fixtures: defineCollection({ loader: md('src/fixtures/learn'), schema: longform() }),
   facts,
   sources,
   timeline,

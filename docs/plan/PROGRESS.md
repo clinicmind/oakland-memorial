@@ -14,7 +14,7 @@
 | M4 | 設計系統 v2（taste-skill）＋首頁 | ✅ 完成（gate PASS：英文、中文） | Sonnet | 2026-11-20 |
 | M5 | 首頁＋生平區 | ✅ 完成（有限制：足跡用清單，沒有 SVG 地圖） | Sonnet | 2026-11-20 |
 | M6 | 學術貢獻區 | ✅ 完成（測驗 2 套） | Sonnet | 2026-11-20 |
-| M7 | 學習中心 | ⬜ | Opus 內容／Sonnet 頁面 | |
+| M7 | 學習中心 | 🔄 版面完成；內容在 Opus 的 prep 分支 | Opus 內容／Sonnet 頁面 | |
 | M8 | 澳門歲月、傳承、追思牆 | 🔄 頁面完成；待 Tally 網址與真照片 | Sonnet＋使用者 | |
 | M9 | 翻譯審校 | ⬜ | Opus | |
 | M10 | 上線前檢查、預覽部署 | ⬜ | Sonnet | |
@@ -42,6 +42,18 @@
 - 照片（M8 前）
 
 ## 紀錄
+
+### 2026-11-23 M7 版面、M10 剩餘
+
+- 經 Opus 規劃 session 轉達：M7 內容（T1–T5、詞彙表）與 M9 審校由 Opus 的子代理在 `prep/m7-*`、`prep/m9-review` 分支撰寫，之後由 Opus 審閱合併。我**沒有**編輯 `src/content/learn/**`、`src/content/glossary/**`，也沒有合併那些分支（`git fetch` 時 origin 只有 main）。
+- 版面：`/[lang]/learn/`（單元索引）、`/learn/[slug]/`（單元頁）、`/glossary/`、`GlossaryTerm`（原生 popover）、`rehype-quiz`＋`QuizScript`（自我檢核：選項可用滑鼠或鍵盤選，立即標示對錯並展開解釋，不存資料；沒有 JS 時答案收在 `<details>`）。解析格式是 Opus 說明的：編號題目、選項 A-D、`**Answer:** X`（中文 `**答案：** X`）、一句解釋。
+- mermaid：建置時用 `rehype-mermaid`（inline-svg）轉成靜態 SVG，頁面不載入 runtime。需要 Chromium：CI 已加 `npx playwright install --with-deps chromium`；本機若 Playwright 版本與瀏覽器不符，設 `CHROMIUM_PATH`。轉換失敗時保留原始碼，不讓建置失敗。
+- 測試用示意單元在 `src/fixtures/learn/`（`/[lang]/learn-demo/`，noindex，不進搜尋與 sitemap），沒有真內容。已用 Playwright 驗證：圖會畫出、鍵盤 Enter 選答案會標示對錯並展開解釋（中英文）。
+- `@astrojs/sitemap` 已加（排除 learn-demo）。`robots.txt` 預覽期維持 Disallow。
+- 外部連結：65 個非 DOI 連結中 3 個 403（S9 WorldCat、S10 Legacy、S15 TAMU，已知被擋）。DOI 連結很多回 403 是出版社擋機器人；書目已用 Crossref 逐筆核對。腳本 `scripts/check-external.mjs`（手動，`SKIP_DOI=1` 可略過 DOI）。
+- 本機 `playwright` 套件現在是專案 devDependency（為了 mermaid）。`scripts/e2e.cjs` 也吃 `CHROMIUM_PATH`。
+- 已知小問題：kit 的 `system.js` 會把內文裡的「placeholder」字樣用紅框標出（示意單元會看到）。真內容不要用這個字。
+
 
 ### 2026-11-20 M10（Lighthouse，手機模擬）
 

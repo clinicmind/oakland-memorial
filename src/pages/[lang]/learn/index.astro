@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Page from '../../../layouts/Page.astro';
+import { url } from '../../../i18n/url';
+import type { Lang } from '../../../../site.config';
+export function getStaticPaths() { return (['zh-hant', 'en'] as const).map((lang) => ({ params: { lang } })); }
+const lang = Astro.params.lang as Lang;
+const t = { en: { title: 'Learning units', lead: 'Five units, each built on a work Thomas D. Oakland co-authored or edited. For education only.', empty: 'The units are being prepared.' }, 'zh-hant': { title: '學習單元', lead: '五個單元，每個都以 Thomas D. Oakland 合著或主編的一項作品為基礎。僅供教育用途。', empty: '單元準備中。' } }[lang];
+const order = ['adaptive-behavior', 'temperament-styles', 'test-adaptation', 'international-school-psychology', 'professional-ethics'];
+const units = (await getCollection('learn')).filter((e) => e.id.startsWith(`${lang}/`)).sort((a, b) => order.indexOf(a.id.split('/')[1]) - order.indexOf(b.id.split('/')[1]));
+---
+<Page lang={lang} title={t.title} description={t.lead} path="learn/">
+  <div class="doc-block page-head"><div class="wrap"><div class="prose">
+    <h1 class="t-h2">{t.title}</h1>
+    <p class="t-lead">{t.lead}</p>
+  </div></div></div>
+  <div class="doc-block"><div class="wrap"><div class="prose">
+    {units.length ? (
+      <ul class="work-list">
+        {units.map((u, i) => (
+          <li><a class="link" href={url(lang, `learn/${u.id.split('/')[1]}/`)}>T{i + 1} {u.data.title}</a><span class="wmeta">{u.data.description}</span></li>
+        ))}
+      </ul>
+    ) : <p>{t.empty}</p>}
+  </div></div></div>
+</Page>

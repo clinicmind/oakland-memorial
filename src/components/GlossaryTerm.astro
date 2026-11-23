@@ -1,0 +1,19 @@
+---
+// 內文詞彙：點選或聚焦顯示定義（原生 popover）。用法：<GlossaryTerm id="x" lang={lang}>詞</GlossaryTerm>
+import { getEntry } from 'astro:content';
+import type { Lang } from '../../site.config';
+import { url } from '../i18n/url';
+interface Props { id: string; lang: Lang }
+const { id, lang } = Astro.props;
+const entry = await getEntry('glossary', `${lang}/${id}`);
+const pid = `gl-${id}-${Math.random().toString(36).slice(2, 7)}`;
+---
+{entry ? (
+  <>
+    <button type="button" class="glossary-term" popovertarget={pid}><slot /></button>
+    <div id={pid} popover class="glossary-pop" role="note">
+      <strong>{entry.data.title}</strong><br />{entry.data.description}<br />
+      <a class="link" href={url(lang, `glossary/#${id}`)}>{lang === 'en' ? 'Glossary' : '詞彙表'}</a>
+    </div>
+  </>
+) : <slot />}

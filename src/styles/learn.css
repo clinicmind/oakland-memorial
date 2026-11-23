@@ -1,0 +1,18 @@
+/* 學習單元：單欄閱讀、測驗、圖解、詞彙。 */
+.unit .prose h2 { font-size: var(--t-h3, 28px); margin: 56px 0 16px; }
+.unit .prose ul, .unit .prose ol { padding-left: 1.3em; }
+.unit .prose li { margin: 0 0 8px; }
+.unit .prose svg { max-width: 100%; height: auto; }
+.diagram { margin: 24px 0; padding: 16px; border: 1px solid var(--line); border-radius: var(--r-md); overflow-x: auto; background: var(--surface); }
+.quiz-answer { margin: 12px 0 24px; border: 1px solid var(--line-strong); border-radius: var(--r-md); padding: 12px 16px; background: var(--surface); }
+.quiz-answer summary { cursor: pointer; font-weight: 500; min-height: 24px; }
+.quiz-option { cursor: pointer; padding: 6px 10px; border-radius: var(--r-sm); border: 1px solid transparent; list-style: none; margin-left: -1.3em; }
+.quiz-option:hover, .quiz-option:focus-visible { border-color: var(--line-strong); }
+.quiz-option[data-state="correct"] { background: color-mix(in oklab, var(--accent) 14%, transparent); border-color: var(--accent); }
+.quiz-option[data-state="wrong"] { background: color-mix(in oklab, #b3261e 12%, transparent); border-color: #b3261e; }
+.quiz-status { font-size: var(--t-small); margin: 4px 0 0; min-height: 1.5em; }
+.glossary-term { border-bottom: 1px dotted currentColor; cursor: help; background: none; border-top: 0; border-left: 0; border-right: 0; font: inherit; color: inherit; padding: 0; }
+.glossary-pop { margin: 0; max-width: 28rem; padding: 12px 16px; border: 1px solid var(--line-strong); border-radius: var(--r-md); background: var(--bg); color: var(--ink); }
+.gloss-list { margin: 0; padding: 0; }
+.gloss-list dt { font-weight: 500; margin-top: 24px; font-size: var(--t-h3, 22px); }
+.gloss-list dd { margin: 4px 0 0; color: var(--muted); }

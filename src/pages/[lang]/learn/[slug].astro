@@ -1,0 +1,26 @@
+---
+import { getCollection, render } from 'astro:content';
+import Page from '../../../layouts/Page.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import QuizScript from '../../../components/QuizScript.astro';
+import '../../../styles/learn.css';
+import { url } from '../../../i18n/url';
+import type { Lang } from '../../../../site.config';
+
+export async function getStaticPaths() {
+  const units = await getCollection('learn');
+  return units.map((u) => { const [lang, slug] = u.id.split('/'); return { params: { lang, slug }, props: { entry: u } }; });
+}
+const lang = Astro.params.lang as Lang;
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const t = lang === 'en' ? { learn: 'Learning units', crumbs: 'Breadcrumb' } : { learn: '學習單元', crumbs: '麵包屑' };
+---
+<Page lang={lang} title={entry.data.title} description={entry.data.description ?? ''} path={`learn/${Astro.params.slug}/`}>
+  <div class="doc-block page-head"><div class="wrap"><div class="prose">
+    <Breadcrumb label={t.crumbs} items={[{ label: t.learn, href: url(lang, 'learn/') }, { label: entry.data.title }]} />
+    <h1 class="t-h2" style="margin-top:24px">{entry.data.title}</h1>
+  </div></div></div>
+  <article class="doc-block unit"><div class="wrap"><div class="prose"><Content /></div></div></article>
+  <QuizScript />
+</Page>

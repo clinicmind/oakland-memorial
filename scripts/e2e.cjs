@@ -8,7 +8,7 @@ const pages = ['', 'life/', 'honors/', 'places/', 'sources/', 'works/', 'tests/a
 (async () => {
   const srv = spawn('npx', ['astro', 'preview', '--port', '4322'], { stdio: 'ignore' });
   await new Promise((r) => setTimeout(r, 4000));
-  const b = await chromium.launch();
+  const b = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || undefined });
   let bad = 0;
   const fail = (m) => { bad++; console.log('FAIL', m); };
   for (const [vw, vh] of [[1440, 900], [390, 844]]) {

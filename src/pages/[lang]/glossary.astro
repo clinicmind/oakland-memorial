@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+import '../../styles/learn.css';
+import type { Lang } from '../../../site.config';
+export function getStaticPaths() { return (['zh-hant', 'en'] as const).map((lang) => ({ params: { lang } })); }
+const lang = Astro.params.lang as Lang;
+const t = { en: { title: 'Glossary', lead: 'Short definitions of the terms used in the learning units.', empty: 'The glossary is being prepared.' }, 'zh-hant': { title: '詞彙表', lead: '學習單元所用術語的簡短定義。', empty: '詞彙表準備中。' } }[lang];
+const terms = (await getCollection('glossary')).filter((e) => e.id.startsWith(`${lang}/`)).sort((a, b) => a.data.title.localeCompare(b.data.title, lang));
+---
+<Page lang={lang} title={t.title} description={t.lead} path="glossary/">
+  <div class="doc-block page-head"><div class="wrap"><div class="prose">
+    <h1 class="t-h2">{t.title}</h1>
+    <p class="t-lead">{t.lead}</p>
+  </div></div></div>
+  <div class="doc-block"><div class="wrap"><div class="prose">
+    {terms.length ? (
+      <dl class="gloss-list">
+        {terms.map((e) => <><dt id={e.id.split('/')[1]}>{e.data.title}</dt><dd>{e.data.description}</dd></>)}
+      </dl>
+    ) : <p>{t.empty}</p>}
+  </div></div></div>
+</Page>
