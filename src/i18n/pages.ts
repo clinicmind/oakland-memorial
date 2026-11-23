@@ -10,7 +10,7 @@ export const ps = {
   },
   'zh-hant': {
     timeline: '年表', filter: '篩選年表', all: '全部',
-    kinds: { life: '生活', career: '任教', award: '榮譽', work: '著作', service: '服務' },
+    kinds: { life: '生平', career: '經歷', award: '榮譽', work: '著作', service: '服務' },
     sourceCol: '來源', checked: '查證日期', notChecked: '尚未查證', open: '開啟來源',
     unopened: '未能打開', readFull: '閱讀完整年表', allHonors: '查看所有榮譽', places: '查看足跡',
     deathLink: 'UF 教育學院聲明',
@@ -32,8 +32,8 @@ export const wk = {
     lead: '測驗、書籍、章節與論文。只有書目資料：標題、作者、年份與連結。不含測驗題目、計分或常模。',
     tests: '測驗', books: '書籍', browser: '全部著作', search: '搜尋標題與作者', type: '類型', topic: '主題', all: '全部',
     types: { test: '測驗', book: '書籍', article: '論文', chapter: '章節' },
-    topics: { 'adaptive-behavior': '適應行為', 'temperament-styles': '氣質與風格', 'test-adaptation': '測驗改編', international: '國際', 'ethics-professional': '倫理與專業議題', 'assessment-general': '評量', other: '其他' },
-    count: (n: number, total: number) => `${total} 筆中的 ${n} 筆`, after: '2015 年後出版', testNote: '測驗有各自的頁面。', doi: 'DOI',
+    topics: { 'adaptive-behavior': '適應行為', 'temperament-styles': '氣質與風格', 'test-adaptation': '測驗改編', international: '國際', 'ethics-professional': '倫理與專業議題', 'assessment-general': '評估', other: '其他' },
+    count: (n: number, total: number) => `顯示 ${n} 筆，共 ${total} 筆`, after: '2015 年後出版', testNote: '測驗有各自的頁面。', doi: 'DOI',
     note: '資料來自 Crossref，2026-11-20 逐筆核對。清單可能不完整。',
   },
 } satisfies Record<Lang, unknown>;

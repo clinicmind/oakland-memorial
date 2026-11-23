@@ -10,5 +10,5 @@ const to = `${import.meta.env.BASE_URL}/${DEFAULT_LANG}/`.replace(/\/\/+/g, '/')
     <link rel="canonical" href={to} />
     <title>Redirecting…</title>
   </head>
-  <body><a href={to}>繁體中文</a> · <a href={to.replace(DEFAULT_LANG, 'en')}>English</a></body>
+  <body><a href={to}>繁體中文</a> · <a href={to.replace(DEFAULT_LANG, 'en')} lang="en">English</a></body>
 </html>

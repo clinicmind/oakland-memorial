@@ -141,7 +141,7 @@
   kind: work
   title:
     en: Cross-national assessment of adaptive behavior in three countries (with Iliescu, Chen and Chen)
-    zh-hant: 與 Iliescu、Chen、Chen 發表三個國家適應行為的跨國評量研究
+    zh-hant: 與 Iliescu、Chen、Chen 發表三個國家適應行為的跨國評估研究
   factIds:
   - F28
   sourceIds:
@@ -161,8 +161,8 @@
   month: 3
   kind: life
   title:
-    en: Died at home in Gainesville, Florida
-    zh-hant: 在 Florida 州 Gainesville 家中離世
+    en: Died tragically at home in Gainesville, Florida
+    zh-hant: 在 Florida 州 Gainesville 家中不幸離世
   factIds:
   - F3
   - F29

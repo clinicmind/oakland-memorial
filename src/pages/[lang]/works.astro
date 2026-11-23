@@ -89,7 +89,7 @@ const topicKeys = Object.keys(t.topics) as (keyof typeof t.topics)[];
         const items = [...document.querySelectorAll('#wb-list > li')];
         const out = document.getElementById('wb-count');
         const total = items.length;
-        const fmt = countTpl === 'en' ? (n) => `${n} of ${total} works` : (n) => `${total} 筆中的 ${n} 筆`;
+        const fmt = countTpl === 'en' ? (n) => `${n} of ${total} works` : (n) => `顯示 ${n} 筆，共 ${total} 筆`;
         const run = () => {
           const s = q.value.trim().toLowerCase();
           let n = 0;
