@@ -1,0 +1,27 @@
+- id: N-T1-1
+  title: "AAIDD: Defining Criteria for Intellectual Disability (Wayback Machine copy of aaidd.org/intellectual-disability/definition, captured 2025-01-02)"
+  url: "https://web.archive.org/web/20250102032345/https://www.aaidd.org/intellectual-disability/definition"
+  accessed: "2026-11-23"
+  quote: "Intellectual disability is a condition characterized by significant limitations in both intellectual functioning and adaptive behavior that originates before the age of 22. [...] Adaptive behavior is the collection of conceptual, social, and practical skills that are learned and performed by people in their everyday lives."
+  note: "The live aaidd.org page returned HTTP 403 to automated clients; the archived copy was read instead. The two sentences are separated by the intellectual-functioning paragraph."
+- id: N-T1-2
+  title: "Tasse, M. J., et al. (2012). The construct of adaptive behavior: Its conceptualization, measurement, and use in the field of intellectual disability. American Journal on Intellectual and Developmental Disabilities, 117(4), 291-303. Crossref abstract"
+  url: "https://api.crossref.org/works/10.1352/1944-7558-117.4.291"
+  accessed: "2026-11-23"
+  quote: "An understanding of the construct of adaptive behavior and its measurement is critical to clinicians and practitioners in the field because of its role in understanding the phenomenon of intellectual disability, diagnosing a person with intellectual disability, providing a framework for person-referenced education and habilitation goals, and focusing on an essential dimension of human functioning."
+- id: N-T1-3
+  title: "Oakland, T., Iliescu, D., Chen, H.-Y., & Chen, J. H. (2013). Cross-national assessment of adaptive behavior in three countries. Journal of Psychoeducational Assessment, 31(5), 435-447. Crossref abstract"
+  url: "https://api.crossref.org/works/10.1177/0734282912469492"
+  accessed: "2026-11-23"
+  quote: "This present article describes the Romanian and Taiwan adaptation process of the U.S.-developed Adaptive Behavior Assessment System, Second Edition (ABAS-II) Parent Form for ages 5 to 21. Data from more than 3,000 parents who completed the ABAS-II are examined across these three test versions, focusing on score differences, internal consistency, intercorrelations, and factor structure equivalence."
+  note: "Verbatim; the Crossref text writes 'U.S.-developed' with an en dash, shown here with a hyphen. Two more abstract sentences used: 'Measures that assess adaptive behaviors typically have been built in Western cultures and developed in light of behaviors common to them.' and 'Data from the three versions display considerable similarity.'"
+- id: N-T1-4
+  title: "Texas Autism Network: ABAS-3 page (same page as existing source S17; extra passages used)"
+  url: "https://www.txautism.net/evaluations/adaptive-behavior-assessment-system-third-edition"
+  accessed: "2026-11-23"
+  quote: "The ABAS-3 can be used to develop treatment plans and training goals, document and monitor progress over time, determine eligibility for services such as Social Security disability benefits, and evaluate ability to live and work independently. Information on children may be provided by parents and/or teachers; information on adults may be provided by significant others, care providers, supervisors, and/or the client himself/herself."
+- id: N-T1-5
+  title: "APA Division 16, The School Psychologist, Fall 2015 (same document as existing source S12; extra passage used)"
+  url: "https://apadivision16.org/wp-content/uploads/2015/11/TSP-Fall-2015.pdf"
+  accessed: "2026-11-23"
+  quote: "He developed tests in the areas of student styles, test session behavior, and adaptive behavior."
