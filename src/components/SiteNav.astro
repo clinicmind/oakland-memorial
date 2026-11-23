@@ -6,10 +6,10 @@ interface Props { lang: Lang; home?: boolean; path?: string }
 const { lang, home = false, path = '' } = Astro.props;
 const c = copy[lang];
 const other: Lang = lang === 'en' ? 'zh-hant' : 'en';
-const at = (id: string) => (home ? `#${id}` : `${url(lang)}#${id}`);
+const at = (id: string) => (id === 'work' ? url(lang, 'works/') : id === 'life' ? url(lang, 'life/') : home ? `#${id}` : `${url(lang)}#${id}`);
 const share = MEMORY_FORM_URL ?? url(lang, 'memories/');
 const top = home ? '#top' : url(lang);
-const items = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn], ['writing', c.nav.writing], ['memories', c.nav.memories]] as const;
+const items = [['life', c.nav.life], ['work', c.nav.work], ['learn', c.nav.learn], ['memories', c.nav.memories]] as const;
 ---
   <header class="nav nav--centre">
     <div class="wrap nav__bar">

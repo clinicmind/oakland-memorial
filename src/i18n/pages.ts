@@ -28,7 +28,7 @@ export const wk = {
     note: 'Data from Crossref, checked entry by entry on 2026-11-20. The list may be incomplete.',
   },
   'zh-hant': {
-    title: '著作', description: 'Thomas D. Oakland 的測驗、書籍、章節與論文，資料來自 Crossref。只有書目資料。',
+    title: '學術貢獻', description: 'Thomas D. Oakland 的測驗、書籍、章節與論文，資料來自 Crossref。只有書目資料。',
     lead: '測驗、書籍、章節與論文。只有書目資料：標題、作者、年份與連結。不含測驗題目、計分或常模。',
     tests: '測驗', books: '書籍', browser: '全部著作', search: '搜尋標題與作者', type: '類型', topic: '主題', all: '全部',
     types: { test: '測驗', book: '書籍', article: '論文', chapter: '章節' },

@@ -26,7 +26,7 @@ export const copy: Record<Lang, HomeCopy> = {
     title: 'Thomas D. Oakland, 1939-2015: school psychologist',
     description: 'A memorial and learning site for Thomas D. Oakland, a school psychologist who co-authored tests of adaptive behavior and student styles.',
     skip: 'Skip to content', menu: 'Menu',
-    nav: { life: 'Life', work: 'Work', learn: 'Learning', writing: 'Writing', macau: 'Macau', memories: 'Memorial' },
+    nav: { life: 'History', work: 'Works', learn: 'Learning', writing: 'Works', macau: 'Macau', memories: 'Memorial' },
     share: 'Share a memory', readLife: 'Read his life',
     otherLang: { label: '繁體中文', href: '' },
     hero: {
@@ -110,7 +110,7 @@ export const copy: Record<Lang, HomeCopy> = {
     title: 'Thomas D. Oakland（1939-2015）：學校心理學家',
     description: '紀念與學習網站，獻給學校心理學家 Thomas D. Oakland。他共同編製適應行為與學生風格的測驗，足跡遍及 40 多個國家。',
     skip: '跳到主要內容', menu: '選單',
-    nav: { life: '生平', work: '貢獻', learn: '學習', writing: '著作', macau: '澳門', memories: '追思' },
+    nav: { life: '生平', work: '學術貢獻', learn: '學習', writing: '著作', macau: '澳門', memories: '追思' },
     share: '分享回憶', readLife: '閱讀他的生平',
     otherLang: { label: 'English', href: '' },
     hero: {
@@ -186,7 +186,7 @@ export const copy: Record<Lang, HomeCopy> = {
       made: '臨床心語（ClinicMind），臨床心理師',
       credits: '照片來自 Wikimedia Commons',
       colA: '故事', colB: '參考',
-      links: { life: '生平與年表', honors: '榮譽', places: '足跡', works: '著作', macau: '澳門歲月', legacy: '傳承', learn: '學習單元', memorial: '追思紀念', sources: '資料來源', search: '搜尋' },
+      links: { life: '生平與年表', honors: '榮譽', places: '足跡', works: '學術貢獻', macau: '澳門歲月', legacy: '傳承', learn: '學習單元', memorial: '追思紀念', sources: '資料來源', search: '搜尋' },
     },
     more: { life: '閱讀完整年表', work: '查看測驗', writing: '查看全部著作', macau: '閱讀澳門的故事', legacy: '看他的工作如何延續', glossary: '開啟詞彙表' },
   },

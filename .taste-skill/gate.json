@@ -1,12 +1,12 @@
 {
- "start": "2026-11-23T07:56:16.333Z",
+ "start": "2026-11-23T08:05:46.460Z",
  "round": 0,
  "idle": 0,
  "errors": 0,
  "status": "pass",
  "history": [
   {
-   "at": "2026-11-23T07:58:33.056Z",
+   "at": "2026-11-23T08:08:03.180Z",
    "mode": "manual",
    "status": "pass",
    "fails": 0,
@@ -24,11 +24,11 @@
   "category": "紀念與學習網站 學校心理學家",
   "primary": "分享回憶",
   "rounds": 3,
-  "start": "2026-11-23T07:56:16.333Z",
+  "start": "2026-11-23T08:05:46.460Z",
   "by": "gate.mjs --start"
  },
  "manual": true,
- "fp": "648df48c312b2d63",
+ "fp": "a9674b4481e0b3c3",
  "page": "dist/zh-hant/index.html",
  "found": {
   "fails": [
@@ -156,7 +156,7 @@
    {
     "check": "nav-current",
     "where": "header.nav.nav--centre",
-    "msg": "the nav stays on screen with 5 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
+    "msg": "the nav stays on screen with 4 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
     "fix": "mark the link of the section on screen (a colour, a weight or a line under it) as the visitor scrolls",
     "widths": [
      1440
@@ -334,5 +334,5 @@
   }
  ],
  "warnCount": 15,
- "at": "2026-11-23T07:58:33.056Z"
+ "at": "2026-11-23T08:08:03.180Z"
 }

@@ -1,7 +1,7 @@
 {
  "page": "/home/user/oakland-memorial/dist/zh-hant/index.html",
  "url": "http://127.0.0.1:5200/zh-hant/index.html",
- "at": "2026-11-23T07:56:17.017Z",
+ "at": "2026-11-23T08:05:47.092Z",
  "out": "/home/user/oakland-memorial/.taste-skill/gate/consistency",
  "widths": [
   {
@@ -76,7 +76,7 @@
      "sel": "header.nav.nav--centre",
      "text": "",
      "stop": 1,
-     "msg": "the nav stays on screen with 5 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
+     "msg": "the nav stays on screen with 4 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
      "crop": "1440-05-nav-current.jpg",
      "fix": "mark the link of the section on screen (a colour, a weight or a line under it) as the visitor scrolls"
     },
