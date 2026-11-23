@@ -20,7 +20,7 @@ sourceIds: ["S19"]
 ## Oakland 教授的貢獻
 
 1. **學校心理學中的專業精神。** 1986 年，Oakland 在《Professional School Psychology》發表兩篇文章：〈Professionalism within school psychology〉和〈Further thoughts on professionalism in school psychology〉。見「延伸閱讀」。
-2. **誰使用測驗，又如何學會。** Oakland 與 Hu（1991）在一項國際調查中，檢視了使用測驗的專業群體。他們報告，多數專業人員透過課程學習測驗。他們也報告，自覺使用測驗是否稱職，與大專以上的受教育年數有顯著相關 [N-T5-1]。
+2. **誰使用測驗，又如何學會。** Oakland 與 Hu（1991）在一項國際調查中，檢視了使用測驗的專業群體。他們報告，多數專業人員透過課程學習測驗。他們也報告，自覺使用測驗是否稱職，與大專以上的受教育年數相關 [N-T5-1]。
 3. **國際協會的倫理守則。** Oakland、Goldman 與 Bischoff 於 1997 年發表《Code of Ethics of the International School Psychology Association》。守則由 ISPA 的 Standards and Practices Committee 擬訂，並於 1990 年 8 月獲 ISPA 全體大會通過。內容涵蓋專業責任、保密、專業成長、專業限制、專業關係、評估與研究 [N-T5-2]。
 4. **學校心理學家的測驗使用。** Oakland（1997）回顧了兒童和青少年測驗的現行使用情況，對象主要是學校或教育心理學家。他討論了這個專業的地位、測驗使用的傳統目的與常見問題，以及新興趨勢 [N-T5-5]。
 5. **各國的倫理守則。** Leach 與 Oakland（2007）把多國倫理守則中的測驗標準，與 2002 年 APA 守則比較。最常見的標準，是要求心理學家解釋結果、妥善使用測驗，以及限制不合資格人士使用測驗。談到測驗編製的標準，以及限制使用過時測驗的標準，則很少見 [N-T5-3]。
