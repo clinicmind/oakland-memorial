@@ -17,7 +17,7 @@ Oakland and colleagues describe children aged 8-17 with eight basic styles. The 
 3. Thinking or feeling.
 4. Organized or flexible.
 
-Each pair is a continuum. A student can lean toward one end of a pair. The pairs describe preferences. They do not describe ability.
+The pairs describe preferences [N-T2-1].
 
 ## Why it matters
 
