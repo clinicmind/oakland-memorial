@@ -38,7 +38,7 @@ const kinds = [...new Set(timeline.map((x) => x.data.kind))];
       <div class="wrap">
         <div class="prose">
           <Content />
-          {slug !== 'memories' && <p class="t-small" style="margin-top:32px">— {site.organizer[lang]}</p>}
+          {slug !== 'memories' && <p class="t-small" style="margin-top:32px">{lang === 'en' ? 'By ' : '撰文：'}{site.organizer[lang]}</p>}
           {slug === 'macau' && (
             <div class="fact-group" style="margin-top:48px">
               <h2>{lang === 'en' ? 'From the department newsletter' : '來自系刊'}</h2>

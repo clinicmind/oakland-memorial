@@ -1,5 +1,5 @@
 ---
-title: "Carrying on his work"
+title: "Legacy"
 description: "How Thomas D. Oakland's work continues in the lives of his students."
 factIds: [U6, U7, U8, U9]
 ---

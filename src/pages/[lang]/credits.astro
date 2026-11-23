@@ -24,7 +24,7 @@ const photos = (credits as { photos: { id: string; alt: string; by: string; lice
             {photos.map((p) => (
               <li>
                 <span class="rows__name"><a class="link" href={p.page} rel="noopener" target="_blank" lang="en">{p.alt}</a></span>
-                <p lang="en">{t.by} {p.by}</p>
+                <p>{t.by} <span lang="en">{p.by}</span></p>
                 <span class="rows__value"><a class="link" href={p.licenceUrl} rel="noopener" target="_blank">{p.licence}</a></span>
               </li>
             ))}

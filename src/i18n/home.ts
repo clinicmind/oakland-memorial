@@ -26,7 +26,7 @@ export const copy: Record<Lang, HomeCopy> = {
     title: 'Thomas D. Oakland, 1939-2015: school psychologist',
     description: 'A memorial and learning site for Thomas D. Oakland, a school psychologist who co-authored tests of adaptive behavior and student styles.',
     skip: 'Skip to content', menu: 'Menu',
-    nav: { life: 'History', work: 'Work', learn: 'Learning', writing: 'Writing', macau: 'Macau', memories: 'Memorial' },
+    nav: { life: 'Life', work: 'Work', learn: 'Learning', writing: 'Writing', macau: 'Macau', memories: 'Memorial' },
     share: 'Share a memory', readLife: 'Read his life',
     otherLang: { label: '繁體中文', href: '' },
     hero: {
@@ -35,7 +35,7 @@ export const copy: Record<Lang, HomeCopy> = {
       alt: 'The University of Texas at Austin Main Building',
     },
     life: {
-      h2: 'A career history in four universities',
+      h2: 'Four universities in his life',
       lead: 'Where he studied, taught and visited.',
       chapters: [
         { h: 'Indiana University', p: 'He earned his master’s degree in educational psychology in 1965 and his doctorate in 1967.', alt: 'Morrison Hall at Indiana University' },
@@ -99,10 +99,10 @@ export const copy: Record<Lang, HomeCopy> = {
     close: { h2: 'Share a memory', p: 'A few lines about what he taught you. Each one is read before it goes up.' },
     footer: {
       lede: 'A memorial and learning site. Every fact on it has a source.',
-      made: 'Made by ClinicMind, clinical psychologist',
+      made: 'ClinicMind, clinical psychologist',
       credits: 'Photographs via Wikimedia Commons',
       colA: 'Story', colB: 'Reference',
-      links: { life: 'Life and timeline', honors: 'Honors', places: 'Places', works: 'Works', macau: 'The Macau years', legacy: 'Carrying on his work', learn: 'Learning units', memorial: 'Memorial notes', sources: 'Sources', search: 'Search' },
+      links: { life: 'Life and timeline', honors: 'Honors', places: 'Places', works: 'Works', macau: 'The Macau years', legacy: 'Legacy', learn: 'Learning units', memorial: 'Memorial notes', sources: 'Sources', search: 'Search' },
     },
     more: { life: 'Read the full timeline', work: 'See the tests', writing: 'See all works', macau: 'Read the Macau story', legacy: 'See how his work continues' },
   },
@@ -133,7 +133,7 @@ export const copy: Record<Lang, HomeCopy> = {
       lead: '測驗、一部手冊，以及國際組織的職務。',
       diagram: { center: 'ABAS-3', spokes: ['概念', '社會', '實用'], alt: 'ABAS-3 把適應技能分成三個領域：概念、社會與實用。' },
       items: [
-        { name: 'Adaptive Behavior Assessment System 第三版', text: '與 P. L. Harrison 合著。從概念、社會、實用三個領域評量日常技能，適用年齡從出生到 89 歲。', value: '2015' },
+        { name: 'Adaptive Behavior Assessment System 第三版', text: '與 P. L. Harrison 合著。從概念、社會、實用三個領域評估日常技能，適用年齡從出生到 89 歲。', value: '2015' },
         { name: 'Student Styles Questionnaire', text: '與 Connie Horton、Joseph Glutting 合著。了解學生在偏好、氣質與個人風格上的差異。', value: '1996' },
         { name: 'The Handbook of International School Psychology', text: '與 Shane Jimerson、Peter Farrell 共同主編，SAGE 出版。', value: '2007' },
         { name: '國際組織', text: '曾任國際學校心理學協會與國際測驗委員會會長。', value: '' },
@@ -163,7 +163,7 @@ export const copy: Record<Lang, HomeCopy> = {
       lead: '從目錄中挑出的四項。',
       items: [
         { name: 'International Perspectives on Academic Assessment', text: '與 Ronald Hambleton 合編，Springer。', value: '1995', href: 'https://doi.org/10.1007/978-94-011-0639-9' },
-        { name: 'The Handbook of International School Psychology', text: '與 Shane Jimerson、Peter Farrell 合編，SAGE。', value: '2007', href: 'https://doi.org/10.4135/9781412976138' },
+        { name: 'The Handbook of International School Psychology', text: '與 Shane Jimerson、Peter Farrell 共同主編，SAGE。', value: '2007', href: 'https://doi.org/10.4135/9781412976138' },
         { name: 'Ethics Standards Impacting Test Development and Use', text: '檢視 31 部倫理守則。International Journal of Testing。', value: '2007', href: 'https://doi.org/10.1080/15305050709336859' },
         { name: 'Cross-National Assessment of Adaptive Behavior in Three Countries', text: '與 Iliescu、Chen、Chen 合著。Journal of Psychoeducational Assessment。', value: '2013', href: 'https://doi.org/10.1177/0734282912469492' },
       ],
@@ -183,7 +183,7 @@ export const copy: Record<Lang, HomeCopy> = {
     close: { h2: '分享回憶', p: '寫幾行他教過你的事。每一則都先經過閱讀，才會公開。' },
     footer: {
       lede: '紀念與學習網站。所有事實都有來源。',
-      made: '臨床心語（ClinicMind），臨床心理師 製作',
+      made: '臨床心語（ClinicMind），臨床心理師',
       credits: '照片來自 Wikimedia Commons',
       colA: '故事', colB: '參考',
       links: { life: '生平與年表', honors: '榮譽', places: '足跡', works: '著作', macau: '澳門歲月', legacy: '傳承', learn: '學習單元', memorial: '追思紀念', sources: '資料來源', search: '搜尋' },
