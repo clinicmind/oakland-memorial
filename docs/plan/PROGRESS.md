@@ -14,7 +14,7 @@
 | M4 | 設計系統 v2（taste-skill）＋首頁 | ✅ 完成（gate PASS：英文、中文） | Sonnet | 2026-11-20 |
 | M5 | 首頁＋生平區 | ✅ 完成（有限制：足跡用清單，沒有 SVG 地圖） | Sonnet | 2026-11-20 |
 | M6 | 學術貢獻區 | ✅ 完成（測驗 2 套） | Sonnet | 2026-11-20 |
-| M7 | 學習中心 | 🔄 內容：T1、T4、T5、詞彙表已合併（Opus 審閱）；T2、T3 撰寫中；頁面待 Sonnet | Opus 內容／Sonnet 頁面 | |
+| M7 | 學習中心 | 🔄 內容完成：T1–T5＋22 個詞彙（Opus 審閱並合併）；頁面、引用整合、mermaid 待 Sonnet | Opus 內容／Sonnet 頁面 | |
 | M8 | 澳門歲月、傳承、追思牆 | 🔄 頁面完成；待 Tally 網址與真照片 | Sonnet＋使用者 | |
 | M9 | 翻譯審校 | 🔄 已合併 27 項修正＋Opus 決定；1 項待使用者（訪問學者／訪問教授）；learn 與 glossary 待複審 | Opus | |
 | M10 | 上線前檢查、預覽部署 | ⬜ | Sonnet | |
