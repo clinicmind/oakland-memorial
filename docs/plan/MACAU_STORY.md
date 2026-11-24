@@ -15,7 +15,7 @@
 
 ### 「澳門歲月」頁
 
-1. **教授來到澳門**：F16（澳門大學訪問學者）＋ U1（認知評估課）。等 Q10、Q11 確認後補時間與課名。
+1. **教授來到澳門**：F16（澳門大學訪問教授）＋ U1（認知評估課）。等 Q10、Q11 確認後補時間與課名。
 2. **一位真心的老師**：U2、U3。
 3. **什麼是專業**：U4。這是全頁的核心句，用引言卡呈現。
 4. **打開的世界**：U5（旁聽博士班）。等 Q9 確認校名。
@@ -36,7 +36,7 @@
 
 **一位真心的老師**
 
-2010–2011 學年，Oakland 教授以訪問學者身分來到澳門大學，教我們臨床心理學碩士課程的認知評估。課堂之外，他也是我們的朋友。他真心看待每一位同學。他和我們討論未來，給了很多想法。他尊重每一個人。他相信可以建造一個更好的世界，也一直為此努力。
+2010–2011 學年，Oakland 教授以訪問教授身分來到澳門大學，教我們臨床心理學碩士課程的認知評估。課堂之外，他也是我們的朋友。他真心看待每一位同學。他和我們討論未來，給了很多想法。他尊重每一個人。他相信可以建造一個更好的世界，也一直為此努力。
 
 **什麼是專業**
 
@@ -58,7 +58,7 @@
 
 **A teacher who truly cared**
 
-In the 2010–2011 academic year, Professor Oakland came to the University of Macau as a visiting scholar and taught us Cognitive Assessment in the Master of Clinical Psychology program. Outside the classroom, he was also our friend. He cared about each of us. He talked with us about our futures and gave us many ideas. He respected everyone. He believed a better world was possible, and he worked for it.
+In the 2010–2011 academic year, Professor Oakland came to the University of Macau as a Visiting Professor and taught us Cognitive Assessment in the Master of Clinical Psychology program. Outside the classroom, he was also our friend. He cared about each of us. He talked with us about our futures and gave us many ideas. He respected everyone. He believed a better world was possible, and he worked for it.
 
 **What it means to be professional**
 

@@ -5,7 +5,7 @@ factIds: [F16, U1, U2, U3, U4, U5]
 ---
 ## A teacher who truly cared
 
-In the 2010-2011 academic year, Professor Oakland came to the University of Macau as a visiting scholar and taught us Cognitive Assessment in the Master of Clinical Psychology program. Outside the classroom, he was also our friend. He cared about each of us. He talked with us about our futures and gave us many ideas. He respected everyone. He believed a better world was possible, and he worked for it.
+In the 2010-2011 academic year, Professor Oakland came to the University of Macau as a Visiting Professor and taught us Cognitive Assessment in the Master of Clinical Psychology program. Outside the classroom, he was also our friend. He cared about each of us. He talked with us about our futures and gave us many ideas. He respected everyone. He believed a better world was possible, and he worked for it.
 
 ## What it means to be professional
 
